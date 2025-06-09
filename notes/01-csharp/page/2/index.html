@@ -1,0 +1,706 @@
+<!doctype html><html lang=en><head><title>C# Notes</title><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=X-UA-Compatible content="ie=edge"><link rel=stylesheet href=/application.c70fd453a478ec1ba9228fe0ac825920546e478f45fe6a1449729f91bc760797.css integrity="sha256-xw/UU6R47BupIo/grIJZIFRuR49F/moUSXKfkbx2B5c="><link rel=icon type=image/png href=/images/site/favicon_hu_a7920c91965714cb.png><link rel=alternate type=application/rss+xml href=https://hugo-toha.github.io/notes/01-csharp/index.xml title="Fernando's Blog"><meta property="og:title" content="Fernando's Blog"><meta property="og:type" content="website"><meta property="og:description" content="Portfolio and personal blog of Fernando Maceda."><meta property="og:image" content="/images/author/john.png"><meta property="og:url" content="https://hugo-toha.github.io"><script async src="https://www.googletagmanager.com/gtag/js?id=G-H4LBG7NDFZ"></script><script>var dnt,doNotTrack=!1;if(null&&(dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes"),!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-H4LBG7NDFZ")}</script><script integrity="sha256-DO4ugzEwhTW1Id1UIWn0gUJWaebCYOypeTit6LW4QB4=">let theme=localStorage.getItem("theme-scheme")||localStorage.getItem("darkmode:color-scheme")||"light";theme==="system"&&(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?theme="dark":theme="light"),document.documentElement.setAttribute("data-theme",theme)</script></head><body class="type-notes kind-section" data-bs-spy=scroll data-bs-target=#TableOfContents data-bs-offset=80><div class="container-fluid bg-secondary wrapper"><nav class="navbar navbar-expand-xl top-navbar shadow" id=top-navbar><div class=container><button class="navbar-toggler navbar-light" id=sidebar-toggler type=button>
+<i data-feather=sidebar></i>
+</button>
+<a class=navbar-brand href=/><img src=/images/site/main-logo_hu_77a6e5ea6e57520b.png id=logo alt=Logo>
+Fernando's Blog</a>
+<button class="navbar-toggler navbar-light" id=navbar-toggler type=button data-bs-toggle=collapse data-bs-target=#top-nav-items aria-label=menu>
+<i data-feather=menu></i></button><div class="collapse navbar-collapse dynamic-navbar" id=top-nav-items><ul class="nav navbar-nav ms-auto"><li class=nav-item><a class=nav-link href=/#home>Home</a></li><li class=nav-item><a class=nav-link href=/#about>About</a></li><li class=nav-item><a class=nav-link href=/#skills>Skills</a></li><li class=nav-item><a class=nav-link href=/#experiences>Experiences</a></li><li class=nav-item><a class=nav-link href=/#education>Education</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href=# id=navbarDropdown role=button data-bs-toggle=dropdown aria-haspopup=true aria-expanded=false>More</a><div class=dropdown-menu aria-labelledby=navbarDropdown><a class=dropdown-item href=/#projects>Projects</a>
+<a class=dropdown-item href=/#accomplishments>Accomplishments</a></div></li><div id=top-navbar-divider></div><li class=nav-item><a class=nav-link id=note-link href=/notes>Notes</a></li><li class=nav-item><a class=nav-link href=https://toha-guides.netlify.app/posts/>Docs</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href=# id=themeSelector role=button data-bs-toggle=dropdown aria-haspopup=true aria-expanded=false><img id=navbar-theme-icon-svg class=theme-icon src=/icons/moon-svgrepo-com.svg width=20 alt="Dark Theme"></a><div id=themeMenu class="dropdown-menu dropdown-menu-icons-only" aria-labelledby=themeSelector><a class="dropdown-item nav-link" href=# data-scheme=light><img class=theme-icon src=/icons/sun-svgrepo-com.svg width=20 alt="Light Theme">
+</a><a class="dropdown-item nav-link" href=# data-scheme=dark><img class=theme-icon src=/icons/moon-svgrepo-com.svg width=20 alt="Dark Theme">
+</a><a class="dropdown-item nav-link" href=# data-scheme=system><img class=theme-icon src=/icons/computer-svgrepo-com.svg width=20 alt="System Theme"></a></div></li></ul></div></div><img src=/images/site/main-logo_hu_77a6e5ea6e57520b.png class=d-none id=main-logo alt=Logo>
+<img src=/images/site/inverted-logo_hu_a7920c91965714cb.png class=d-none id=inverted-logo alt="Inverted Logo"></nav><section class=sidebar-section id=sidebar-section><div class=sidebar-holder><div class=sidebar id=sidebar><form class=mx-auto method=get action=/search><input type=text name=keyword placeholder=Search data-search id=search-box></form><div class=sidebar-tree><ul class=tree id=tree><li id=list-heading><a href=/notes data-filter=all>Notes</a></li><div class=subtree><li><i data-feather=minus-circle></i><a class="active list-link" href=/notes/01-csharp/> CSharp</a><ul class=active><li><a class=list-link href=/notes/01-csharp/00-roadmap/ title=Roadmap>Roadmap</a></li><li><i data-feather=plus-circle></i><a class=list-link href=/notes/01-csharp/01-fundamentals/> Fundamentals</a><ul><li><a class=list-link href=/notes/01-csharp/01-fundamentals/01-introduction/ title=Introduction>Introduction</a></li><li><a class=list-link href=/notes/01-csharp/01-fundamentals/02-types/ title="Data Types">Data Types</a></li><li><a class=list-link href=/notes/01-csharp/01-fundamentals/03-methods/ title=Methods>Methods</a></li><li><a class=list-link href=/notes/01-csharp/01-fundamentals/04-flow-control/ title="Flow Control">Flow Control</a></li><li><a class=list-link href=/notes/01-csharp/01-fundamentals/05-convert-data-types/ title="Data Type Conversion">Data Type Conversion</a></li><li><a class=list-link href=/notes/01-csharp/01-fundamentals/06-methods-on-arrays/ title="Methods on Arrays">Methods on Arrays</a></li><li><a class=list-link href=/notes/01-csharp/01-fundamentals/07-data-formatting/ title="Data Formatting">Data Formatting</a></li><li><a class=list-link href=/notes/01-csharp/01-fundamentals/08-string-methods/ title="String Methods">String Methods</a></li><li><a class=list-link href=/notes/01-csharp/01-fundamentals/09-classes/ title=Classes>Classes</a></li><li><a class=list-link href=/notes/01-csharp/01-fundamentals/10-abstract/ title="Abstract Classes">Abstract Classes</a></li><li><a class=list-link href=/notes/01-csharp/01-fundamentals/11-records/ title=Records>Records</a></li><li><a class=list-link href=/notes/01-csharp/01-fundamentals/12-interfaces/ title=Interfaces>Interfaces</a></li><li><a class=list-link href=/notes/01-csharp/01-fundamentals/13-generics/ title=Generics>Generics</a></li><li><a class=list-link href=/notes/01-csharp/01-fundamentals/14-anonymous-types/ title="Anonymous Types">Anonymous Types</a></li></ul></li><li><i data-feather=plus-circle></i><a class=list-link href=/notes/01-csharp/02-object-oriented-programming/> Object-Oriented Programming (OOP)</a><ul><li><a class=list-link href=/notes/01-csharp/02-object-oriented-programming/01-principles/ title="OOP Principles">OOP Principles</a></li><li><a class=list-link href=/notes/01-csharp/02-object-oriented-programming/02-solid/ title="SOLID Principles">SOLID Principles</a></li><li><a class=list-link href=/notes/01-csharp/02-object-oriented-programming/03-design-patterns/ title="Design Patterns">Design Patterns</a></li><li><a class=list-link href=/notes/01-csharp/02-object-oriented-programming/99-error-handling/ title="Error Handling">Error Handling</a></li></ul></li><li><a class=list-link href=/notes/01-csharp/03-dotnet-and-asp-dotnet-core/ title="Dotnet and ASP Dotnet Core">Dotnet and ASP Dotnet Core</a></li><li><a class=list-link href=/notes/01-csharp/04-entity-framework-core/ title="Data Access with Entity Framework Core">Data Access with Entity Framework Core</a></li><li><a class=list-link href=/notes/01-csharp/05-rest-api/ title="REST APIs with ASP Dotnet Core">REST APIs with ASP Dotnet Core</a></li><li><a class=list-link href=/notes/01-csharp/06-security-and-authentication/ title="Security and Authentication">Security and Authentication</a></li><li><a class=list-link href=/notes/01-csharp/07-testing/ title=Testing>Testing</a></li></ul></li></div></ul></div></div></div></section><section class=content-section id=content-section><div class="content container-fluid" id=content><div class="container-fluid note-card-holder" id=note-card-holder><div class=note-card><div class=item><h5 class=note-title><span>Example 1</span></h5><div class=card><div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#66d9ef>abstract</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Shape</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>abstract</span> <span style=color:#66d9ef>int</span> GetArea();
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Square</span> : Shape
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>private</span> <span style=color:#66d9ef>int</span> _side;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> Square(<span style=color:#66d9ef>int</span> n) =&gt; _side = n;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>// GetArea method is required to avoid a compile-time error.</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>override</span> <span style=color:#66d9ef>int</span> GetArea() =&gt; _side * _side;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>static</span> <span style=color:#66d9ef>void</span> Main()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>var</span> sq = <span style=color:#66d9ef>new</span> Square(<span style=color:#ae81ff>12</span>);
+</span></span><span style=display:flex><span>    Console.WriteLine(<span style=color:#e6db74>$&#34;Area of the square = {sq.GetArea()}&#34;</span>);
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span><span style=color:#75715e>// Output: Area of the square = 144</span>
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Example 2</span></h5><div class=card><div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#75715e>// Abstract class</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>abstract</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>BaseClass</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>protected</span> <span style=color:#66d9ef>int</span> _x = <span style=color:#ae81ff>100</span>;
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>protected</span> <span style=color:#66d9ef>int</span> _y = <span style=color:#ae81ff>150</span>;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>// Abstract method</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>abstract</span> <span style=color:#66d9ef>void</span> AbstractMethod();
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>// Abstract properties</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>abstract</span> <span style=color:#66d9ef>int</span> X { <span style=color:#66d9ef>get</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>abstract</span> <span style=color:#66d9ef>int</span> Y { <span style=color:#66d9ef>get</span>; }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>class</span> <span style=color:#a6e22e>DerivedClass</span> : BaseClass
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>override</span> <span style=color:#66d9ef>void</span> AbstractMethod()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    _x++;
+</span></span><span style=display:flex><span>    _y++;
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>override</span> <span style=color:#66d9ef>int</span> X   <span style=color:#75715e>// overriding property</span>
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>get</span>
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>return</span> _x + <span style=color:#ae81ff>10</span>;
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>override</span> <span style=color:#66d9ef>int</span> Y   <span style=color:#75715e>// overriding property</span>
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>get</span>
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>return</span> _y + <span style=color:#ae81ff>10</span>;
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>static</span> <span style=color:#66d9ef>void</span> Main()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>var</span> o = <span style=color:#66d9ef>new</span> DerivedClass();
+</span></span><span style=display:flex><span>    o.AbstractMethod();
+</span></span><span style=display:flex><span>    Console.WriteLine(<span style=color:#e6db74>$&#34;x = {o.X}, y = {o.Y}&#34;</span>);
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span><span style=color:#75715e>// Output: x = 111, y = 161</span>
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Example 3</span></h5><div class=card><div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>abstract</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Shape</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>string</span> Color { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>// Constructor of the abstract class</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>protected</span> Shape(<span style=color:#66d9ef>string</span> color)
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    Color = color;
+</span></span><span style=display:flex><span>    Console.WriteLine(<span style=color:#e6db74>$&#34;Created a shape with color {color}.&#34;</span>);
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>// Abstract method that must be implemented by derived classes</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>abstract</span> <span style=color:#66d9ef>double</span> CalculateArea();
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Square</span> : Shape
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>double</span> Side { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>// Constructor of the derived class calling the base class constructor</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> Square(<span style=color:#66d9ef>string</span> color, <span style=color:#66d9ef>double</span> side) : <span style=color:#66d9ef>base</span>(color)
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    Side = side;
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>override</span> <span style=color:#66d9ef>double</span> CalculateArea()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> Side * Side;
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Program</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>static</span> <span style=color:#66d9ef>void</span> Main(<span style=color:#66d9ef>string</span>[] args)
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    Square square = <span style=color:#66d9ef>new</span> Square(<span style=color:#e6db74>&#34;red&#34;</span>, <span style=color:#ae81ff>5</span>);
+</span></span><span style=display:flex><span>    Console.WriteLine(<span style=color:#e6db74>$&#34;Area of the square: {square.CalculateArea()}&#34;</span>);            
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Resources</span></h5><div class=card><div class=card-body><ul><li><a href=https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/abstract target=_blank rel=noopener>Abstract keyword</a></li></ul></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Definition</span></h5><div class=card><div class=card-body><p>A record in C# is a class or struct that provides special syntax and behavior for working with data models. The record modifier instructs the compiler to synthesize members that are useful for types whose primary role is storing data. These members include an overload of ToString() and members that support value equality.</p><h3 id=when-to-use>When to use</h3><p>Consider using a record in place of a class or struct in the following scenarios:</p><ul><li>You want to define a data model that depends on value equality.</li><li>You want to define a type for which objects are immutable.</li></ul></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Record Types</span></h5><div class=card><div class=card-body><p><strong>Declaration:</strong></p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span> <span style=color:#75715e>// Value type: Stores all values</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>record</span> <span style=color:#a6e22e>Point</span>(<span style=color:#66d9ef>int</span> X, <span style=color:#66d9ef>int</span> Y)
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>double</span> Slope() =&gt; (<span style=color:#66d9ef>double</span>)Y / (<span style=color:#66d9ef>double</span>)X;
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>static</span> <span style=color:#66d9ef>void</span> Main()
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  Point pt = <span style=color:#66d9ef>new</span> Point(<span style=color:#ae81ff>1</span>, <span style=color:#ae81ff>1</span>);
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>var</span> pt2 = pt with { Y = <span style=color:#ae81ff>10</span> };
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>double</span> slope = pt.Slope();
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  Console.WriteLine(<span style=color:#e6db74>$&#34;The two points are {pt} and {pt2}&#34;</span>); <span style=color:#75715e>// The two points are Point { X = 1, Y = 1 } and Point { X = 1, Y = 10 }</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  Console.WriteLine(<span style=color:#e6db74>$&#34;The slope of {pt} is {slope}&#34;</span>); <span style=color:#75715e>//The slope of Point { X = 1, Y = 1 } is 1</span>
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Declaration</span></h5><div class=card><div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#66d9ef>interface</span> <span style=color:#a6e22e>IEquatable</span>&lt;T&gt;
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>bool</span> Equals(T obj);
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Car</span> : IEquatable&lt;Car&gt;
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>string?</span> Make { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>string?</span> Model { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>string?</span> Year { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>// Implementation of IEquatable&lt;T&gt; interface</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>bool</span> Equals(Car? car)
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> (<span style=color:#66d9ef>this</span>.Make, <span style=color:#66d9ef>this</span>.Model, <span style=color:#66d9ef>this</span>.Year) ==
+</span></span><span style=display:flex><span>      (car?.Make, car?.Model, car?.Year);
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Declaration</span></h5><div class=card><div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#75715e>// Declare the generic class.</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>GenericList</span>&lt;T&gt;
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> Add(T item) { }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>ExampleClass</span> { }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>class</span> <span style=color:#a6e22e>TestGenericList</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>static</span> <span style=color:#66d9ef>void</span> Main()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// Create a list of type int.</span>
+</span></span><span style=display:flex><span>    GenericList&lt;<span style=color:#66d9ef>int</span>&gt; list1 = <span style=color:#66d9ef>new</span>();
+</span></span><span style=display:flex><span>    list1.Add(<span style=color:#ae81ff>1</span>);
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// Create a list of type string.</span>
+</span></span><span style=display:flex><span>    GenericList&lt;<span style=color:#66d9ef>string</span>&gt; list2 = <span style=color:#66d9ef>new</span>();
+</span></span><span style=display:flex><span>    list2.Add(<span style=color:#e6db74>&#34;&#34;</span>);
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// Create a list of type ExampleClass.</span>
+</span></span><span style=display:flex><span>    GenericList&lt;ExampleClass&gt; list3 = <span style=color:#66d9ef>new</span>();
+</span></span><span style=display:flex><span>    list3.Add(<span style=color:#66d9ef>new</span> ExampleClass());
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Declaration</span></h5><div class=card><div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#66d9ef>var</span> v = <span style=color:#66d9ef>new</span> { Amount = <span style=color:#ae81ff>108</span>, Message = <span style=color:#e6db74>&#34;Hello&#34;</span> };
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// Rest the mouse pointer over v.Amount and v.Message in the following</span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// statement to verify that their inferred types are int and string.</span>
+</span></span><span style=display:flex><span>Console.WriteLine(v.Amount + v.Message);
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Principles</span></h5><div class=card><div class=card-body><p>C# is an object-oriented programming language. The four basic principles of object-oriented programming are:</p><ul><li><strong>Encapsulation:</strong> Hiding the internal state and functionality of an object and only allowing access through a public set of functions.</li><li><strong>Inheritance:</strong> Ability to create new abstractions based on existing abstractions.</li><li><strong>Polymorphism:</strong> Ability to implement inherited properties or methods in different ways across multiple abstractions.</li><li><strong>Abstraction:</strong> Modeling the relevant attributes and interactions of entities as classes to define an abstract representation of a system.</li></ul></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Encapsulation</span></h5><div class=card><div class=card-body><h3 id=definition>Definition</h3><p>Encapsulation is sometimes referred to as the first pillar or principle of object-oriented programming. A class or struct can specify how accessible each of its members is to code outside of the class or struct. Members not intended for consumers outside of the class or assembly are hidden to limit the potential for coding errors or malicious exploits.</p></div></div><div class=card><div class=card-body><h3 id=members>Members</h3><p>The following list includes all the various kinds of members that can be declared in a class, struct, or record.</p><ul><li>Fields</li><li>Constants</li><li>Properties</li><li>Methods</li><li>Constructors</li><li>Events</li><li>Finalizers</li><li>Indexers</li><li>Operators</li><li>Nested Types</li></ul></div></div><div class=card><div class=card-body><h3 id=accessibility>Accessibility</h3><p>Some methods and properties are meant to be called or accessed from code outside a class or struct, known as client code. Other methods and properties might be only for use in the class or struct itself. It&rsquo;s important to limit the accessibility of your code so that only the intended client code can reach it. You specify how accessible your types and their members are to client code by using the following access modifiers:</p><ul><li><code>public</code>: Access is not restricted.</li><li><code>protected</code>: Access is limited to the containing class or types derived from the containing class.</li><li><code>internal</code>: Access is limited to the current assembly.</li><li><code>protected internal</code>: Access is limited to the current assembly or types derived from the containing class.</li><li><code>private</code>: Access is limited to the containing type.</li><li><code>private protected</code>: Access is limited to the containing class or types derived from the containing class within the current assembly.</li></ul><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#75715e>// Assembly1.cs  </span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>OtherClass</span>
+</span></span><span style=display:flex><span>{  
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>internal</span> <span style=color:#66d9ef>static</span> <span style=color:#66d9ef>int</span> intM = <span style=color:#ae81ff>0</span>;  
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// Assembly2.cs  </span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>using</span> System;
+</span></span><span style=display:flex><span>					
+</span></span><span style=display:flex><span><span style=color:#66d9ef>class</span> <span style=color:#a6e22e>ParentClass</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>int</span> a = <span style=color:#ae81ff>10</span>; <span style=color:#75715e>// No access restrictions.</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>protected</span> <span style=color:#66d9ef>int</span> b = <span style=color:#ae81ff>20</span>; <span style=color:#75715e>// Access from the ParentClass and any other class that inherits this one.</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>internal</span> <span style=color:#66d9ef>int</span> c = <span style=color:#ae81ff>30</span>; <span style=color:#75715e>// Access only on the same assembly.</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>private</span> <span style=color:#66d9ef>int</span> d = <span style=color:#ae81ff>40</span>; <span style=color:#75715e>// Access only on the same class.</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>int</span> GetB()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> b; <span style=color:#75715e>// OK</span>
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>int</span> GetD()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> d; <span style=color:#75715e>// OK</span>
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>class</span> <span style=color:#a6e22e>ChildClass</span> : ParentClass
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> ChangeB(<span style=color:#66d9ef>int</span> newB)
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    b = newB; <span style=color:#75715e>// OK</span>
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Program</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>static</span> <span style=color:#66d9ef>void</span> Main()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>var</span> parent = <span style=color:#66d9ef>new</span> ParentClass();
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>var</span> child = <span style=color:#66d9ef>new</span> ChildClass();
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// var other = new OtherClass(); OK</span>
+</span></span><span style=display:flex><span>	
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// public</span>
+</span></span><span style=display:flex><span>    parent.a = <span style=color:#ae81ff>20</span>; <span style=color:#75715e>// OK</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// protected</span>
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// parent.b ERROR</span>
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// child.b ERROR</span>
+</span></span><span style=display:flex><span>    
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// internal</span>
+</span></span><span style=display:flex><span>    parent.c = <span style=color:#ae81ff>20</span>; <span style=color:#75715e>// OK</span>
+</span></span><span style=display:flex><span>    child.c = <span style=color:#ae81ff>20</span>; <span style=color:#75715e>// OK</span>
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// other.intM = 20; ERROR</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// private</span>
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// parent.d ERROR</span>
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// child.d ERROR</span>
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Inheritance</span></h5><div class=card><div class=card-body><p>Classes (but not structs) support the concept of inheritance. A class that derives from another class, called the base class, automatically contains all the public, protected, and internal members of the base class except its constructors and finalizers.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#75715e>// Base class</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Animal</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>virtual</span> <span style=color:#66d9ef>string</span> Name { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>virtual</span> <span style=color:#66d9ef>void</span> Eat() <span style=color:#75715e>// virtual keyword allows to be overridden in a derived class.</span>
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    Console.WriteLine(<span style=color:#e6db74>&#34;Animal is eating.&#34;</span>);
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// Derived class</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Dog</span> : Animal
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>private</span> <span style=color:#66d9ef>string</span> _name;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>string</span> Breed { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>override</span> <span style=color:#66d9ef>string</span> Name
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>get</span>
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>return</span> _name;
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>set</span>
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>if</span> (!<span style=color:#66d9ef>string</span>.IsNullOrEmpty(<span style=color:#66d9ef>value</span>))
+</span></span><span style=display:flex><span>      {
+</span></span><span style=display:flex><span>        _name = <span style=color:#66d9ef>value</span>;
+</span></span><span style=display:flex><span>      }
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>else</span>
+</span></span><span style=display:flex><span>      {
+</span></span><span style=display:flex><span>        _name = <span style=color:#e6db74>&#34;Unknown&#34;</span>;
+</span></span><span style=display:flex><span>      }
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> Bark()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    Console.WriteLine(<span style=color:#e6db74>&#34;Dog is barking.&#34;</span>);
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>override</span> <span style=color:#66d9ef>void</span> Eat() <span style=color:#75715e>// Because the Eat method is virtual, in a derived class it&#39;s possible to use override method to change the body.</span>
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    Console.WriteLine(<span style=color:#e6db74>&#34;Dog is eating.&#34;</span>); <span style=color:#75715e>// Overriding the Eat method</span>
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div></div></div><div class=card><div class=card-body><h3 id=inheritance-from-abstract-class>Inheritance from abstract class</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#66d9ef>abstract</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Shape</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>abstract</span> <span style=color:#66d9ef>int</span> GetArea();
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Square</span> : Shape
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>private</span> <span style=color:#66d9ef>int</span> _side;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> Square(<span style=color:#66d9ef>int</span> n) =&gt; _side = n;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>// GetArea method is required to avoid a compile-time error.</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>override</span> <span style=color:#66d9ef>int</span> GetArea() =&gt; _side * _side;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>static</span> <span style=color:#66d9ef>void</span> Main()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>var</span> sq = <span style=color:#66d9ef>new</span> Square(<span style=color:#ae81ff>12</span>);
+</span></span><span style=display:flex><span>    Console.WriteLine(<span style=color:#e6db74>$&#34;Area of the square = {sq.GetArea()}&#34;</span>);
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span><span style=color:#75715e>// Output: Area of the square = 144</span>
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Polymorphism</span></h5><div class=card><div class=card-body><p>Polymorphism (meaning &ldquo;many forms&rdquo;) allows objects of different classes to be treated as objects of a common type. This is achieved through inheritance and method overriding.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Shape</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#75715e>// A few example members</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>int</span> X { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>private</span> <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>int</span> Y { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>private</span> <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>int</span> Height { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>int</span> Width { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>// Virtual method</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>virtual</span> <span style=color:#66d9ef>void</span> Draw()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    Console.WriteLine(<span style=color:#e6db74>&#34;Performing base class drawing tasks&#34;</span>);
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Circle</span> : Shape
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>override</span> <span style=color:#66d9ef>void</span> Draw()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// Code to draw a circle...</span>
+</span></span><span style=display:flex><span>    Console.WriteLine(<span style=color:#e6db74>&#34;Drawing a circle&#34;</span>);
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>base</span>.Draw();
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Rectangle</span> : Shape
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>override</span> <span style=color:#66d9ef>void</span> Draw()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// Code to draw a rectangle...</span>
+</span></span><span style=display:flex><span>    Console.WriteLine(<span style=color:#e6db74>&#34;Drawing a rectangle&#34;</span>);
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>base</span>.Draw();
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Triangle</span> : Shape
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>override</span> <span style=color:#66d9ef>void</span> Draw()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// Code to draw a triangle...</span>
+</span></span><span style=display:flex><span>    Console.WriteLine(<span style=color:#e6db74>&#34;Drawing a triangle&#34;</span>);
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>base</span>.Draw();
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Program</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>static</span> <span style=color:#66d9ef>void</span> Main()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>var</span> shapes = <span style=color:#66d9ef>new</span> List&lt;Shape&gt;
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>new</span> Rectangle(),
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>new</span> Triangle(),
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>new</span> Circle()
+</span></span><span style=display:flex><span>    };
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>foreach</span> (<span style=color:#66d9ef>var</span> shape <span style=color:#66d9ef>in</span> shapes)
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>      shape.Draw();
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>    <span style=color:#75715e>/*
+</span></span></span><span style=display:flex><span><span style=color:#75715e>      Output:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>      Drawing a rectangle
+</span></span></span><span style=display:flex><span><span style=color:#75715e>      Performing base class drawing tasks
+</span></span></span><span style=display:flex><span><span style=color:#75715e>      Drawing a triangle
+</span></span></span><span style=display:flex><span><span style=color:#75715e>      Performing base class drawing tasks
+</span></span></span><span style=display:flex><span><span style=color:#75715e>      Drawing a circle
+</span></span></span><span style=display:flex><span><span style=color:#75715e>      Performing base class drawing tasks
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    */</span>
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div></div></div><div class=card><div class=card-body><h3 id=hide-base-class-members-with-new-members>Hide base class members with new members</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>BaseClass</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> DoWork() { WorkField++; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>int</span> WorkField;
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>int</span> WorkProperty
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>get</span> { <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>; }
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>DerivedClass</span> : BaseClass
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>new</span> <span style=color:#66d9ef>void</span> DoWork() { WorkField++; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>new</span> <span style=color:#66d9ef>int</span> WorkField;
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>new</span> <span style=color:#66d9ef>int</span> WorkProperty
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>get</span> { <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>; }
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Program</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>static</span> <span style=color:#66d9ef>void</span> Main()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    DerivedClass B = <span style=color:#66d9ef>new</span> DerivedClass();
+</span></span><span style=display:flex><span>    B.DoWork();  <span style=color:#75715e>// Calls the new method.</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    BaseClass A = (BaseClass)B;
+</span></span><span style=display:flex><span>    A.DoWork();  <span style=color:#75715e>// Calls the old method.</span>
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div></div></div><div class=card><div class=card-body><h3 id=prevent-derived-classes-from-overriding-virtual-members>Prevent derived classes from overriding virtual members</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>A</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>virtual</span> <span style=color:#66d9ef>void</span> DoWork() { }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>B</span> : A
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>override</span> <span style=color:#66d9ef>void</span> DoWork() { }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>C</span> : B
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>sealed</span> <span style=color:#66d9ef>override</span> <span style=color:#66d9ef>void</span> DoWork() { } <span style=color:#75715e>// sealed keyword is used to prevent to override it on derived class.</span>
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>D</span> : C
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>new</span> <span style=color:#66d9ef>void</span> DoWork() { } <span style=color:#75715e>// it&#39;s possible to use the new keyword to declare a new method called DoWork for D class.</span>
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div></div></div><div class=card><div class=card-body><h3 id=access-base-class-virtual-members-from-derived-classes>Access base class virtual members from derived classes</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Base</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>virtual</span> <span style=color:#66d9ef>void</span> DoWork() {<span style=color:#75715e>/*...*/</span> }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Derived</span> : Base
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>override</span> <span style=color:#66d9ef>void</span> DoWork()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#75715e>//Perform Derived&#39;s work here</span>
+</span></span><span style=display:flex><span>    <span style=color:#75715e>//...</span>
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// Call DoWork on base class</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>base</span>.DoWork();
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Abstraction</span></h5><div class=card><div class=card-body><p>Abstraction focuses on presenting only essential details to the user while hiding the complex implementation details. It involves defining abstract classes or interfaces that specify a contract (methods that must be implemented by derived classes) without providing concrete implementations.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>abstract</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Shape</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>abstract</span> <span style=color:#66d9ef>int</span> GetArea();
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Square</span> : Shape
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>private</span> <span style=color:#66d9ef>int</span> _side;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> Square(<span style=color:#66d9ef>int</span> n) =&gt; _side = n;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>// GetArea method is required to avoid a compile-time error.</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>override</span> <span style=color:#66d9ef>int</span> GetArea() =&gt; _side * _side;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>static</span> <span style=color:#66d9ef>void</span> Main()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>var</span> sq = <span style=color:#66d9ef>new</span> Square(<span style=color:#ae81ff>12</span>);
+</span></span><span style=display:flex><span>    Console.WriteLine(<span style=color:#e6db74>$&#34;Area of the square = {sq.GetArea()}&#34;</span>);
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span><span style=color:#75715e>// Output: Area of the square = 144</span>
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Resources</span></h5><div class=card><div class=card-body><ul><li><a href=https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/classes target=_blank rel=noopener>Introduction to Classes</a></li><li><a href=https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/oop target=_blank rel=noopener>Object-oriented C#</a></li><li><a href=https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/members target=_blank rel=noopener>Members</a></li><li><a href=https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/access-modifiers target=_blank rel=noopener>Access modifiers</a></li></ul></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>SOLID</span></h5><div class=card><div class=card-body><h3 id=definition>Definition</h3><p>SOLID is a set of five design principles that aim to make object-oriented software easier to understand, maintain, and extend. These principles were popularized by Robert C. Martin (Uncle Bob) in his 2000 paper &ldquo;Design Principles and Design Patterns&rdquo; and the acronym SOLID was coined a few years later.</p><p>The five SOLID principles are:</p><ul><li><strong>S</strong>ingle Responsibility Principle (SRP)</li><li><strong>O</strong>pen-Closed Principle (OCP)</li><li><strong>L</strong>iskov Substitution Principle (LSP)</li><li><strong>I</strong>nterface Segregation Principle (ISP)</li><li><strong>D</strong>ependency Inversion Principle (DIP)</li></ul><p>I&rsquo;ll be using the same example from <a href=https://dev.to/moh_moh701/c-clean-code-solid-principles-51ed target=_blank rel=noopener>C# Clean Code: SOLID Principles – Dev.to</a>, so as the initial code we have the following:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>OrderItem</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>string</span> Name { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>decimal</span> Price { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>int</span> Quantity { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Order</span> 
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>int</span> Id { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> List&lt;OrderItem&gt; Items { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>string</span> CustomerType { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; } <span style=color:#75715e>// &#39;Regular&#39;, &#39;Premium&#39;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> Order()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    Items = <span style=color:#66d9ef>new</span> List&lt;OrderItem&gt;();
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>// Calculate order total</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>decimal</span> GetTotal()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>decimal</span> total = <span style=color:#ae81ff>0</span>;
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>foreach</span> (<span style=color:#66d9ef>var</span> item <span style=color:#66d9ef>in</span> Items)
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>      total += item.Price * item.Quantity;
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// Apply discount based on customer type</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>if</span> (CustomerType == <span style=color:#e6db74>&#34;Premium&#34;</span>)
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>      total *= <span style=color:#ae81ff>0.9</span>m; <span style=color:#75715e>// 10% discount for premium customers</span>
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> total;
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>// Print order receipt</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> PrintReceipt()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    Console.WriteLine(<span style=color:#e6db74>$&#34;Order ID: {Id}&#34;</span>);
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>foreach</span> (<span style=color:#66d9ef>var</span> item <span style=color:#66d9ef>in</span> Items)
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>      Console.WriteLine(<span style=color:#e6db74>$&#34;{item.Name} - {item.Quantity} x {item.Price} = {item.Quantity * item.Price}&#34;</span>);
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>    
+</span></span><span style=display:flex><span>    Console.WriteLine(<span style=color:#e6db74>$&#34;Total: {GetTotal()}&#34;</span>);
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Single Responsibility Principle (SRP)</span></h5><div class=card><div class=card-body><h3 id=definition>Definition</h3><p>The Single Responsibility Principle states that a class should have only one reason to change.</p></div></div><div class=card><div class=card-body><h3 id=use-case>Use Case</h3><p><code>Order</code> class violates the SRP because it has two responsibilities, Order calculation and receipt printing. To fix it, we can separate the responsibilities in two different classes.</p></div></div><div class=card><div class=card-body><h3 id=solution>Solution</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>OrderItem</span> { ... }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Order</span> <span style=color:#75715e>// This class only handles order calculation now.</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>int</span> Id { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> List&lt;OrderItem&gt; Items { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>string</span> CustomerType { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; } <span style=color:#75715e>// &#39;Regular&#39;, &#39;Premium&#39;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> Order()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    Items = <span style=color:#66d9ef>new</span> List&lt;OrderItem&gt;();
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>// Calculate order total</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>decimal</span> GetTotal()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>decimal</span> total = <span style=color:#ae81ff>0</span>;
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>foreach</span> (<span style=color:#66d9ef>var</span> item <span style=color:#66d9ef>in</span> Items)
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>      total += item.Price * item.Quantity;
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// Apply discount based on customer type</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>if</span> (CustomerType == <span style=color:#e6db74>&#34;Premium&#34;</span>)
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>      total *= <span style=color:#ae81ff>0.9</span>m; <span style=color:#75715e>// 10% discount for premium customers</span>
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> total;
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>ReceiptPrinter</span> <span style=color:#75715e>// This class only handles receipt printing now.</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#75715e>// Print order receipt</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> PrintReceipt()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    Console.WriteLine(<span style=color:#e6db74>$&#34;Order ID: {Id}&#34;</span>);
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>foreach</span> (<span style=color:#66d9ef>var</span> item <span style=color:#66d9ef>in</span> Items)
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>      Console.WriteLine(<span style=color:#e6db74>$&#34;{item.Name} - {item.Quantity} x {item.Price} = {item.Quantity * item.Price}&#34;</span>);
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>    
+</span></span><span style=display:flex><span>    Console.WriteLine(<span style=color:#e6db74>$&#34;Total: {GetTotal()}&#34;</span>);
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Open-Closed Principle (OCP)</span></h5><div class=card><div class=card-body><h3 id=definition>Definition</h3><p>The Open-Closed Principle suggests that software entities should be open for extension but closed for modification.</p></div></div><div class=card><div class=card-body><h3 id=use-case>Use Case</h3><p>The <code>GetTotal</code> method in our Order class has hardcoded discount logic for premium customers, which violates OCP. To fix it, we can move the discount logic outside the <code>Order</code> class, and pass it as parameter. This way, the discount functionality will be extendable without chaging the <code>Order</code> class code.</p></div></div><div class=card><div class=card-body><h3 id=solution>Solution</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>OrderItem</span> { ... }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>interface</span> <span style=color:#a6e22e>IDiscount</span> <span style=color:#75715e>// We declare IDiscount interface, and include a ApplyDiscount method, so we can have multiple classes implementing it for various kinds of discounts.</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>decimal</span> ApplyDiscount(<span style=color:#66d9ef>decimal</span> total);
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>NoDiscount</span> : IDiscount <span style=color:#75715e>// This first class will handle no discount scenario.</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>decimal</span> ApplyDiscount(<span style=color:#66d9ef>decimal</span> total)
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> total;
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>PremiumDiscount</span> : IDiscount <span style=color:#75715e>// This second class will handle the discount for premium customers.</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>decimal</span> ApplyDiscount(<span style=color:#66d9ef>decimal</span> total)
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> total * <span style=color:#ae81ff>0.9</span>m; <span style=color:#75715e>// 10% discount for premium customers</span>
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Order</span> <span style=color:#75715e>// This class only handles order calculation now.</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>int</span> Id { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> List&lt;OrderItem&gt; Items { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> IDiscount Discount { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; } <span style=color:#75715e>// Customer Type logic was removed, and instead IDiscount was added, so the discount can be handled from outside.</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> Order(IDiscount discount) <span style=color:#75715e>// IDiscount interface is included in the constructor, so any kind of discount can passed from outside and we don&#39;t need to worry about how it&#39;s applied.</span>
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    Items = <span style=color:#66d9ef>new</span> List&lt;OrderItem&gt;();
+</span></span><span style=display:flex><span>    Discount = discount;
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>// Calculate order total</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>decimal</span> GetTotal()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>decimal</span> total = <span style=color:#ae81ff>0</span>;
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>foreach</span> (<span style=color:#66d9ef>var</span> item <span style=color:#66d9ef>in</span> Items)
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>      total += item.Price * item.Quantity;
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> Discount.ApplyDiscount(total); <span style=color:#75715e>// Condition to apply discount for premium customer was removed and instead the ApplyDiscount method is called from the Discount instance.</span>
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>ReceiptPrinter</span> { ... }
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Liskov Substitution Principle (LSP)</span></h5><div class=card><div class=card-body><h3 id=definition>Definition</h3><p>The Liskov Substitution Principle states that subclasses should be substitutable for their base classes without altering the correctness of the program.</p></div></div><div class=card><div class=card-body><h3 id=use-case>Use Case</h3><p>By introducing the <code>IDiscount</code> interface, we&rsquo;ve already ensured that any class implementing <code>IDiscount</code> (like <code>PremiumDiscount</code>, <code>NoDiscount</code>, or <code>BirthdayDiscount</code>) can replace each other without breaking the functionality.</p></div></div><div class=card><div class=card-body><h3 id=solution>Solution</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>OrderItem</span> { ... }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>interface</span> <span style=color:#a6e22e>IDiscount</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>decimal</span> ApplyDiscount(<span style=color:#66d9ef>decimal</span> total);
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>NoDiscount</span> : IDiscount { ... }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>PremiumDiscount</span> : IDiscount { ... }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>BirthdayDiscount</span> : IDiscount
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>decimal</span> ApplyDiscount(<span style=color:#66d9ef>decimal</span> total)
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> total * <span style=color:#ae81ff>0.95</span>m; <span style=color:#75715e>// 5% birthday discount</span>
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>ReceiptPrinter</span> { ... }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>var</span> birthdayOrder = <span style=color:#66d9ef>new</span> Order(<span style=color:#66d9ef>new</span> BirthdayDiscount()); <span style=color:#75715e>// Any discount class can now be used in place of another, following LSP</span>
+</span></span><span style=display:flex><span>Console.WriteLine(birthdayOrder.GetTotal());
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Interface Segregation Principle (ISP)</span></h5><div class=card><div class=card-body><h3 id=definition>Definition</h3><p>The Interface Segregation Principle suggests that clients should not be forced to depend on interfaces they don&rsquo;t use.</p></div></div><div class=card><div class=card-body><h3 id=use-case>Use Case</h3><p>Instead of creating one large interface (e.g., <code>IOrderManager</code>), it&rsquo;s better to break it into smaller, more focused interfaces. Let&rsquo;s apply ISP by splitting responsibilities into smaller interfaces for orders and receipt printing.</p></div></div><div class=card><div class=card-body><h3 id=solution>Solution</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>OrderItem</span> { ... }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>interface</span> <span style=color:#a6e22e>IDiscount</span> { ... }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>NoDiscount</span> : IDiscount { ... }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>PremiumDiscount</span> : IDiscount { ... }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>BirthdayDiscount</span> : IDiscount { ... }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>interface</span> <span style=color:#a6e22e>IOrder</span> <span style=color:#75715e>// Adding this new interface, with &#34;GetTotal&#34; as the only required method to be implemented .</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>decimal</span> GetTotal();
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>interface</span> <span style=color:#a6e22e>IReceiptPrinter</span> <span style=color:#75715e>// Adding this new interface, with &#34;PrintReceipt&#34; as the only required method to be implemented .</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>void</span> PrintReceipt(Order order);
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Order</span> : IOrder { ... } <span style=color:#75715e>// Order class is only implementing required methods from IOrder interface.</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>ReceiptPrinter</span> : IReceiptPrinter { ... } <span style=color:#75715e>// ReceiptPrinter class is only implementing required methods from IReceiptPrinter interface.</span>
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Dependency Inversion Principle (DIP)</span></h5><div class=card><div class=card-body><h3 id=definition>Definition</h3><p>The Dependency Inversion Principle states that high-level modules should depend on abstractions, not on concrete implementations.</p></div></div><div class=card><div class=card-body><h3 id=use-case>Use Case</h3><p>Instead of creating one large interface (e.g., <code>IOrderManager</code>), it&rsquo;s better to break it into smaller, more focused interfaces. Let&rsquo;s apply ISP by splitting responsibilities into smaller interfaces for orders and receipt printing.</p></div></div><div class=card><div class=card-body><h3 id=solution>Solution</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>OrderItem</span> { ... }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>interface</span> <span style=color:#a6e22e>IDiscount</span> { ... }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>NoDiscount</span> : IDiscount { ... }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>PremiumDiscount</span> : IDiscount { ... }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>BirthdayDiscount</span> : IDiscount { ... }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>interface</span> <span style=color:#a6e22e>IOrder</span> { ... }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>interface</span> <span style=color:#a6e22e>IReceiptPrinter</span> { ... }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Order</span> : IOrder  <span style=color:#75715e>// Order class depends on IOrder interface, this way it ensures this class is flexible and it can easily use different implementations without tightly coupled to any one class.</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>int</span> Id { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> List&lt;OrderItem&gt; Items { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>private</span> <span style=color:#66d9ef>readonly</span> IDiscount _discount; <span style=color:#75715e>// We can change the access modifier to private and set it to readonly, so this parameter is only passed in the constructor.</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> Order(IDiscount discount) <span style=color:#75715e>// The discount will depend on an abstraction for discounts, IDiscount, instead of concrete implementations like PremiumDiscount or NoDiscount.</span>
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    Items = <span style=color:#66d9ef>new</span> List&lt;OrderItem&gt;();
+</span></span><span style=display:flex><span>     _discount = discount;
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>decimal</span> GetTotal()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>decimal</span> total = <span style=color:#ae81ff>0</span>;
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>foreach</span> (<span style=color:#66d9ef>var</span> item <span style=color:#66d9ef>in</span> Items)
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>      total += item.Price * item.Quantity;
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> _discount.ApplyDiscount(total); 
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>ReceiptPrinter</span> : IReceiptPrinter { ... } <span style=color:#75715e>// ReceiptPrinter class depends on IReceiptPrinter interface, this way it ensures this class is flexible and it can easily use different implementations without tightly coupled to any one class.</span>
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Conclusion</span></h5><div class=card><div class=card-body><p>By applying the SOLID principles to a simple Customer Order System example, we refactored the code to become more maintainable, scalable, and flexible. Each principle brings a unique benefit:</p><ul><li><strong>Single Responsibility Principle:</strong> Makes each class focused on a single task, improving clarity and maintainability.</li><li><strong>Open-Closed Principle:</strong> Allows extending functionality without modifying existing code, reducing the risk of introducing bugs.</li><li><strong>Liskov Substitution Principle:</strong> Ensures that subclasses can be used in place of their base classes, preserving correctness.</li><li><strong>Interface Segregation Principle:</strong> Promotes the use of smaller, more focused interfaces, reducing unnecessary dependencies.</li><li><strong>Dependency Inversion Principle:</strong> Encourages classes to depend on abstractions rather than concrete implementations, improving flexibility.</li></ul></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Resources</span></h5><div class=card><div class=card-body><ul><li><a href=https://dev.to/moh_moh701/c-clean-code-solid-principles-51ed target=_blank rel=noopener>C# Clean Code: SOLID Principles – Dev.to</a></li></ul></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>SOLID</span></h5><div class=card><div class=card-body><h3 id=definition>Definition</h3><p>SOLID is a set of five design principles that aim to make object-oriented software easier to understand, maintain, and extend. These principles were popularized by Robert C. Martin (Uncle Bob) in his 2000 paper &ldquo;Design Principles and Design Patterns&rdquo; and the acronym SOLID was coined a few years later.</p><p>The five SOLID principles are:</p><ul><li><strong>S</strong>ingle Responsibility Principle (SRP)</li><li><strong>O</strong>pen-Closed Principle (OCP)</li><li><strong>L</strong>iskov Substitution Principle (LSP)</li><li><strong>I</strong>nterface Segregation Principle (ISP)</li><li><strong>D</strong>ependency Inversion Principle (DIP)</li></ul><p>I&rsquo;ll be using the same example from <a href=https://dev.to/moh_moh701/c-clean-code-solid-principles-51ed target=_blank rel=noopener>C# Clean Code: SOLID Principles – Dev.to</a>, so as the initial code we have the following:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Error Handling</span></h5><div class=card><div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#66d9ef>try</span>
+</span></span><span style=display:flex><span>{   
+</span></span><span style=display:flex><span>  <span style=color:#75715e>// try code block - code that may generate an exception</span>
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span><span style=color:#66d9ef>catch</span> (Exception ex)
+</span></span><span style=display:flex><span>{   
+</span></span><span style=display:flex><span>  <span style=color:#75715e>// catch code block - code to handle an exception</span>
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span><span style=color:#66d9ef>finally</span>
+</span></span><span style=display:flex><span>{   
+</span></span><span style=display:flex><span>  <span style=color:#75715e>// finally code block - code to clean up resources</span>
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Throwing Exceptions</span></h5><div class=card><div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#66d9ef>throw</span> <span style=color:#66d9ef>new</span> FormatException(<span style=color:#e6db74>&#34;FormatException: Calculations in process XYZ have been cancelled due to invalid data format.&#34;</span>);
+</span></span></code></pre></div></div></div></div></div></div><div class=paginator><ul class="pagination pagination-default"><li class=page-item><a href=/notes/01-csharp/ aria-label=First class=page-link role=button><span aria-hidden=true>&#171;&#171;</span></a></li><li class=page-item><a href=/notes/01-csharp/ aria-label=Previous class=page-link role=button><span aria-hidden=true>&#171;</span></a></li><li class=page-item><a href=/notes/01-csharp/ aria-label="Page 1" class=page-link role=button>1</a></li><li class="page-item active"><a aria-current=page aria-label="Page 2" class=page-link role=button>2</a></li><li class="page-item disabled"><a aria-disabled=true aria-label=Next class=page-link role=button tabindex=-1><span aria-hidden=true>&#187;</span></a></li><li class="page-item disabled"><a aria-disabled=true aria-label=Last class=page-link role=button tabindex=-1><span aria-hidden=true>&#187;&#187;</span></a></li></ul></div></div></section></div><footer id=footer class="container-fluid text-center align-content-center footer pb-2"><div class="container pt-5"><div class="row text-start"><div class="col-md-4 col-sm-12"><h5>Navigation</h5><ul><li class=nav-item><a class=smooth-scroll href=https://hugo-toha.github.io/#about>About</a></li><li class=nav-item><a class=smooth-scroll href=https://hugo-toha.github.io/#skills>Skills</a></li><li class=nav-item><a class=smooth-scroll href=https://hugo-toha.github.io/#experiences>Experiences</a></li><li class=nav-item><a class=smooth-scroll href=https://hugo-toha.github.io/#education>Education</a></li><li class=nav-item><a class=smooth-scroll href=https://hugo-toha.github.io/#projects>Projects</a></li><li class=nav-item><a class=smooth-scroll href=https://hugo-toha.github.io/#accomplishments>Accomplishments</a></li></ul></div><div class="col-md-4 col-sm-12"><h5>Contact me:</h5><ul><li><a href=mailto:ferna.mace.34@gmail.com target=_blank rel=noopener><span><i class="fas fa-envelope"></i></span> <span>ferna.mace.34@gmail.com</span></a></li><li><a href=https://github.com/fmacedas target=_blank rel=noopener><span><i class="fab fa-github"></i></span> <span>fmacedas</span></a></li><li><a href=https://www.linkedin.com/in/fernando-maceda-silva target=_blank rel=noopener><span><i class="fab fa-linkedin"></i></span> <span>Fernando Maceda</span></a></li><li><a href=tel:+591%2078989963 target=_blank rel=noopener><span><i class="fas fa-phone-alt"></i></span> <span>+591 78989963</span></a></li></ul></div></div></div><hr><div class=container><div class="row text-start"><div class=col-md-4><a id=theme href=https://github.com/hugo-toha/toha target=_blank rel=noopener><img src=/images/theme-logo_hu_b3360284c55cf72d.png alt="Toha Theme Logo">
+Toha</a></div><div class="col-md-4 text-center">© 2024 Copyright.</div><div class="col-md-4 text-end"><a id=hugo href=https://gohugo.io/ target=_blank rel=noopener>Powered by
+<img src=/images/hugo-logo.svg alt="Hugo Logo" height=18></a></div></div></div></footer><script src=/application.73f75eb9381fc3594866cb3e05da7d2258474f03ee945ca6935782ea1f715e5d.js integrity="sha256-c/deuTgfw1lIZss+Bdp9IlhHTwPulFymk1eC6h9xXl0=" defer></script></body></html>
