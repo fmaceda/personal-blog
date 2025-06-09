@@ -1,0 +1,72 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Jalasoft
+    url: "https://www.jalasoft.com/"
+    location: La Paz, Bolivia
+    logo: /images/sections/experiences/jalasoft-2.png
+    # Can optionally show a different logo for dark theme
+    # darklogo: /images/sections/experiences/company2.jpg
+    overview: Jalasoft is a widely recognized company for providing the best in software engineering solutions by investing in our people first.
+  positions:
+  - designation: Staff Software Engineer
+    start: February 2024
+    responsibilities:
+    - Manage the development process to let the team work as expected, and the product to be delivered.
+    - Technical referent to help development team to unblock themselves.
+    - Learn cloud services (Azure) for managing a cloud services used to deploy the application.
+
+  - designation: Staff Software Engineer
+    start: July 2021
+    responsibilities:
+    - Design, implement and test new features to customize the [Infinite Blue](https://infiniteblue.com/) platform.
+    - Lead development team and keep track of the performance of each team member.
+    - Support client issues for the main application.
+    - Learn about AngularJS for maintaining an intagrated application that uses KendoUI components.
+    - Learn about Outlook and Google integrations for using that date inside the application.
+
+  - designation: Junior Software Engineer
+    start: January 2020
+    end: July 2021
+    responsibilities:
+    - Implement and test new features to customize the [Infinite Blue](https://infiniteblue.com/) platform.
+    - Support client issues for the main application.
+    - Learn about Custom Relationship Management for a better understanding of the application being develop under the platform.
+
+  - designation: Junior Software Engineer
+    start: April 2019
+    end: January 2020
+    responsibilities:
+    - Implement and test new features for the main application to manage evaluations.
+    - Design, implemente and test microservices.
+    - Maintain the infrastructure of the project by tracking the DevOps flow.
+    - Learn cloud services (GCP) for managing a virtual machine used to deploy the application.
+
+- company:
+    name: Coderoad
+    url: "https://www.mojix.com/coderoad/"
+    location: La Paz, Bolivia
+    logo: /images/sections/experiences/mojix.jpg
+    # Can optionally show a different logo for dark theme
+    # darklogo: /images/sections/experiences/company1.jpg
+    # company overview
+    overview: Coderoad is a widely recognized company for nearshoring IT Development, Engineering & Support Services
+  positions:
+  - designation: Junior Software Engineer
+    start: April 2017
+    end: February 2019
+    responsibilities:
+    - Implement and test new features for the main application to handle orders for car sale, repair or auction.
+    - Design, implement and test store procedures in Oracle database.
+    - Support client issues for the main application.
+    - Learn cloud services (AWS) for migrating from own server to cloud.

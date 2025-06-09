@@ -1,0 +1,155 @@
+
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+# - name: Ph.D in Quantum Cryptography
+#   icon: fa-microscope
+#   timeframe: 2016-2020
+#   institution:
+#     name: ABC University of Technology
+#     url: "#"
+#     logo: /images/sections/education/tech_college.png
+#     # Can optionally show a different logo for dark theme
+#     # darklogo: /images/sections/education/tech_college.png
+#   grade: #(optional)
+#     scale: CGPA
+#     achieved: 3.6
+#     outOf: 4
+#   publications: #(optional)
+#   - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#     url: "#"
+#   - title: Fusce eu augue ut odio porttitor pulvinar.
+#     url: "#"
+#   - title: Nullam vitae orci tincidunt purus viverra pulvinar.
+#     url: "#"
+
+# - name: B.Sc. in Computer Science & Engineering
+#   icon: fa-graduation-cap
+#   timeframe: 2012-2016
+#   institution:
+#     name: University of XYZ
+#     url: "#"
+#     logo: /images/sections/education/university.jpg
+#     # Can optionally show a different logo for dark theme
+#     # darklogo: /images/sections/education/university.jpg
+#   grade: #(optional)
+#     scale: CGPA
+#     achieved: 3.5
+#     outOf: 4
+#   takenCourses: #(optional)
+#     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+#     showGrades: true
+#     collapseAfter: 3
+#     courses:
+#     - name: Data Structures and Algorithm
+#       achieved: 3.75
+#       outOf: 4
+#     - name: Network Security
+#       achieved: 3.80
+#       outOf: 4
+#     - name: Operating System
+#       achieved: 3.5
+#       outOf: 4
+#     - name: Artificial Intelligent
+#       achieved: 3.75
+#       outOf: 4
+#   publications: #(optional)
+#   - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#     url: "#"
+#   - title: Fusce eu augue ut odio porttitor pulvinar.
+#     url: "#"
+#   extracurricularActivities: #(optional)
+#   - In vitae facilisis est, eget porta sem.
+#   - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+#   - Duis sed massa feugiat, ornare justo et, aliquam est.
+#   - Pellentesque ut fringilla magna.
+#   custonSections: #(optional)
+#     - name: Thesis
+#       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#     - name: Supervisor
+#       content: Fusce eu augue ut odio porttitor pulvinar.
+
+- name: Diploma in Teacher Training for Higher Education
+  icon: fa-graduation-cap
+  timeframe: 2022
+  institution:
+    name: Bolivian Catholic University "San Pablo"
+    url: "https://lpz.ucb.edu.bo"
+    logo: /images/sections/education/ucb-postgrado.png
+    # Can optionally show a different logo for dark theme
+    # darklogo: /images/sections/education/university.jpg
+  grade: #(optional)
+    scale: CGPA
+    achieved: 4.5
+    outOf: 5
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    collapseAfter: 3
+    courses:
+    - name: The new Role of the University Teacher
+      achieved: 4
+      outOf: 5
+    - name: Curricular Design
+      achieved: 5
+      outOf: 5
+    - name: Didactics in Higher Education
+      achieved: 5
+      outOf: 5
+    - name: Evaluation of Learning in Higher Education
+      achieved: 5
+      outOf: 5
+    - name: Ethics and Values in Higher Education
+      achieved: 4
+      outOf: 5
+    - name: Planning of Teaching and Learning Process in Higher Education
+      achieved: 4.5
+      outOf: 5
+    - name: New Technologies in the Classroom
+      achieved: 4.5
+      outOf: 5
+
+- name: Bachelor in Systems Engineering 
+  icon: fa-university
+  timeframe: 2013-2017
+  institution:
+    name: Bolivian Catholic University "San Pablo"
+    url: "https://lpz.ucb.edu.bo"
+    logo: /images/sections/education/ucb.png
+    # Can optionally show a different logo for dark theme
+    # darklogo: /images/sections/education/science_college.png
+  grade: #(optional)
+    scale: GPA
+    achieved: 4.5
+    outOf: 5
+  extracurricularActivities: #(optional)
+  - ACM ICPC Bolivian National Contest 2015 | Cerficate of Achievement | Bronze Medal
+  - ACM ICPC - South America/South Regional 2015 | Cerficate of Achievement | Honorable Mention
+  - ACM ICPC Preliminar Contst UCB 2016 | Cerficate of Achievement | Silver Medal
+  - ACM ICPC Bolivian National Contest 2017 | Cerficate of Achievement | Honorable Mention
+  - ACM ICPC - South America/South Regional 2016 | Cerficate of Achievement | Honorable Mention
+  - ACM ICPC - South America/South Regional 2017 | Cerficate of Achievement | Honorable Mention
+  - IEEE - Preliminar Contest IEEExtreme 2017 | Cerficate of Achievement | Gold Medal
+
+- name: Primary and Secondary School Certificate
+  icon: fa-school
+  timeframe: 2001-2012
+  institution:
+    name: Don Bosco
+    url: "https://www.dbp.edu.bo/"
+    logo: /images/sections/education/don-bosco.jpg
+  grade: #(optional)
+    scale: GPA
+    achieved: 5
+    outOf: 7
+  extracurricularActivities: #(optional)
+  - Higher Technician in Electronics

@@ -1,0 +1,76 @@
+# section information
+section:
+  name: Accomplishments
+  id: accomplishments
+  enable: true
+  weight: 9
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+# Your accomplishments
+accomplishments:
+# - name: Linux Foundation System Administrator
+#   timeline: "March 2018 - March 2019"
+#   organization:
+#     name: Linux Foundation
+#     url: https://www.linuxfoundation.org
+#   courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
+#   certificateURL: "https://example.com"
+
+# - name: Machine Learning
+#   timeline: "Jun 2020 - Jan 2021"
+#   organization:
+#     name: Coursera
+#     url: https://www.coursera.org
+#   courseOverview: "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
+#   certificateURL: "https://example.com"
+
+# - name: Grokking the System Design Interview
+#   timeline: "Jan 2018 - Sept 2018"
+#   organization:
+#     name: educative
+#     url: https://www.educative.io
+#   courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who've been working at Google, Facebook, Microsoft, and Amazon. We've carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
+#   certificateURL: "https://example.com"
+
+# - name: Mastering Multithreading Programming with Go (Golang)
+#   timeline: "Nov 2017 - Mar 2018"
+#   organization:
+#     name: Udemy
+#     url: https://www.udemy.com
+#   courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, mulithreading topics.
+#   certificateURL: "https://example.com"
+ 
+- name: "Front-End JavaScript Frameworks: Angular"
+  timeline: "Nov 2021"
+  organization:
+    name: Coursera
+    url: https://www.coursera.org
+  courseOverview: "This course concentrates mainly on Javascript based front-end frameworks, and in particular the Angular framework (Currently Ver. 6.x). This course will use Typescript for developing Angular application. Typescript features will be introduced in the context of Angular as part of the exercises. You will also get an introduction to the use of Angular Material and Angular Flex-Layout for responsive UI design, and various aspects of Angular including components, directives and services. You will learn about data binding, Angular router and its use for developing single-page applications,  designing both template-driven forms and reactive forms. A quick introduction to Observables, reactive programming and RxJS in the context of Angular is included. You will then learn about Angular support for client-server communication through the HTTP client and the use of REST API on the server side."
+  certificateURL: "https://www.coursera.org/account/accomplishments/certificate/Q4S7DA7J77T7"
+
+- name: "Front-End Web Development with React"
+  timeline: "Nov 2021"
+  organization:
+    name: Coursera
+    url: https://www.coursera.org
+  courseOverview: "This course explores Javascript based front-end application development, and in particular the React library (Currently Ver. 16.3). This course will use JavaScript ES6 for developing React application. You will also get an introduction to the use of Reactstrap for Bootstrap 4-based responsive UI design. You will be introduced to various aspects of React components. You will learn about React router and its use in developing single-page applications. You will also learn about designing controlled forms. You will be introduced to the Flux architecture and Redux. You will explore various aspects of Redux and use it to develop React-Redux powered applications. You will then learn to use Fetch for client-server communication and the use of REST API on the server side."
+  certificateURL: "https://www.coursera.org/account/accomplishments/certificate/S8B8U8J6DYLL"  
+
+- name: "Foundations of User Experience (UX) Design"
+  timeline: "Oct 2022"
+  organization: 
+    name: Coursera
+    url: https://www.coursera.org
+  courseOverview: "Foundations of User Experience (UX) Design is the first of a series of seven courses that will equip you with the skills needed to apply to entry-level jobs in user experience design. UX designers focus on the interactions that people have with products like websites, mobile apps, and physical objects. UX designers make those everyday interactions usable, enjoyable, and accessible. The role of an entry-level UX designer might include empathizing with users, defining their pain points, coming up with ideas for design solutions, creating wireframes, prototypes, and mockups, and testing designs to get feedback."
+  certificateURL: "https://www.coursera.org/account/accomplishments/certificate/Z5M8KZ2A4WHN"
+
+- name: "Application Security for Developers and DevOps Professionals"
+  timeline: "Oct 2022"
+  organization: 
+    name: Coursera
+    url: https://www.coursera.org
+  courseOverview: "How vulnerable are your applications to security risks and threats? This course will help you identify vulnerabilities and monitor the health of your applications and systems. You'll examine and implement secure code practices to prevent events like data breaches and leaks, and discover how practices like monitoring and observability can keep systems safe and secure."
+  certificateURL: "https://www.coursera.org/account/accomplishments/certificate/7B2R84FFNWU2"  
