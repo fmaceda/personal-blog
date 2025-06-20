@@ -1,12 +1,12 @@
 ---
 title: Roadmap
-weight: 1
+weight: 2
 menu:
   notes:
     name: Roadmap
     identifier: notes-csharp-roadmap
     parent: notes-csharp
-    weight: 1
+    weight: 2
 ---
 <!-- CSharp Fundamentals -->
 
@@ -150,7 +150,7 @@ menu:
 
 ### Resources
 
-* [ C# Language Specification](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/readme)
+* [C# Language Specification](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/readme)
 
 {{< /note >}}
 

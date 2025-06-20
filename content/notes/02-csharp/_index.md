@@ -4,5 +4,5 @@ menu:
   notes:
     name: CSharp
     identifier: notes-csharp
-    weight: 1
+    weight: 2
 ---
