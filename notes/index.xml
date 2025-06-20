@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Notes on Fernando's Blog</title><link>https://hugo-toha.github.io/notes/</link><description>Recent content in Notes on Fernando's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 08 Jun 2010 08:06:25 +0600</lastBuildDate><atom:link href="https://hugo-toha.github.io/notes/index.xml" rel="self" type="application/rss+xml"/><item><title>Roadmap</title><link>https://hugo-toha.github.io/notes/01-csharp/00-roadmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-csharp/00-roadmap/</guid><description>&lt;!-- CSharp Fundamentals -->
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Notes on Fernando's Blog</title><link>https://hugo-toha.github.io/notes/</link><description>Recent content in Notes on Fernando's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 08 Jun 2010 08:06:25 +0600</lastBuildDate><atom:link href="https://hugo-toha.github.io/notes/index.xml" rel="self" type="application/rss+xml"/><item><title>Roadmap</title><link>https://hugo-toha.github.io/notes/01-software-design-and-architecture/00-roadmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-software-design-and-architecture/00-roadmap/</guid><description>&lt;!-- CSharp Fundamentals -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Software Design and Architecture Roadmap&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;h3 id="topics">Topics&lt;/h3>
+&lt;ol>
+&lt;li>Clean Code&lt;/li>
+&lt;li>Programming Paradigms&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Resources:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://khalilstemmler.com/articles/software-design-architecture/full-stack-software-design/" target="_blank" rel="noopener">How to Learn Software Design and Architecture | The Full-stack Software Design &amp;amp; Architecture Map&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://roadmap.sh/software-design-architecture" target="_blank" rel="noopener">Software Design and Architecture Roadmap&lt;/a>&lt;/li>
+&lt;li>&lt;em>Clean Code: A Handbook of Agile Software Craftsmanship&lt;/em>, by Robert C. Martin&lt;/li>
+&lt;li>&lt;em>Refactoring&lt;/em>, by Martin Fowler (2nd edition)&lt;/li>
+&lt;li>&lt;em>The Pragmatic Programmer&lt;/em>, by Andy Hunt and Dave Thomas&lt;/li>
+&lt;li>&lt;em>The Design of Everyday Things&lt;/em>, by Don Norman&lt;/li>
+&lt;/ul>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>Roadmap</title><link>https://hugo-toha.github.io/notes/02-csharp/00-roadmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-csharp/00-roadmap/</guid><description>&lt;!-- CSharp Fundamentals -->
 &lt;div class="note-card ">
 &lt;div class="item">
 &lt;h5 class="note-title">&lt;span>(1) CSharp Fundamentals&lt;/span>&lt;/h5>
@@ -162,12 +183,12 @@
 &lt;div class="card">
 &lt;div class="card-body">&lt;h3 id="resources">Resources&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/readme" target="_blank" rel="noopener"> C# Language Specification&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/readme" target="_blank" rel="noopener">C# Language Specification&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>Introduction</title><link>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/01-introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/01-introduction/</guid><description>&lt;!-- Getting Started -->
+&lt;/div></description></item><item><title>Introduction</title><link>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/01-introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/01-introduction/</guid><description>&lt;!-- Getting Started -->
 &lt;div class="note-card ">
 &lt;div class="item">
 &lt;h5 class="note-title">&lt;span>Getting Started&lt;/span>&lt;/h5>
@@ -175,7 +196,37 @@
 &lt;div class="card-body">&lt;p>&lt;strong>What&amp;rsquo;s CSharp?&lt;/strong>&lt;/p>
 &lt;p>C# is a high-level, general-purpose programming language developed by Microsoft as part of the .NET framework. It&amp;rsquo;s an object-oriented language, meaning it uses objects to structure code and data, and is used to build a variety of applications. C# is known for its ease of learning, strong community support, and ability to produce highly performant code.&lt;/p>
 &lt;p>&lt;strong>.NET SDK Instalation&lt;/strong>&lt;/p>
-&lt;p>The easiest way to have the .NET SDK installed in your personal computer is to download &lt;a href="https://visualstudio.microsoft.com/" target="_blank" rel="noopener">Visual Studio&lt;/a>. You can also use other IDE, but you will need to install the &lt;a href="https://dotnet.microsoft.com/en-us/download/visual-studio-sdks" target="_blank" rel="noopener">SDK&lt;/a> manually.&lt;/p></description></item><item><title>Data Types</title><link>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/02-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/02-types/</guid><description>&lt;!-- Data types -->
+&lt;p>The easiest way to have the .NET SDK installed in your personal computer is to download &lt;a href="https://visualstudio.microsoft.com/" target="_blank" rel="noopener">Visual Studio&lt;/a>. You can also use other IDE, but you will need to install the &lt;a href="https://dotnet.microsoft.com/en-us/download/visual-studio-sdks" target="_blank" rel="noopener">SDK&lt;/a> manually.&lt;/p></description></item><item><title>Meaningful Names</title><link>https://hugo-toha.github.io/notes/01-software-design-and-architecture/01-clean-code/01-meaningful-names/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-software-design-and-architecture/01-clean-code/01-meaningful-names/</guid><description>&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Content&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;ol>
+&lt;li>Use Intention-Revealing Names&lt;/li>
+&lt;li>Avoid Disinformation&lt;/li>
+&lt;li>Make Meaningful Distinctions&lt;/li>
+&lt;li>Use Pronounceable Names&lt;/li>
+&lt;li>Use Searchable Names&lt;/li>
+&lt;li>Avoid Encodings&lt;/li>
+&lt;li>Avoid Mental Mapping&lt;/li>
+&lt;li>Class Names&lt;/li>
+&lt;li>Method Names&lt;/li>
+&lt;li>Don&amp;rsquo;t Be Cute&lt;/li>
+&lt;li>Pick One Word per Concept&lt;/li>
+&lt;li>Don&amp;rsquo;t Pun&lt;/li>
+&lt;li>Use Solution Domain Names&lt;/li>
+&lt;li>Use Problem Domain Names&lt;/li>
+&lt;li>Don&amp;rsquo;t Add Gratuitous Context&lt;/li>
+&lt;li>Resources&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Use Intention-Revealing Names&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>The name of a variable, function, or class, should answer all the big questions. It should tell you why it exists, what it does, and how it is used. If a name requires a comment, then the name does not reveal its intent.&lt;/p></description></item><item><title>Data Types</title><link>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/02-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/02-types/</guid><description>&lt;!-- Data types -->
 &lt;div class="note-card ">
 &lt;div class="item">
 &lt;h5 class="note-title">&lt;span>Data Types&lt;/span>&lt;/h5>
@@ -213,7 +264,178 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">&amp;#34;Product: &amp;#34;&lt;/span> + product); &lt;span style="color:#75715e">// Product: 35&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">&amp;#34;Quotient: &amp;#34;&lt;/span> + quotient); &lt;span style="color:#75715e">// Quotient: 1&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Modulus: {7 % 5}&amp;#34;&lt;/span>); &lt;span style="color:#75715e">// Modulus: 2&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Order of operations&lt;/strong>&lt;/p></description></item><item><title>Methods</title><link>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/03-methods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/03-methods/</guid><description>&lt;!-- Methods -->
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Order of operations&lt;/strong>&lt;/p></description></item><item><title>Functions</title><link>https://hugo-toha.github.io/notes/01-software-design-and-architecture/01-clean-code/02-functions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-software-design-and-architecture/01-clean-code/02-functions/</guid><description>&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Content&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;ol>
+&lt;li>Small&lt;/li>
+&lt;li>Do One Thing&lt;/li>
+&lt;li>One Level of Abstraction per Function&lt;/li>
+&lt;li>Switch Statements&lt;/li>
+&lt;li>Use Descriptive Names&lt;/li>
+&lt;li>Function Arguments&lt;/li>
+&lt;li>Have No Side Effects&lt;/li>
+&lt;li>Command Query Separation&lt;/li>
+&lt;li>Prefer Exceptions to Returning Error Codes&lt;/li>
+&lt;li>Don’t Repeat Yourself&lt;/li>
+&lt;li>Structured Programming&lt;/li>
+&lt;li>Resources&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Rules of functions&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>It&amp;rsquo;s importance to create small, focused, and single-responsibility functions that are easy to understand, test, and maintain.&lt;/p>
+&lt;h4 id="small">Small&lt;/h4>
+&lt;ul>
+&lt;li>The first rule of functions is that they should be small. They should hardly ever be 20 lines long.&lt;/li>
+&lt;li>This implies that the blocks within &lt;code>if&lt;/code> statements, &lt;code>else&lt;/code> statements, &lt;code>while&lt;/code> statements, and so on should be one line long. Probably that line should be a function call.&lt;/li>
+&lt;li>This also implies that functions should not be large enough to hold nested structures. Therefore, the indent level of a function should not be greater than one or two.&lt;/li>
+&lt;/ul>
+&lt;h4 id="do-one-thing">Do One Thing&lt;/h4>
+&lt;ul>
+&lt;li>Functions should do one thing, should do it well, and should do it only.&lt;/li>
+&lt;li>Functions should not be able to be divided into more sections/functions.&lt;/li>
+&lt;/ul>
+&lt;h4 id="one-level-of-abstraction-per-function">One Level of Abstraction per Function&lt;/h4>
+&lt;ul>
+&lt;li>To make sure the functions are doing &amp;ldquo;one thing&amp;rdquo;, we need to make sure that the statements within the function are all at the same level of abstraction.&lt;/li>
+&lt;li>We can follow the &amp;ldquo;The Stepdown Rule&amp;rdquo;. It&amp;rsquo;s all about reading code from top to bottom. This way each function introduces the next and make the code readable from top to bottom.&lt;/li>
+&lt;/ul>
+&lt;h4 id="switch-statements">Switch Statements&lt;/h4>
+&lt;ul>
+&lt;li>It&amp;rsquo;s hard to make a small &lt;code>switch&lt;/code> statement.&lt;/li>
+&lt;li>It violates the Single Responsibility Principle (SRP) because there is more than one reason for it to change.&lt;/li>
+&lt;li>It violates the Open Closed Principle8 (OCP) because it must change whenever new cases are added.&lt;/li>
+&lt;li>They can be tolerated if they appear only once, are used to create polymorphic objects, and are hidden behind an inheritance&lt;/li>
+&lt;/ul>
+&lt;h4 id="use-descriptive-names">Use Descriptive Names&lt;/h4>
+&lt;ul>
+&lt;li>Function name should describes what the function does.&lt;/li>
+&lt;li>The smaller and more focused a function is, the easier it is to choose a descriptive name.&lt;/li>
+&lt;li>Don&amp;rsquo;t be afraid to make a name long. A long descriptive name is better than a short enigmatic name.&lt;/li>
+&lt;/ul>
+&lt;h4 id="function-arguments">Function Arguments&lt;/h4>
+&lt;ul>
+&lt;li>The ideal number of arguments for a function is zero.&lt;/li>
+&lt;li>Three arguments should be avoided where possible.&lt;/li>
+&lt;li>Arguments should make sense with the function name. There are two very common reasons to pass a single argument into a function.
+&lt;ul>
+&lt;li>You may be asking a question about that argument.&lt;/li>
+&lt;li>Or you may be operating on that argument, transforming it into something else and returning it.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Avoid using Flag Arguments.&lt;/li>
+&lt;li>Use object arguments.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// In this case, the first two arguments seem to be related.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Circle MakeCircle(&lt;span style="color:#66d9ef">double&lt;/span> x, &lt;span style="color:#66d9ef">double&lt;/span> y, &lt;span style="color:#66d9ef">double&lt;/span> radius);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// We can abstract x and y into Point class, and have one instance instead.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Circle MakeCircle(Point center, &lt;span style="color:#66d9ef">double&lt;/span> radius);
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>Function and arguments should form a very nice verb/noun pair.&lt;/li>
+&lt;/ul>
+&lt;h4 id="have-no-side-effects">Have No Side Effects&lt;/h4>
+&lt;ul>
+&lt;li>Your function promises to do one thing, so it should not do other hidden things.&lt;/li>
+&lt;/ul>
+&lt;h4 id="command-query-separation">Command Query Separation&lt;/h4>
+&lt;ul>
+&lt;li>Functions should either do something or answer something, but not both.&lt;/li>
+&lt;/ul>
+&lt;h4 id="prefer-exceptions-to-returning-error-codes">Prefer Exceptions to Returning Error Codes&lt;/h4>
+&lt;ul>
+&lt;li>Use try/catch to handle error instead of returning error codes as exceptions can be added without forcing any recompilation or redeployment.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Returning error codes from specific actions.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">if&lt;/span> (DeletePage(page) == StatusOk)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> (registry.DeleteReference(page.name) == StatusOk)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> (configKeys.DeleteKey(page.name.makeKey()) == StatusOk)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">&amp;#34;page deleted&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">&amp;#34;configKey not deleted&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">&amp;#34;deleteReference from registry failed&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">else&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">&amp;#34;delete failed&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> E_ERROR;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// We can replace the nested if statements with using try/catch.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">try&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> DeletePage(page);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> registry.DeleteReference(page.name);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> configKeys.DeleteKey(page.name.makeKey());
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">catch&lt;/span> (Exception e)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(e.Message);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>Functions should do one thing. Error handing is one thing.&lt;/li>
+&lt;/ul>
+&lt;h4 id="dont-repeat-yourself">Don’t Repeat Yourself&lt;/h4>
+&lt;ul>
+&lt;li>In case you find some code that is being used, try to separate it into a reusable function.&lt;/li>
+&lt;/ul>
+&lt;h4 id="structured-programming">Structured Programming&lt;/h4>
+&lt;ul>
+&lt;li>Edsger Dijkstra&amp;rsquo;s rule says &amp;ldquo;every function and every block within a function should have one entry and one exit&amp;rdquo;.&lt;/li>
+&lt;li>Following these rules means that there should only be one return statement in a function, no &lt;code>break&lt;/code> or &lt;code>continue&lt;/code> statements in a loop, and never, ever, any &lt;code>goto&lt;/code> statements.&lt;/li>
+&lt;li>This rule provides significant benefit in large functions only.&lt;/li>
+&lt;/ul>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Resources&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;ul>
+&lt;li>&lt;em>Clean Code: A Handbook of Agile Software Craftsmanship&lt;/em>, by Robert C. Martin&lt;/li>
+&lt;li>&lt;a href="https://dev.to/caiocesar/clean-code-in-c-part-2-methods-58mb" target="_blank" rel="noopener">Clean Code in C# Part 2 Methods - DEV Community&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>Comments</title><link>https://hugo-toha.github.io/notes/01-software-design-and-architecture/01-clean-code/03-comments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-software-design-and-architecture/01-clean-code/03-comments/</guid><description>&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Content&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;ol>
+&lt;li>Rules of comments&lt;/li>
+&lt;li>Good comments&lt;/li>
+&lt;li>Bad comments&lt;/li>
+&lt;li>Resources&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Rules of comments&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>Truth can only be found in one place: the code. Only the code can truly tell you what it does. It is the only source of truly accurate information. Therefore, though comments are sometimes necessary, we will expend significant energy to minimize them.&lt;/p>
+&lt;p>One of the more common motivations for writing comments is bad code.&lt;/p>
+&lt;p>Clear and expressive code with few comments is far superior to cluttered and complex code with lots of comments.&lt;/p></description></item><item><title>Methods</title><link>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/03-methods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/03-methods/</guid><description>&lt;!-- Methods -->
 &lt;div class="note-card ">
 &lt;div class="item">
 &lt;h5 class="note-title">&lt;span>Methods&lt;/span>&lt;/h5>
@@ -249,7 +471,7 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
 &lt;/div>
 &lt;div class="card">
-&lt;div class="card-body">&lt;p>&lt;strong>Optional parameters:&lt;/strong>&lt;/p></description></item><item><title>Flow Control</title><link>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/04-flow-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/04-flow-control/</guid><description>&lt;!-- Condition -->
+&lt;div class="card-body">&lt;p>&lt;strong>Optional parameters:&lt;/strong>&lt;/p></description></item><item><title>Flow Control</title><link>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/04-flow-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/04-flow-control/</guid><description>&lt;!-- Condition -->
 &lt;div class="note-card ">
 &lt;div class="item">
 &lt;h5 class="note-title">&lt;span>Condition&lt;/span>&lt;/h5>
@@ -321,7 +543,35 @@
 &lt;div class="item">
 &lt;h5 class="note-title">&lt;span>Loop&lt;/span>&lt;/h5>
 &lt;div class="card">
-&lt;div class="card-body">&lt;p>&lt;strong>Foreach&lt;/strong>&lt;/p></description></item><item><title>Data Type Conversion</title><link>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/05-convert-data-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/05-convert-data-types/</guid><description>&lt;!-- Casting type to convert -->
+&lt;div class="card-body">&lt;p>&lt;strong>Foreach&lt;/strong>&lt;/p></description></item><item><title>Formatting</title><link>https://hugo-toha.github.io/notes/01-software-design-and-architecture/01-clean-code/04-formatting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-software-design-and-architecture/01-clean-code/04-formatting/</guid><description>&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Content&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;ol>
+&lt;li>Rules of formatting&lt;/li>
+&lt;li>Vertical Formatting&lt;/li>
+&lt;li>Horizontal Formatting&lt;/li>
+&lt;li>Resources&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Rules of formatting&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;h4 id="the-purpose-of-formatting">The Purpose of Formatting&lt;/h4>
+&lt;p>Code formatting is about communication, and communication is the professional developer&amp;rsquo;s first order of business.&lt;/p>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Vertical Formatting&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>According to Robert C. Martin example, files long preferred to be 200 lines with an upper limit of 500 lines long.&lt;/p>
+&lt;p>Although this should not be a hard and fast rule, it should be considered very desirable. Small files are usually easier to understand than large files are.&lt;/p></description></item><item><title>Data Type Conversion</title><link>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/05-convert-data-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/05-convert-data-types/</guid><description>&lt;!-- Casting type to convert -->
 &lt;div class="note-card ">
 &lt;div class="item">
 &lt;h5 class="note-title">&lt;span>Casting&lt;/span>&lt;/h5>
@@ -386,7 +636,117 @@
 &lt;div class="item">
 &lt;h5 class="note-title">&lt;span>Convert&lt;/span>&lt;/h5>
 &lt;div class="card">
-&lt;div class="card-body">&lt;p>Convert rounds the value.&lt;/p></description></item><item><title>Methods on Arrays</title><link>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/06-methods-on-arrays/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/06-methods-on-arrays/</guid><description>&lt;!-- Sorting an array -->
+&lt;div class="card-body">&lt;p>Convert rounds the value.&lt;/p></description></item><item><title>Objects and Data Structure</title><link>https://hugo-toha.github.io/notes/01-software-design-and-architecture/01-clean-code/05-objects-and-data-structure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-software-design-and-architecture/01-clean-code/05-objects-and-data-structure/</guid><description>&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Content&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;ol>
+&lt;li>
+&lt;p>Rules of functions&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Resources&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Objects and Data Structures&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;h4 id="data-abstraction">Data Abstraction&lt;/h4>
+&lt;p>Abstraction is the process of hiding implementation details and exposing only the essential features of a system or component. As well, using proper names that don&amp;rsquo;t expose the implementation details.&lt;/p>
+&lt;h4 id="dataobject-anti-symmetry">Data/Object Anti-Symmetry&lt;/h4>
+&lt;ul>
+&lt;li>Objects hide their data behind abstractions and expose functions that operate on that data.&lt;/li>
+&lt;li>Data structure expose their data and have no meaningful functions.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Shared class&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">Point&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">double&lt;/span> x;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">double&lt;/span> y;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Procedural Code&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">Square&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> Point topLeft;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">double&lt;/span> side;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">Rectangle&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> Point topLeft;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">double&lt;/span> height;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">double&lt;/span> width;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">Circle&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> Point center;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">double&lt;/span> radius;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">Geometry&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">double&lt;/span> PI = &lt;span style="color:#ae81ff">3.141592653589793&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">double&lt;/span> area(Object shape)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> (shape &lt;span style="color:#66d9ef">is&lt;/span> Square) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Square s = (Square)shape;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> s.side * s.side;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span> (shape &lt;span style="color:#66d9ef">is&lt;/span> Rectangle) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Rectangle r = (Rectangle)shape;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> r.height * r.width;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span> (shape &lt;span style="color:#66d9ef">is&lt;/span> Circle) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Circle c = (Circle)shape;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> PI * c.radius * c.radius;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">else&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// OO Code&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">interface&lt;/span> &lt;span style="color:#a6e22e">Shape&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">double&lt;/span> area();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">Square&lt;/span> : Shape {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">private&lt;/span> Point topLeft;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">private&lt;/span> &lt;span style="color:#66d9ef">double&lt;/span> side;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">double&lt;/span> area() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> side*side;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">Rectangle&lt;/span> : Shape {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">private&lt;/span> Point topLeft;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">private&lt;/span> &lt;span style="color:#66d9ef">double&lt;/span> height;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">private&lt;/span> &lt;span style="color:#66d9ef">double&lt;/span> width;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">double&lt;/span> area() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> height * width;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">Circle&lt;/span> : Shape {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">private&lt;/span> Point center;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">private&lt;/span> &lt;span style="color:#66d9ef">double&lt;/span> radius;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">double&lt;/span> PI = &lt;span style="color:#ae81ff">3.141592653589793&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">double&lt;/span> area() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> PI * radius * radius;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>&lt;code>Procedural&lt;/code> code (code using data structures) makes it easy to add new functions without changing the existing data structures. &lt;code>OO&lt;/code> code, on the other hand, makes it easy to add new classes without changing existing functions.&lt;/li>
+&lt;li>&lt;code>Procedural&lt;/code> code makes it hard to add new data structures because all the functions must change. &lt;code>OO&lt;/code> code makes it hard to add new functions because all the classes must change.&lt;/li>
+&lt;/ul>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>The Law of Demeter&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>There is a well-known heuristic called the Law of Demeter that says a module should not know about the innards of the objects it manipulates.&lt;/p></description></item><item><title>Methods on Arrays</title><link>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/06-methods-on-arrays/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/06-methods-on-arrays/</guid><description>&lt;!-- Sorting an array -->
 &lt;div class="note-card ">
 &lt;div class="item">
 &lt;h5 class="note-title">&lt;span>Sort&lt;/span>&lt;/h5>
@@ -488,7 +848,7 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>Data Formatting</title><link>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/07-data-formatting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/07-data-formatting/</guid><description>&lt;!-- Composite Formatting -->
+&lt;/div></description></item><item><title>Data Formatting</title><link>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/07-data-formatting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/07-data-formatting/</guid><description>&lt;!-- Composite Formatting -->
 &lt;div class="note-card ">
 &lt;div class="item">
 &lt;h5 class="note-title">&lt;span>Composite Formatting&lt;/span>&lt;/h5>
@@ -548,7 +908,7 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>String Methods</title><link>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/08-string-methods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/08-string-methods/</guid><description>&lt;!-- IndexOf -->
+&lt;/div></description></item><item><title>String Methods</title><link>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/08-string-methods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/08-string-methods/</guid><description>&lt;!-- IndexOf -->
 &lt;div class="note-card ">
 &lt;div class="item">
 &lt;h5 class="note-title">&lt;span>IndexOf&lt;/span>&lt;/h5>
@@ -670,7 +1030,7 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>Classes</title><link>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/09-classes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/09-classes/</guid><description>&lt;!-- Declaring Classes -->
+&lt;/div></description></item><item><title>Classes</title><link>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/09-classes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/09-classes/</guid><description>&lt;!-- Declaring Classes -->
 &lt;div class="note-card ">
 &lt;div class="item">
 &lt;h5 class="note-title">&lt;span>Declaring Classes&lt;/span>&lt;/h5>
@@ -705,7 +1065,7 @@
 &lt;div class="item">
 &lt;h5 class="note-title">&lt;span>Constructors and initialization&lt;/span>&lt;/h5>
 &lt;div class="card">
-&lt;div class="card-body">&lt;p>&lt;strong>Accept default values&lt;/strong>&lt;/p></description></item><item><title>Abstract Classes</title><link>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/10-abstract/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/10-abstract/</guid><description>&lt;!-- Example 1 -->
+&lt;div class="card-body">&lt;p>&lt;strong>Accept default values&lt;/strong>&lt;/p></description></item><item><title>Abstract Classes</title><link>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/10-abstract/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/10-abstract/</guid><description>&lt;!-- Example 1 -->
 &lt;div class="note-card ">
 &lt;div class="item">
 &lt;h5 class="note-title">&lt;span>Example 1&lt;/span>&lt;/h5>
@@ -849,14 +1209,14 @@
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>Records</title><link>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/11-records/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/11-records/</guid><description>&lt;!-- Definition -->
+&lt;/div></description></item><item><title>Records</title><link>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/11-records/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/11-records/</guid><description>&lt;!-- Definition -->
 &lt;div class="note-card ">
 &lt;div class="item">
 &lt;h5 class="note-title">&lt;span>Definition&lt;/span>&lt;/h5>
 &lt;div class="card">
 &lt;div class="card-body">&lt;p>A record in C# is a class or struct that provides special syntax and behavior for working with data models. The record modifier instructs the compiler to synthesize members that are useful for types whose primary role is storing data. These members include an overload of ToString() and members that support value equality.&lt;/p>
 &lt;h3 id="when-to-use">When to use&lt;/h3>
-&lt;p>Consider using a record in place of a class or struct in the following scenarios:&lt;/p></description></item><item><title>Interfaces</title><link>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/12-interfaces/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/12-interfaces/</guid><description>&lt;!-- Declaration -->
+&lt;p>Consider using a record in place of a class or struct in the following scenarios:&lt;/p></description></item><item><title>Interfaces</title><link>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/12-interfaces/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/12-interfaces/</guid><description>&lt;!-- Declaration -->
 &lt;div class="note-card ">
 &lt;div class="item">
 &lt;h5 class="note-title">&lt;span>Declaration&lt;/span>&lt;/h5>
@@ -882,7 +1242,7 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>Generics</title><link>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/13-generics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/13-generics/</guid><description>&lt;!-- Declaration -->
+&lt;/div></description></item><item><title>Generics</title><link>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/13-generics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/13-generics/</guid><description>&lt;!-- Declaration -->
 &lt;div class="note-card ">
 &lt;div class="item">
 &lt;h5 class="note-title">&lt;span>Declaration&lt;/span>&lt;/h5>
@@ -915,7 +1275,7 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>Anonymous Types</title><link>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/14-anonymous-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-csharp/01-fundamentals/14-anonymous-types/</guid><description>&lt;!-- Declaration -->
+&lt;/div></description></item><item><title>Anonymous Types</title><link>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/14-anonymous-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-csharp/01-fundamentals/14-anonymous-types/</guid><description>&lt;!-- Declaration -->
 &lt;div class="note-card ">
 &lt;div class="item">
 &lt;h5 class="note-title">&lt;span>Declaration&lt;/span>&lt;/h5>
@@ -928,7 +1288,7 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title>OOP Principles</title><link>https://hugo-toha.github.io/notes/01-csharp/02-object-oriented-programming/01-principles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-csharp/02-object-oriented-programming/01-principles/</guid><description>&lt;!-- Four Principles -->
+&lt;/div></description></item><item><title>OOP Principles</title><link>https://hugo-toha.github.io/notes/02-csharp/02-object-oriented-programming/01-principles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-csharp/02-object-oriented-programming/01-principles/</guid><description>&lt;!-- Four Principles -->
 &lt;div class="note-card ">
 &lt;div class="item">
 &lt;h5 class="note-title">&lt;span>Principles&lt;/span>&lt;/h5>
@@ -949,7 +1309,67 @@
 &lt;h5 class="note-title">&lt;span>Encapsulation&lt;/span>&lt;/h5>
 &lt;div class="card">
 &lt;div class="card-body">&lt;h3 id="definition">Definition&lt;/h3>
-&lt;p>Encapsulation is sometimes referred to as the first pillar or principle of object-oriented programming. A class or struct can specify how accessible each of its members is to code outside of the class or struct. Members not intended for consumers outside of the class or assembly are hidden to limit the potential for coding errors or malicious exploits.&lt;/p></description></item><item><title>SOLID Principles</title><link>https://hugo-toha.github.io/notes/01-csharp/02-object-oriented-programming/02-solid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-csharp/02-object-oriented-programming/02-solid/</guid><description>&lt;!-- SOLID definition -->
+&lt;p>Encapsulation is sometimes referred to as the first pillar or principle of object-oriented programming. A class or struct can specify how accessible each of its members is to code outside of the class or struct. Members not intended for consumers outside of the class or assembly are hidden to limit the potential for coding errors or malicious exploits.&lt;/p></description></item><item><title>Structured Programming</title><link>https://hugo-toha.github.io/notes/01-software-design-and-architecture/02-programming-paradigms/01-structured-programming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-software-design-and-architecture/02-programming-paradigms/01-structured-programming/</guid><description>&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Content&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;ol>
+&lt;li>Use Intention-Revealing Names&lt;/li>
+&lt;li>Avoid Disinformation&lt;/li>
+&lt;li>Make Meaningful Distinctions&lt;/li>
+&lt;li>Use Pronounceable Names&lt;/li>
+&lt;li>Use Searchable Names&lt;/li>
+&lt;li>Avoid Encodings&lt;/li>
+&lt;li>Avoid Mental Mapping&lt;/li>
+&lt;li>Class Names&lt;/li>
+&lt;li>Method Names&lt;/li>
+&lt;li>Don&amp;rsquo;t Be Cute&lt;/li>
+&lt;li>Pick One Word per Concept&lt;/li>
+&lt;li>Don&amp;rsquo;t Pun&lt;/li>
+&lt;li>Use Solution Domain Names&lt;/li>
+&lt;li>Use Problem Domain Names&lt;/li>
+&lt;li>Don&amp;rsquo;t Add Gratuitous Context&lt;/li>
+&lt;li>Resources&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Overview&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>The first paradigm to be adopted (but not the first to be invented) was structured programming, which was discovered by &lt;strong>Edsger Wybe Dijkstra&lt;/strong> in 1968. Dijkstra showed that the use of unrestrained jumps (goto statements) is harmful to program structure. As we&amp;rsquo;ll see in the chapters that follow, he replaced those jumps with the more familiar if/then/else and do/while/until constructs.&lt;/p></description></item><item><title>Object-oriented Programming</title><link>https://hugo-toha.github.io/notes/01-software-design-and-architecture/02-programming-paradigms/02-object-oriented-programming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-software-design-and-architecture/02-programming-paradigms/02-object-oriented-programming/</guid><description>&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Content&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;ol>
+&lt;li>Use Intention-Revealing Names&lt;/li>
+&lt;li>Avoid Disinformation&lt;/li>
+&lt;li>Make Meaningful Distinctions&lt;/li>
+&lt;li>Use Pronounceable Names&lt;/li>
+&lt;li>Use Searchable Names&lt;/li>
+&lt;li>Avoid Encodings&lt;/li>
+&lt;li>Avoid Mental Mapping&lt;/li>
+&lt;li>Class Names&lt;/li>
+&lt;li>Method Names&lt;/li>
+&lt;li>Don&amp;rsquo;t Be Cute&lt;/li>
+&lt;li>Pick One Word per Concept&lt;/li>
+&lt;li>Don&amp;rsquo;t Pun&lt;/li>
+&lt;li>Use Solution Domain Names&lt;/li>
+&lt;li>Use Problem Domain Names&lt;/li>
+&lt;li>Don&amp;rsquo;t Add Gratuitous Context&lt;/li>
+&lt;li>Resources&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Overview&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>The second paradigm to be adopted was actually discovered two years earlier, in 1966, by &lt;strong>Ole Johan Dahl&lt;/strong> and &lt;strong>Kristen Nygaard&lt;/strong>. These two programmers noticed that the function call stack frame in the ALGOL language could be moved to a heap, thereby allowing local variables declared by a function to exist long after the function returned. The function became a constructor for a class, the local variables became instance variables, and the nested functions became methods. This led inevitably to the discovery of polymorphism through the disciplined use of function pointers.&lt;/p></description></item><item><title>SOLID Principles</title><link>https://hugo-toha.github.io/notes/02-csharp/02-object-oriented-programming/02-solid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-csharp/02-object-oriented-programming/02-solid/</guid><description>&lt;!-- SOLID definition -->
 &lt;div class="note-card ">
 &lt;div class="item">
 &lt;h5 class="note-title">&lt;span>SOLID&lt;/span>&lt;/h5>
@@ -964,7 +1384,7 @@
 &lt;li>&lt;strong>I&lt;/strong>nterface Segregation Principle (ISP)&lt;/li>
 &lt;li>&lt;strong>D&lt;/strong>ependency Inversion Principle (DIP)&lt;/li>
 &lt;/ul>
-&lt;p>I&amp;rsquo;ll be using the same example from &lt;a href="https://dev.to/moh_moh701/c-clean-code-solid-principles-51ed" target="_blank" rel="noopener">C# Clean Code: SOLID Principles – Dev.to&lt;/a>, so as the initial code we have the following:&lt;/p></description></item><item><title>Design Patterns</title><link>https://hugo-toha.github.io/notes/01-csharp/02-object-oriented-programming/03-design-patterns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-csharp/02-object-oriented-programming/03-design-patterns/</guid><description>&lt;!-- SOLID definition -->
+&lt;p>I&amp;rsquo;ll be using the same example from &lt;a href="https://dev.to/moh_moh701/c-clean-code-solid-principles-51ed" target="_blank" rel="noopener">C# Clean Code: SOLID Principles – Dev.to&lt;/a>, so as the initial code we have the following:&lt;/p></description></item><item><title>Design Patterns</title><link>https://hugo-toha.github.io/notes/02-csharp/02-object-oriented-programming/03-design-patterns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-csharp/02-object-oriented-programming/03-design-patterns/</guid><description>&lt;!-- SOLID definition -->
 &lt;div class="note-card ">
 &lt;div class="item">
 &lt;h5 class="note-title">&lt;span>SOLID&lt;/span>&lt;/h5>
@@ -979,7 +1399,37 @@
 &lt;li>&lt;strong>I&lt;/strong>nterface Segregation Principle (ISP)&lt;/li>
 &lt;li>&lt;strong>D&lt;/strong>ependency Inversion Principle (DIP)&lt;/li>
 &lt;/ul>
-&lt;p>I&amp;rsquo;ll be using the same example from &lt;a href="https://dev.to/moh_moh701/c-clean-code-solid-principles-51ed" target="_blank" rel="noopener">C# Clean Code: SOLID Principles – Dev.to&lt;/a>, so as the initial code we have the following:&lt;/p></description></item><item><title>Error Handling</title><link>https://hugo-toha.github.io/notes/01-csharp/02-object-oriented-programming/99-error-handling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-csharp/02-object-oriented-programming/99-error-handling/</guid><description>&lt;!-- Error Handling -->
+&lt;p>I&amp;rsquo;ll be using the same example from &lt;a href="https://dev.to/moh_moh701/c-clean-code-solid-principles-51ed" target="_blank" rel="noopener">C# Clean Code: SOLID Principles – Dev.to&lt;/a>, so as the initial code we have the following:&lt;/p></description></item><item><title>Functional Programming</title><link>https://hugo-toha.github.io/notes/01-software-design-and-architecture/02-programming-paradigms/03-functional-programming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-software-design-and-architecture/02-programming-paradigms/03-functional-programming/</guid><description>&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Content&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;ol>
+&lt;li>Use Intention-Revealing Names&lt;/li>
+&lt;li>Avoid Disinformation&lt;/li>
+&lt;li>Make Meaningful Distinctions&lt;/li>
+&lt;li>Use Pronounceable Names&lt;/li>
+&lt;li>Use Searchable Names&lt;/li>
+&lt;li>Avoid Encodings&lt;/li>
+&lt;li>Avoid Mental Mapping&lt;/li>
+&lt;li>Class Names&lt;/li>
+&lt;li>Method Names&lt;/li>
+&lt;li>Don&amp;rsquo;t Be Cute&lt;/li>
+&lt;li>Pick One Word per Concept&lt;/li>
+&lt;li>Don&amp;rsquo;t Pun&lt;/li>
+&lt;li>Use Solution Domain Names&lt;/li>
+&lt;li>Use Problem Domain Names&lt;/li>
+&lt;li>Don&amp;rsquo;t Add Gratuitous Context&lt;/li>
+&lt;li>Resources&lt;/li>
+&lt;/ol>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Overview&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>The third paradigm, which has only recently begun to be adopted, was the first to be invented. Indeed, its invention predates computer programming itself. Functional programming is the direct result of the work of &lt;strong>Alonzo Church&lt;/strong>, who in 1936 invented l-calculus while pursuing the same mathematical problem that was motivating Alan Turing at the same time. His l-calculus is the foundation of the LISP language, invented in 1958 by John McCarthy. A foundational notion of l-calculus is immutability—that is, the notion that the values of symbols do not change. This effectively means that a functional language has no assignment statement. Most functional languages do, in fact, have some means to alter the value of a variable, but only under very strict discipline.&lt;/p></description></item><item><title>Error Handling</title><link>https://hugo-toha.github.io/notes/02-csharp/02-object-oriented-programming/99-error-handling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-csharp/02-object-oriented-programming/99-error-handling/</guid><description>&lt;!-- Error Handling -->
 &lt;div class="note-card ">
 &lt;div class="item">
 &lt;h5 class="note-title">&lt;span>Error Handling&lt;/span>&lt;/h5>
