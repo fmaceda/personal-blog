@@ -1,0 +1,326 @@
+<!doctype html><html lang=en><head><title>Meaningful Names</title><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=X-UA-Compatible content="ie=edge"><link rel=stylesheet href=/application.c70fd453a478ec1ba9228fe0ac825920546e478f45fe6a1449729f91bc760797.css integrity="sha256-xw/UU6R47BupIo/grIJZIFRuR49F/moUSXKfkbx2B5c="><link rel=icon type=image/png href=/images/site/favicon_hu_a7920c91965714cb.png><meta property="og:title" content="Fernando's Blog"><meta property="og:type" content="website"><meta property="og:description" content="Portfolio and personal blog of Fernando Maceda."><meta property="og:image" content="/images/author/john.png"><meta property="og:url" content="https://hugo-toha.github.io"><script async src="https://www.googletagmanager.com/gtag/js?id=G-H4LBG7NDFZ"></script><script>var dnt,doNotTrack=!1;if(null&&(dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes"),!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-H4LBG7NDFZ")}</script><script integrity="sha256-DO4ugzEwhTW1Id1UIWn0gUJWaebCYOypeTit6LW4QB4=">let theme=localStorage.getItem("theme-scheme")||localStorage.getItem("darkmode:color-scheme")||"light";theme==="system"&&(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?theme="dark":theme="light"),document.documentElement.setAttribute("data-theme",theme)</script></head><body class="type-notes kind-page" data-bs-spy=scroll data-bs-target=#TableOfContents data-bs-offset=80><div class="container-fluid bg-secondary wrapper"><nav class="navbar navbar-expand-xl top-navbar shadow" id=top-navbar><div class=container><button class="navbar-toggler navbar-light" id=sidebar-toggler type=button>
+<i data-feather=sidebar></i>
+</button>
+<a class=navbar-brand href=/><img src=/images/site/main-logo_hu_77a6e5ea6e57520b.png id=logo alt=Logo>
+Fernando's Blog</a>
+<button class="navbar-toggler navbar-light" id=navbar-toggler type=button data-bs-toggle=collapse data-bs-target=#top-nav-items aria-label=menu>
+<i data-feather=menu></i></button><div class="collapse navbar-collapse dynamic-navbar" id=top-nav-items><ul class="nav navbar-nav ms-auto"><li class=nav-item><a class=nav-link href=/#home>Home</a></li><li class=nav-item><a class=nav-link href=/#about>About</a></li><li class=nav-item><a class=nav-link href=/#skills>Skills</a></li><li class=nav-item><a class=nav-link href=/#experiences>Experiences</a></li><li class=nav-item><a class=nav-link href=/#education>Education</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href=# id=navbarDropdown role=button data-bs-toggle=dropdown aria-haspopup=true aria-expanded=false>More</a><div class=dropdown-menu aria-labelledby=navbarDropdown><a class=dropdown-item href=/#projects>Projects</a>
+<a class=dropdown-item href=/#accomplishments>Accomplishments</a></div></li><div id=top-navbar-divider></div><li class=nav-item><a class=nav-link href=https://toha-guides.netlify.app/posts/>Docs</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href=# id=themeSelector role=button data-bs-toggle=dropdown aria-haspopup=true aria-expanded=false><img id=navbar-theme-icon-svg class=theme-icon src=/icons/moon-svgrepo-com.svg width=20 alt="Dark Theme"></a><div id=themeMenu class="dropdown-menu dropdown-menu-icons-only" aria-labelledby=themeSelector><a class="dropdown-item nav-link" href=# data-scheme=light><img class=theme-icon src=/icons/sun-svgrepo-com.svg width=20 alt="Light Theme">
+</a><a class="dropdown-item nav-link" href=# data-scheme=dark><img class=theme-icon src=/icons/moon-svgrepo-com.svg width=20 alt="Dark Theme">
+</a><a class="dropdown-item nav-link" href=# data-scheme=system><img class=theme-icon src=/icons/computer-svgrepo-com.svg width=20 alt="System Theme"></a></div></li></ul></div></div><img src=/images/site/main-logo_hu_77a6e5ea6e57520b.png class=d-none id=main-logo alt=Logo>
+<img src=/images/site/inverted-logo_hu_a7920c91965714cb.png class=d-none id=inverted-logo alt="Inverted Logo"></nav><section class=sidebar-section id=sidebar-section><div class=sidebar-holder><div class=sidebar id=sidebar><form class=mx-auto method=get action=/search><input type=text name=keyword placeholder=Search data-search id=search-box></form><div class=sidebar-tree><ul class=tree id=tree><li id=list-heading><a href=/notes data-filter=all>Notes</a></li><div class=subtree><li><i data-feather=plus-circle></i><a class=list-link href=/notes/01-languages/> Languages</a><ul><li><i data-feather=plus-circle></i><a class=list-link href=/notes/01-languages/01-csharp-dotnet/> CSharp and .NET Notes</a><ul><li><a class=list-link href=/notes/01-languages/01-csharp-dotnet/00-roadmap/ title=Roadmap>Roadmap</a></li><li><i data-feather=plus-circle></i><a class=list-link href=/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/> Fundamentals</a><ul><li><a class=list-link href=/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-01-introduction/ title=Introduction>Introduction</a></li><li><a class=list-link href=/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-02-types/ title="Data Types">Data Types</a></li><li><a class=list-link href=/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-03-methods/ title=Methods>Methods</a></li><li><a class=list-link href=/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-04-flow-control/ title="Flow Control">Flow Control</a></li><li><a class=list-link href=/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-05-convert-data-types/ title="Data Type Conversion">Data Type Conversion</a></li><li><a class=list-link href=/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-06-methods-on-arrays/ title="Methods on Arrays">Methods on Arrays</a></li><li><a class=list-link href=/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-07-data-formatting/ title="Data Formatting">Data Formatting</a></li><li><a class=list-link href=/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-08-string-methods/ title="String Methods">String Methods</a></li><li><a class=list-link href=/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-09-classes/ title=Classes>Classes</a></li><li><a class=list-link href=/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-10-abstract/ title="Abstract Classes">Abstract Classes</a></li><li><a class=list-link href=/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-11-records/ title=Records>Records</a></li><li><a class=list-link href=/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-12-interfaces/ title=Interfaces>Interfaces</a></li><li><a class=list-link href=/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-13-generics/ title=Generics>Generics</a></li><li><a class=list-link href=/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-14-anonymous-types/ title="Anonymous Types">Anonymous Types</a></li></ul></li><li><i data-feather=plus-circle></i><a class=list-link href=/notes/01-languages/01-csharp-dotnet/x-02-advanced/> Advanced</a><ul><li><a class=list-link href=/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-01-list-collections/ title="List Collections">List Collections</a></li><li><a class=list-link href=/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-02-arrays/ title=Arrays>Arrays</a></li><li><a class=list-link href=/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-03-linq/ title="Language Integrated Query (LINQ)">Language Integrated Query (LINQ)</a></li><li><a class=list-link href=/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-04-delegates-and-events/ title="Delegates and events">Delegates and events</a></li></ul></li><li><a class=list-link href=/notes/01-languages/01-csharp-dotnet/03-dotnet-and-asp-dotnet-core/ title="Dotnet and ASP Dotnet Core">Dotnet and ASP Dotnet Core</a></li><li><a class=list-link href=/notes/01-languages/01-csharp-dotnet/04-entity-framework-core/ title="Data Access with Entity Framework Core">Data Access with Entity Framework Core</a></li><li><a class=list-link href=/notes/01-languages/01-csharp-dotnet/05-rest-api/ title="REST APIs with ASP Dotnet Core">REST APIs with ASP Dotnet Core</a></li><li><a class=list-link href=/notes/01-languages/01-csharp-dotnet/06-security-and-authentication/ title="Security and Authentication">Security and Authentication</a></li><li><a class=list-link href=/notes/01-languages/01-csharp-dotnet/07-testing/ title=Testing>Testing</a></li></ul></li></ul></li><li><i data-feather=minus-circle></i><a class="active list-link" href=/notes/02-software-design-and-architecture/> Software Design and Architecture</a><ul class=active><li><a class=list-link href=/notes/02-software-design-and-architecture/x-00-roadmap/ title=Roadmap>Roadmap</a></li><li><i data-feather=minus-circle></i><a class="active list-link" href=/notes/02-software-design-and-architecture/x-01-clean-code/> Clean Code</a><ul class=active><li><a class="active list-link" href=/notes/02-software-design-and-architecture/x-01-clean-code/x-01-meaningful-names/ title="Meaningful Names">Meaningful Names</a></li><li><a class=list-link href=/notes/02-software-design-and-architecture/x-01-clean-code/x-02-functions/ title=Functions>Functions</a></li><li><a class=list-link href=/notes/02-software-design-and-architecture/x-01-clean-code/x-03-comments/ title=Comments>Comments</a></li><li><a class=list-link href=/notes/02-software-design-and-architecture/x-01-clean-code/x-04-formatting/ title=Formatting>Formatting</a></li><li><a class=list-link href=/notes/02-software-design-and-architecture/x-01-clean-code/x-05-objects-and-data-structure/ title="Objects and Data Structure">Objects and Data Structure</a></li></ul></li><li><i data-feather=plus-circle></i><a class=list-link href=/notes/02-software-design-and-architecture/x-02-programming-paradigms/> Programming Paradigms</a><ul><li><a class=list-link href=/notes/02-software-design-and-architecture/x-02-programming-paradigms/x-01-structured-programming/ title="Structured Programming">Structured Programming</a></li><li><a class=list-link href=/notes/02-software-design-and-architecture/x-02-programming-paradigms/x-02-object-oriented-programming/ title="Object-oriented Programming">Object-oriented Programming</a></li><li><a class=list-link href=/notes/02-software-design-and-architecture/x-02-programming-paradigms/x-03-functional-programming/ title="Functional Programming">Functional Programming</a></li></ul></li></ul></li><li><i data-feather=plus-circle></i><a class=list-link href> notes-csharp-oop</a><ul><li><a class=list-link href=/notes/02-software-design-and-architecture/x-03-oop/x-01-principles/ title="OOP Principles">OOP Principles</a></li><li><a class=list-link href=/notes/02-software-design-and-architecture/x-03-oop/x-02-solid/ title="SOLID Principles">SOLID Principles</a></li><li><a class=list-link href=/notes/02-software-design-and-architecture/x-03-oop/99-error-handling/ title="Error Handling">Error Handling</a></li></ul></li></div></ul></div></div></div></section><section class=content-section id=content-section><div class="content container-fluid" id=content><div class="container-fluid note-card-holder" id=note-card-holder><div class=note-card><div class=item><h5 class=note-title><span>Content</span></h5><div class=card><div class=card-body><ol><li>Use Intention-Revealing Names</li><li>Avoid Disinformation</li><li>Make Meaningful Distinctions</li><li>Use Pronounceable Names</li><li>Use Searchable Names</li><li>Avoid Encodings</li><li>Avoid Mental Mapping</li><li>Class Names</li><li>Method Names</li><li>Don&rsquo;t Be Cute</li><li>Pick One Word per Concept</li><li>Don&rsquo;t Pun</li><li>Use Solution Domain Names</li><li>Use Problem Domain Names</li><li>Don&rsquo;t Add Gratuitous Context</li><li>Resources</li></ol></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Use Intention-Revealing Names</span></h5><div class=card><div class=card-body><p>The name of a variable, function, or class, should answer all the big questions. It should tell you why it exists, what it does, and how it is used. If a name requires a comment, then the name does not reveal its intent.</p><h4 id=example-1>Example 1</h4><p>Let&rsquo;s say we want to define a variable to store elapsed time in days.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#75715e>// No question is answered. </span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> d; <span style=color:#75715e>// elapsed time in days</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// The name has now more sense.</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> elapsedTimeInDays;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> daysSinceCreation;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> daysSinceModification;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> fileAgeInDays;
+</span></span></code></pre></div><h4 id=example-2>Example 2</h4><p>Let&rsquo;s try to analyze what&rsquo;s the purpose of this code:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span>List&lt;<span style=color:#66d9ef>int</span>[]&gt; theList = <span style=color:#66d9ef>new</span>();
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> List&lt;<span style=color:#66d9ef>int</span>[]&gt; GetThem() {
+</span></span><span style=display:flex><span>  List&lt;<span style=color:#66d9ef>int</span>[]&gt; list1 = <span style=color:#66d9ef>new</span>();
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>foreach</span> (<span style=color:#66d9ef>int</span>[] x <span style=color:#66d9ef>in</span> theList)
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>if</span> (x[<span style=color:#ae81ff>0</span>] == <span style=color:#ae81ff>4</span>) 
+</span></span><span style=display:flex><span>    {	
+</span></span><span style=display:flex><span>      list1.Add(x);
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>return</span> list1;
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>There are some questions we need to answer, so we can understand the code:</p><ol><li>What kinds of things are in <code>theList</code>?</li><li>What is the significance of the zeroth subscript of an item in <code>theList</code>?</li><li>What is the significance of the value <code>4</code>?</li><li>How would I use the list being returned?</li></ol><p>Let&rsquo;s say we have the following context:</p><ol><li>We&rsquo;re working in a mine sweeper game.</li><li>We find that the board is a list of cells called <code>theList</code>. Let&rsquo;s rename that to <code>gameBoard</code>.</li><li>Each cell on the board is represented by a simple array.</li><li>We further find that the zeroth subscript is the location of a <code>status</code> value and that a status value of <code>4</code> means <code>flagged</code>.</li></ol><p>Just by giving these concepts names we can improve the code considerably:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span>List&lt;<span style=color:#66d9ef>int</span>[]&gt; gameBoard = <span style=color:#66d9ef>new</span>();
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>const</span> <span style=color:#66d9ef>int</span> StatusValue = <span style=color:#ae81ff>0</span>;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>const</span> <span style=color:#66d9ef>int</span> Flagged = <span style=color:#ae81ff>4</span>;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> List&lt;<span style=color:#66d9ef>int</span>[]&gt; GetFlaggedCells() {
+</span></span><span style=display:flex><span>		
+</span></span><span style=display:flex><span>  List&lt;<span style=color:#66d9ef>int</span>[]&gt; flaggedCells = <span style=color:#66d9ef>new</span>();
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>foreach</span> (<span style=color:#66d9ef>int</span>[] cell <span style=color:#66d9ef>in</span> gameBoard) 
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>if</span> (cell[StatusValue] == Flagged)
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>      flaggedCells.Add(cell);
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>  
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>return</span> flaggedCells;
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>The simplicity of the code has not changed, but the code has become much more explicit.</p><p>There&rsquo;s a chance to make it even clearer by creating a class for cells instead of using array of <code>int</code>:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span>List&lt;<span style=color:#66d9ef>int</span>[]&gt; gameBoard = <span style=color:#66d9ef>new</span>();
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Cell</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>private</span> <span style=color:#66d9ef>int</span> Status { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>bool</span> IsFlagged()
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    ... <span style=color:#75715e>// The logic to handle each status goes here.</span>
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> List&lt;Cell&gt; GetFlaggedCells() {
+</span></span><span style=display:flex><span>		
+</span></span><span style=display:flex><span>  List&lt;Cell&gt; flaggedCells = <span style=color:#66d9ef>new</span>();
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>foreach</span> (Cell cell <span style=color:#66d9ef>in</span> gameBoard) 
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>if</span> (cell.IsFlagged())
+</span></span><span style=display:flex><span>    {
+</span></span><span style=display:flex><span>      flaggedCells.Add(cell);
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>  
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>return</span> flaggedCells;
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Avoid Disinformation</span></h5><div class=card><div class=card-body><p>Programmers must avoid leaving false clues that obscure the meaning of code.</p><h4 id=example-1>Example 1</h4><p>Do not use abbreviation.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#66d9ef>int</span> hp;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>string</span> aix;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>bool</span> sco;
+</span></span></code></pre></div><br><h4 id=example-2>Example 2</h4><p>Do not refer to a grouping of accounts as an <code>accountList</code> unless it&rsquo;s actually a List.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span>Dictionary&lt;Account&gt; accountList = <span style=color:#66d9ef>new</span>(); <span style=color:#75715e>// If the container holding the accounts is not actually a List, it may lead to false conclusions.</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// A better way to name the variable would be:</span>
+</span></span><span style=display:flex><span>Dictionary&lt;Account&gt; accountGroup = <span style=color:#66d9ef>new</span>();
+</span></span><span style=display:flex><span>Dictionary&lt;Account&gt; bunchOfAccounts = <span style=color:#66d9ef>new</span>();
+</span></span><span style=display:flex><span>Dictionary&lt;Account&gt; accounts = <span style=color:#66d9ef>new</span>();
+</span></span></code></pre></div><br><h4 id=example-3>Example 3</h4><p>How long does it take to spot the subtle difference between the following variables:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#66d9ef>string</span> XYZControllerForEfficientHandlingOfStrings;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>string</span> XYZControllerForEfficientStorageOfStrings;
+</span></span></code></pre></div><br><p>Spelling similar concepts similarly is information. Using inconsistent spellings is disinformation.
+It is very helpful if names for very similar things sort together alphabetically and if the differences are very obvious</p><h4 id=example-4>Example 4</h4><p>A truly awful example of disinformative names would be the use of lower-case L or uppercase O as variable names, especially in combination.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#66d9ef>int</span> a = l;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>if</span> ( O == l )
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  a = O1;
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span><span style=color:#66d9ef>else</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>  l = <span style=color:#ae81ff>01</span>;
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><br><p>The problem, of course, is that they look almost entirely like the constants one and zero, respectively.</p></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Make Meaningful Distinctions</span></h5><div class=card><div class=card-body><p>If names must be different, then they should also mean something different.</p><h4 id=example-1>Example 1</h4><p>Number-series naming (a1, a2, .. aN) is the opposite of intentional naming.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#75715e>// a1 and a2 variables doesn&#39;t have any meaningful distinction.</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>static</span> <span style=color:#66d9ef>void</span> CopyChars(<span style=color:#66d9ef>char</span>[] a1, <span style=color:#66d9ef>char</span>[] a2) {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> i = <span style=color:#ae81ff>0</span>; i &lt; a1.Length; i++) {
+</span></span><span style=display:flex><span>    a2[i] = a1[i];
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// If we call them source and destination, they mean something different.</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>static</span> <span style=color:#66d9ef>void</span> CopyChars(<span style=color:#66d9ef>char</span>[] source, <span style=color:#66d9ef>char</span>[] destination) {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> i = <span style=color:#ae81ff>0</span>; i &lt; source.Length; i++) {
+</span></span><span style=display:flex><span>    destination[i] = source[i];
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><br><h4 id=example-2>Example 2</h4><p>Noise words are another meaningless distinction.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Product</span> {
+</span></span><span style=display:flex><span>  ...
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>ProductInfo</span> { <span style=color:#75715e>// This class name doesnt have a different meaning than Product class</span>
+</span></span><span style=display:flex><span>  ...
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>ProductData</span> { <span style=color:#75715e>// This class name doesnt have a different meaning than Product class</span>
+</span></span><span style=display:flex><span>  ...
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><br><h4 id=example-3>Example 3</h4><p>Some other recommendations.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#75715e>// Wrong use of some words.</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>string</span> NameVariable;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>string</span> NameString;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>string</span>[] UsersTable;
+</span></span><span style=display:flex><span>Customer customerObject = <span style=color:#66d9ef>new</span>();
+</span></span><span style=display:flex><span>CustomerObject customer = <span style=color:#66d9ef>new</span>();
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// Avoid using type words.</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>string</span> Name;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>string</span>[] Users;
+</span></span><span style=display:flex><span>Customer customer = <span style=color:#66d9ef>new</span>();
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Use Pronounceable Names</span></h5><div class=card><div class=card-body><p>Make your names pronounceable. If you can&rsquo;t pronounce it, you can&rsquo;t discuss it without sounding like an idiot.</p><h4 id=example>Example</h4><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#75715e>// Wrong use pronounceable names.</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>class</span> <span style=color:#a6e22e>DtaRcrd102</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>private</span> DateTime Genymdhms;
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>private</span> DateTime Modymdhms;
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>private</span> String Pszqint = <span style=color:#e6db74>&#34;102&#34;</span>;
+</span></span><span style=display:flex><span>  ...
+</span></span><span style=display:flex><span>};
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// Meaninful names and easy to pronounce.</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Customer</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>private</span> DateTime GenerationTimestamp;
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>private</span> DateTime ModificationTimestamp;
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>private</span> String RecordId = <span style=color:#e6db74>&#34;102&#34;</span>;
+</span></span><span style=display:flex><span>};
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Use Searchable Names</span></h5><div class=card><div class=card-body><p>If a variable or constant might be seen or used in multiple places in a body of code, it is imperative to give it a search-friendly name.</p><h4 id=example>Example</h4><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#75715e>// Short variable names which are not useful for searching.</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> s = <span style=color:#ae81ff>0</span>;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> t[] = [<span style=color:#ae81ff>1</span>, <span style=color:#ae81ff>2</span>, <span style=color:#ae81ff>3</span>, <span style=color:#ae81ff>4</span>, <span style=color:#ae81ff>5</span>, <span style=color:#ae81ff>6</span>, ...];
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> j=<span style=color:#ae81ff>0</span>; j&lt;<span style=color:#ae81ff>34</span>; j++) {
+</span></span><span style=display:flex><span>  s += (t[j]*<span style=color:#ae81ff>4</span>)/<span style=color:#ae81ff>5</span>;
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// Meaninful names and are useful for searching.</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> realDaysPerIdealDay = <span style=color:#ae81ff>4</span>;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> realdays = <span style=color:#ae81ff>3</span>;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>const</span> <span style=color:#66d9ef>int</span> WORK_DAYS_PER_WEEK = <span style=color:#ae81ff>5</span>;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>const</span> <span style=color:#66d9ef>int</span> NUMBER_OF_TASKS = <span style=color:#ae81ff>34</span>;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> sum = <span style=color:#ae81ff>0</span>;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>int</span> taskEstimate[] = [<span style=color:#ae81ff>1</span>, <span style=color:#ae81ff>2</span>, <span style=color:#ae81ff>3</span>, <span style=color:#ae81ff>4</span>, <span style=color:#ae81ff>5</span>, <span style=color:#ae81ff>6</span>, ...];
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> j=<span style=color:#ae81ff>0</span>; j &lt; NUMBER_OF_TASKS; j++) {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>int</span> realTaskDays = taskEstimate[j] * realDaysPerIdealDay;
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>int</span> realTaskWeeks = (realdays / WORK_DAYS_PER_WEEK);
+</span></span><span style=display:flex><span>  sum += realTaskWeeks;
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Avoid Encodings</span></h5><div class=card><div class=card-body><p>Encoding type or scope information into names simply adds an extra burden of deciphering.</p><h4 id=hungarian-notation>Hungarian Notation</h4><p>Hungarian Notation is a naming convention in programming where variable and function names include information about their type, purpose, or intended use.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#75715e>// Given we have a phone number variable in string type, we declare the following:</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>string</span> phoneString;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// We then change the type to Phone Number:</span>
+</span></span><span style=display:flex><span>PhoneNumber phoneString;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// The name will not changed when type changed!</span>
+</span></span></code></pre></div><br><h4 id=member-prefixes>Member Prefixes</h4><p>You also don&rsquo;t need to prefix member variables with m_ anymore.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#75715e>// Using a short name for description. You need to have a comment explaining the context of the variable.</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Part</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>private</span> <span style=color:#66d9ef>string</span> m_dsc; <span style=color:#75715e>// The textual description</span>
+</span></span><span style=display:flex><span>  
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>void</span> SetName(String name) {
+</span></span><span style=display:flex><span>    m_dsc = name;
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// Using a meaninful name for description. It&#39;s not required any extra comment to explain what does the variable is used to.</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Part</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>string</span> Description;
+</span></span><span style=display:flex><span>  
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>void</span> SetDescription(String description) {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>this</span>.description = description;
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><br><h4 id=interfaces-and-implementations>Interfaces and Implementations</h4><p>Interfaces and implementations will have the same name, so we need to somehow difference them.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>interface</span> <span style=color:#a6e22e>IAnimal</span> { ... }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Animal</span> : IAnimal { ... }
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Avoid Mental Mapping</span></h5><div class=card><div class=card-body><p>Readers shouldn&rsquo;t have to mentally translate your names into other names they already know. This problem generally arises from a choice to use neither problem domain terms nor solution domain terms.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#66d9ef>string</span>[] groups = [ .... ];
+</span></span><span style=display:flex><span><span style=color:#66d9ef>string</span>[] people = [ .... ];
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// Using traditional i and j variables, so we need to have a mental mapping that i is iterating groups and j is iterating people.</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> i = <span style=color:#ae81ff>0</span>; i &lt; groups.Length; i++) {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> j = <span style=color:#ae81ff>0</span>; j &lt; people.Length; j++) {
+</span></span><span style=display:flex><span>    ...
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// If we use meaninful names for groupId and personId, then we don&#39;t need to have a mental mapping.</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> groupId = <span style=color:#ae81ff>0</span>; groupId &lt; groups.Length; groupId++) {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>int</span> personId = <span style=color:#ae81ff>0</span>; personId &lt; people.Length; personId++) {
+</span></span><span style=display:flex><span>    ...
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Class Names</span></h5><div class=card><div class=card-body><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#75715e>// Classes and objects should have noun or noun phrase names.</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Customer</span> { ... }
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>WikiPage</span> { ... }
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Account</span> { ... }
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>AddressParser</span> { ... }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// Avoid words like Manager, Processor, Data, or Info in the name of a class.</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>CustomerData</span> { ... }
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>CustomerInfo</span> { ... }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// A class name should not be a verb.</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Eating</span> { ... }
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Method Names</span></h5><div class=card><div class=card-body><p>Methods should have verb or verb phrase names.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> PostPayment() { ... }
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> DeletePage() { ... }
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> Save() { ... }
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> IsPosted() { ... }
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Don't Be Cute</span></h5><div class=card><div class=card-body><p>If names are too clever, they will be memorable only to people who share the author&rsquo;s sense of humor, and only as long as these people remember the joke.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#75715e>// Cute but not meaninful.</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> HolyHandGrenade() { ... }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// Meaninful named method.</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> DeleteItems() { ... }
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Pick One Word per Concept</span></h5><div class=card><div class=card-body><p>Pick one word for one abstract concept and stick with it.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#75715e>// Using different names for the same purpose.</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>UserService</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> List&lt;User&gt; Fetch() { ... } 
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>GroupService</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> List&lt;Group&gt; Retrieve() { ... }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>TaskService</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> List&lt;Task&gt; Get() { ... }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// Using one same name for the same purpose.</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>UserService</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> List&lt;User&gt; Get() { ... } 
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>GroupService</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> List&lt;Group&gt; Get() { ... }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>TaskService</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> List&lt;Task&gt; Get() { ... }
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Don't Pun</span></h5><div class=card><div class=card-body><p>Avoid using the same word for two purposes. Using the same term for two different ideas is essentially a pun.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#75715e>// Using the same name for diffent purposes.</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>UserService</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> Add(User user) { ... } <span style=color:#75715e>// This method let us create a new user.</span>
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>GroupService</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> Add(Group <span style=color:#66d9ef>group</span>, User user) { ... } <span style=color:#75715e>// This method let us insert a user into a group.</span>
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// Using the appropriate name for each purpose.</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>UserService</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> Create(User user) { ... } <span style=color:#75715e>// This method let us create a new user.</span>
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>GroupService</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> Insert(Group <span style=color:#66d9ef>group</span>, User user) { ... } <span style=color:#75715e>// This method let us insert a user into a group.</span>
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Use Solution Domain Names</span></h5><div class=card><div class=card-body><p>Remember that the people who read your code will be programmers. So go ahead and use computer science (CS) terms, algorithm names, pattern names, math terms, and so forth.</p><ul><li>The name <code>AccountVisitor</code> means a great deal to a programmer who is familiar with the VISITOR pattern.</li><li>What programmer would not know what a <code>JobQueue</code> was?</li></ul><p>There are lots of very technical things that programmers have to do. Choosing technical names for those things is usually the most appropriate course.</p></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Use Problem Domain Names</span></h5><div class=card><div class=card-body><p>If there are no programming terms, we can use terms related to the feature or business.</p><h4 id=example>Example</h4><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Account</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>private</span> <span style=color:#66d9ef>string</span> AccountBalance; <span style=color:#75715e>// This variable name has no programming terms, so it&#39;s related to the bussiness.</span>
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><br><p>Separating solution and problem domain concepts is part of the job of a good programmer and designer. The code that has more to do with problem domain concepts should have names drawn from the problem domain.</p></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Add Meaningful Context</span></h5><div class=card><div class=card-body><p>There are a few names which are meaningful in and of themselves—most are not. Instead, you need to place names in context for your reader by enclosing them in well-named classes, methods, functions, etc.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#75715e>// We have several fields that doesn&#39;t have a clear context</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>User</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>string</span> FirstName { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>string</span> LastName { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>string</span> Street { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>int</span> HouseNumber { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>string</span> City { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>string</span> State { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>string</span> Zipcode { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>User user = <span style=color:#66d9ef>new</span>();
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// In this context, we only know the State property is part of the user.</span>
+</span></span><span style=display:flex><span>Console.WriteLine(user.State);
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// In this context, we only know the State propertyis part of the user&#39;s address</span>
+</span></span><span style=display:flex><span>Console.WriteLine(user.Street);
+</span></span><span style=display:flex><span>Console.WriteLine(user.HouseNumber);
+</span></span><span style=display:flex><span>Console.WriteLine(user.City);
+</span></span><span style=display:flex><span>Console.WriteLine(user.State);
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// </span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Address</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>string</span> Street { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>int</span> HouseNumber { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>string</span> City { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>string</span> State { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>string</span> Zipcode { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>User</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>string</span> FirstName { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> <span style=color:#66d9ef>string</span> LastName { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>public</span> Address Address { <span style=color:#66d9ef>get</span>; <span style=color:#66d9ef>set</span>; }
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>User user = <span style=color:#66d9ef>new</span>();
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// In this context, we do know the State property is part of the user&#39;s address.</span>
+</span></span><span style=display:flex><span>Console.WriteLine(user.Address.State);
+</span></span></code></pre></div></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Don't Add Gratuitous Context</span></h5><div class=card><div class=card-body><p>In an imaginary application called &ldquo;Gas Station Deluxe,&rdquo; it is a bad idea to prefix every class with GSD. Frankly, you are working against your tools. You type G and press the completion key and are rewarded with a mile-long list of every class in the system. Is that wise? Why make it hard for the IDE to help you?</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-csharp data-lang=csharp><span style=display:flex><span><span style=color:#75715e>// Likewise, say you invented a &#34;MailingAddress&#34; class in GSD&#39;s accounting module, and you named it &#34;GSDAccountAddress&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>GSDAccountAddress</span> { ... }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// Later, you need a mailing address for your customer contact application. Do you use &#34;GSDAccountCustomer&#34;? Does it sound like the right name? Some characters are redundant or irrelevant.</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>GSDAccountCustomer</span> { ... }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// The names &#34;accountAddress&#34; and &#34;customerAddress&#34; are fine names for instances of the class &#34;Address&#34; but could be poor names for classes.</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Address</span> { ... }
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>Address accountAddress = <span style=color:#66d9ef>new</span>();
+</span></span><span style=display:flex><span>Address customerAddress = <span style=color:#66d9ef>new</span>();
+</span></span></code></pre></div><br><p>Shorter names are generally better than longer ones, so long as they are clear. Add no more context to a name than is necessary.</p></div></div></div></div><div class=note-card><div class=item><h5 class=note-title><span>Resources</span></h5><div class=card><div class=card-body><ul><li><em>Clean Code: A Handbook of Agile Software Craftsmanship</em>, by Robert C. Martin</li><li><a href=https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/identifier-names target=_blank rel=noopener>Identifier name - rules and conventions - C# | Microsoft Learn</a></li><li><a href=https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions target=_blank rel=noopener>.NET Coding Conventions - C# | Microsoft Learn</a></li><li><a href=https://dev.to/caiocesar/clean-code-in-c-part-1-meaningful-names-1i0g target=_blank rel=noopener>Clean Code in C# Part 1 Meaningful Names - DEV Community</a></li></ul></div></div></div></div></div></div></section></div><footer id=footer class="container-fluid text-center align-content-center footer pb-2"><div class="container pt-5"><div class="row text-start"><div class="col-md-4 col-sm-12"><h5>Navigation</h5><ul><li class=nav-item><a class=smooth-scroll href=https://hugo-toha.github.io/#about>About</a></li><li class=nav-item><a class=smooth-scroll href=https://hugo-toha.github.io/#skills>Skills</a></li><li class=nav-item><a class=smooth-scroll href=https://hugo-toha.github.io/#experiences>Experiences</a></li><li class=nav-item><a class=smooth-scroll href=https://hugo-toha.github.io/#education>Education</a></li><li class=nav-item><a class=smooth-scroll href=https://hugo-toha.github.io/#projects>Projects</a></li><li class=nav-item><a class=smooth-scroll href=https://hugo-toha.github.io/#accomplishments>Accomplishments</a></li></ul></div><div class="col-md-4 col-sm-12"><h5>Contact me:</h5><ul><li><a href=mailto:ferna.mace.34@gmail.com target=_blank rel=noopener><span><i class="fas fa-envelope"></i></span> <span>ferna.mace.34@gmail.com</span></a></li><li><a href=https://github.com/fmacedas target=_blank rel=noopener><span><i class="fab fa-github"></i></span> <span>fmacedas</span></a></li><li><a href=https://www.linkedin.com/in/fernando-maceda-silva target=_blank rel=noopener><span><i class="fab fa-linkedin"></i></span> <span>Fernando Maceda</span></a></li><li><a href=tel:+591%2078989963 target=_blank rel=noopener><span><i class="fas fa-phone-alt"></i></span> <span>+591 78989963</span></a></li></ul></div></div></div><hr><div class=container><div class="row text-start"><div class=col-md-4><a id=theme href=https://github.com/hugo-toha/toha target=_blank rel=noopener><img src=/images/theme-logo_hu_b3360284c55cf72d.png alt="Toha Theme Logo">
+Toha</a></div><div class="col-md-4 text-center">© 2024 Copyright.</div><div class="col-md-4 text-end"><a id=hugo href=https://gohugo.io/ target=_blank rel=noopener>Powered by
+<img src=/images/hugo-logo.svg alt="Hugo Logo" height=18></a></div></div></div></footer><script src=/application.73f75eb9381fc3594866cb3e05da7d2258474f03ee945ca6935782ea1f715e5d.js integrity="sha256-c/deuTgfw1lIZss+Bdp9IlhHTwPulFymk1eC6h9xXl0=" defer></script></body></html>

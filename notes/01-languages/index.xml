@@ -1,0 +1,1290 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Languages on Fernando's Blog</title><link>https://hugo-toha.github.io/notes/01-languages/</link><description>Recent content in Languages on Fernando's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://hugo-toha.github.io/notes/01-languages/index.xml" rel="self" type="application/rss+xml"/><item><title>Roadmap</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/00-roadmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/00-roadmap/</guid><description>&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>(1) CSharp Fundamentals&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;h3 id="topics">Topics&lt;/h3>
+&lt;ul>
+&lt;li>Variables and data types&lt;/li>
+&lt;li>Control structures: &lt;code>if&lt;/code>, &lt;code>switch&lt;/code>, &lt;code>for&lt;/code>, &lt;code>while&lt;/code>&lt;/li>
+&lt;li>Methods and functions&lt;/li>
+&lt;li>Data Formatting&lt;/li>
+&lt;li>String Methods&lt;/li>
+&lt;li>Classes and objects&lt;/li>
+&lt;li>Abstract classes&lt;/li>
+&lt;li>Records&lt;/li>
+&lt;li>Interfaces&lt;/li>
+&lt;li>Generic&lt;/li>
+&lt;li>Anonymous Types&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Resources:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noopener">C# Basics - Microsoft Learn&lt;/a>&lt;/li>
+&lt;li>Free course: &lt;a href="https://www.youtube.com/watch?v=GhQdlIFylQ8" target="_blank" rel="noopener">C# Programming for Beginners (FreeCodeCamp)&lt;/a>&lt;/li>
+&lt;/ul>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>(2) CSharp Advanced&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;h3 id="topics">Topics&lt;/h3>
+&lt;!-- * Encapsulation, inheritance, polymorphism and abstraction
+* SOLID principles
+* Design patterns (Factory, Singleton, Repository) -->
+&lt;ul>
+&lt;li>List Collections&lt;/li>
+&lt;li>Arrays&lt;/li>
+&lt;li>Language Integrated Query (LINQ)&lt;/li>
+&lt;li>Delegates and events&lt;/li>
+&lt;li>Custom exceptions&lt;/li>
+&lt;li>Nullable reference types&lt;/li>
+&lt;/ul>
+&lt;h3 id="resources">Resources&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://learn.microsoft.com/es-es/dotnet/csharp/tour-of-csharp/tutorials/list-collection" target="_blank" rel="noopener">C# Tutorials - List Collections - Microsoft Learn&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;ul>
+&lt;li>Paper &amp;ldquo;Design Principles and Design Patterns&amp;rdquo; by Robert C. Martin&lt;/li>
+&lt;li>Book: &amp;ldquo;Design Patterns in C#&amp;rdquo; by Vaskaran Sarcar&lt;/li>
+&lt;li>&lt;a href="https://refactoring.guru/design-patterns/csharp" target="_blank" rel="noopener">Design Patterns in C# – Refactoring.guru&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://dev.to/moh_moh701/c-clean-code-solid-principles-51ed" target="_blank" rel="noopener">C# Clean Code: SOLID Principles – Dev.to&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/" target="_blank" rel="noopener">Object-oriented programming&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/Apress/design-patterns-csharp-2e" target="_blank" rel="noopener">Apress/design-patterns-csharp-2e – Github.com&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>(3) Dotnet and ASP Dotnet Core&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;h3 id="topics">Topics&lt;/h3>
+&lt;ul>
+&lt;li>Lifecycle of a .NET application&lt;/li>
+&lt;li>Project structure (&lt;code>Program.cs&lt;/code>, &lt;code>Startup.cs&lt;/code>, or &lt;code>builder&lt;/code>)&lt;/li>
+&lt;li>Routing and controllers (&lt;code>Controller&lt;/code>, &lt;code>Route&lt;/code>, &lt;code>HttpGet/Post/etc.&lt;/code>)&lt;/li>
+&lt;li>Dependency Injection&lt;/li>
+&lt;li>Middleware&lt;/li>
+&lt;/ul>
+&lt;h3 id="resources">Resources&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://learn.microsoft.com/en-us/aspnet/core/" target="_blank" rel="noopener">Microsoft Learn: ASP.NET Core&lt;/a>&lt;/li>
+&lt;li>Spanish course: &lt;a href="https://www.youtube.com/watch?v=ayGZztA6VtE" target="_blank" rel="noopener">Complete ASP.NET Core MVC Course (YouTube - Luis Beltrán)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+Core &amp;ndash;&amp;gt;&lt;/p></description></item><item><title>Introduction</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-01-introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-01-introduction/</guid><description>&lt;!-- Getting Started -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Getting Started&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>&lt;strong>What&amp;rsquo;s CSharp?&lt;/strong>&lt;/p>
+&lt;p>C# is a high-level, general-purpose programming language developed by Microsoft as part of the .NET framework. It&amp;rsquo;s an object-oriented language, meaning it uses objects to structure code and data, and is used to build a variety of applications. C# is known for its ease of learning, strong community support, and ability to produce highly performant code.&lt;/p>
+&lt;p>&lt;strong>.NET SDK Instalation&lt;/strong>&lt;/p>
+&lt;p>The easiest way to have the .NET SDK installed in your personal computer is to download &lt;a href="https://visualstudio.microsoft.com/" target="_blank" rel="noopener">Visual Studio&lt;/a>. You can also use other IDE, but you will need to install the &lt;a href="https://dotnet.microsoft.com/en-us/download/visual-studio-sdks" target="_blank" rel="noopener">SDK&lt;/a> manually.&lt;/p></description></item><item><title>Data Types</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-02-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-02-types/</guid><description>&lt;!-- Data types -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Data Types&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>&lt;strong>There are two different data types in C#:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Value Types:&lt;/strong> Directly store the data. Once you assign a value, it holds that data
+&lt;ul>
+&lt;li>&lt;code>int&lt;/code>, &lt;code>char&lt;/code>, &lt;code>float&lt;/code> are just a few examples.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Reference Types:&lt;/strong> Store a memory address. They point to the address of the value.
+&lt;ul>
+&lt;li>&lt;code>string&lt;/code>, &lt;code>class&lt;/code>, &lt;code>array&lt;/code> are commonly used.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Integer data type -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Integer&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>&lt;strong>Math operations:&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> sum = &lt;span style="color:#ae81ff">7&lt;/span> + &lt;span style="color:#ae81ff">5&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> difference = &lt;span style="color:#ae81ff">7&lt;/span> - &lt;span style="color:#ae81ff">5&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> product = &lt;span style="color:#ae81ff">7&lt;/span> * &lt;span style="color:#ae81ff">5&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> quotient = &lt;span style="color:#ae81ff">7&lt;/span> / &lt;span style="color:#ae81ff">5&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> modulus = &lt;span style="color:#ae81ff">7&lt;/span> % &lt;span style="color:#ae81ff">5&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">&amp;#34;Sum: &amp;#34;&lt;/span> + sum); &lt;span style="color:#75715e">// Sum: 12&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">&amp;#34;Difference: &amp;#34;&lt;/span> + difference); &lt;span style="color:#75715e">// Difference: 2&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">&amp;#34;Product: &amp;#34;&lt;/span> + product); &lt;span style="color:#75715e">// Product: 35&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">&amp;#34;Quotient: &amp;#34;&lt;/span> + quotient); &lt;span style="color:#75715e">// Quotient: 1&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Modulus: {7 % 5}&amp;#34;&lt;/span>); &lt;span style="color:#75715e">// Modulus: 2&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Order of operations&lt;/strong>&lt;/p></description></item><item><title>Methods</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-03-methods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-03-methods/</guid><description>&lt;!-- Methods -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Methods&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>&lt;strong>No params:&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">&amp;#34;Generating random numbers:&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>DisplayRandomNumbers(); &lt;span style="color:#75715e">// 17 29 46 36 3 &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">void&lt;/span> DisplayRandomNumbers()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Random random = &lt;span style="color:#66d9ef">new&lt;/span> Random();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> i = &lt;span style="color:#ae81ff">0&lt;/span>; i &amp;lt; &lt;span style="color:#ae81ff">5&lt;/span>; i++)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.Write(&lt;span style="color:#e6db74">$&amp;#34;{random.Next(1, 100)} &amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>&lt;strong>Using parameters:&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>CountTo(&lt;span style="color:#ae81ff">5&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">void&lt;/span> CountTo(&lt;span style="color:#66d9ef">int&lt;/span> max)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> i = &lt;span style="color:#ae81ff">0&lt;/span>; i &amp;lt; max; i++)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.Write(&lt;span style="color:#e6db74">$&amp;#34;{i}, &amp;#34;&lt;/span>); &lt;span style="color:#75715e">// 0, 1, 2, 3, 4&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>&lt;strong>Optional parameters:&lt;/strong>&lt;/p></description></item><item><title>Flow Control</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-04-flow-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-04-flow-control/</guid><description>&lt;!-- Condition -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Condition&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>&lt;strong>if-else operator&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span> color = &lt;span style="color:#e6db74">&amp;#34;black&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">if&lt;/span> (color == &lt;span style="color:#e6db74">&amp;#34;black&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">&amp;#34;It&amp;#39;s black.&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span> (color == &lt;span style="color:#e6db74">&amp;#34;white&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">&amp;#34;It&amp;#39;s white.&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">else&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">&amp;#34;It&amp;#39;s other color.&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>&lt;strong>Conditional Operator&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> saleAmount = &lt;span style="color:#ae81ff">1001&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> discount = saleAmount &amp;gt; &lt;span style="color:#ae81ff">1000&lt;/span> ? &lt;span style="color:#ae81ff">100&lt;/span> : &lt;span style="color:#ae81ff">50&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Discount: {discount}&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>&lt;strong>Scope&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">bool&lt;/span> flag = &lt;span style="color:#66d9ef">true&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">if&lt;/span> (flag)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#66d9ef">value&lt;/span> = &lt;span style="color:#ae81ff">10&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Inside the code block: {value}&amp;#34;&lt;/span>); &lt;span style="color:#75715e">// Prints value.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Outside the code block: {value}&amp;#34;&lt;/span>); &lt;span style="color:#75715e">// Gives error because value is declared inside the if code block.&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Switch Case -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Switch&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span> fruit = &lt;span style="color:#e6db74">&amp;#34;apple&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">switch&lt;/span> (fruit)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">case&lt;/span> &lt;span style="color:#e6db74">&amp;#34;apple&amp;#34;&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;App will display information for apple.&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">case&lt;/span> &lt;span style="color:#e6db74">&amp;#34;banana&amp;#34;&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;App will display information for banana.&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">case&lt;/span> &lt;span style="color:#e6db74">&amp;#34;cherry&amp;#34;&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;App will display information for cherry.&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">default&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;App will not display information about any fruit.&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">break&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Loop -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Loop&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>&lt;strong>Foreach&lt;/strong>&lt;/p></description></item><item><title>Data Type Conversion</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-05-convert-data-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-05-convert-data-types/</guid><description>&lt;!-- Casting type to convert -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Casting&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>Casting truncates the value.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">decimal&lt;/span> myDecimal = &lt;span style="color:#ae81ff">3.14&lt;/span>m;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;decimal: {myDecimal}&amp;#34;&lt;/span>); &lt;span style="color:#75715e">// decimal: 3.14&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> myInt = (&lt;span style="color:#66d9ef">int&lt;/span>)myDecimal;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;int: {myInt}&amp;#34;&lt;/span>); &lt;span style="color:#75715e">// int: 3&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Convert number to string -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>To String&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> first = &lt;span style="color:#ae81ff">5&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> second = &lt;span style="color:#ae81ff">7&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span> message = first.ToString() + second.ToString();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(message); &lt;span style="color:#75715e">// 57&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Convert string to number using Parse() -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Parse&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span> first = &lt;span style="color:#e6db74">&amp;#34;5&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span> second = &lt;span style="color:#e6db74">&amp;#34;7&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> sum = &lt;span style="color:#66d9ef">int&lt;/span>.Parse(first) + &lt;span style="color:#66d9ef">int&lt;/span>.Parse(second);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(sum); &lt;span style="color:#75715e">// 12&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Convert string to number using TryParse() -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Parse&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span> &lt;span style="color:#66d9ef">value&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;102&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> result = &lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">if&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span>.TryParse(&lt;span style="color:#66d9ef">value&lt;/span>, &lt;span style="color:#66d9ef">out&lt;/span> result))
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Measurement: {result}&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">else&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">&amp;#34;Unable to report the measurement.&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Convert string to number using Convert class -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Convert&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>Convert rounds the value.&lt;/p></description></item><item><title>Methods on Arrays</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-06-methods-on-arrays/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-06-methods-on-arrays/</guid><description>&lt;!-- Sorting an array -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Sort&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span>[] pallets = [ &lt;span style="color:#e6db74">&amp;#34;B14&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;A11&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;B12&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;A13&amp;#34;&lt;/span> ];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">&amp;#34;Sorted...&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Array.Sort(pallets);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">foreach&lt;/span> (&lt;span style="color:#66d9ef">var&lt;/span> pallet &lt;span style="color:#66d9ef">in&lt;/span> pallets)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;-- {pallet}&amp;#34;&lt;/span>); &lt;span style="color:#75715e">// A11, A13, B12, B14&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Reverse an array -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Reverse&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span>[] pallets = [ &lt;span style="color:#e6db74">&amp;#34;A11&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;A13&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;B12&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;B14&amp;#34;&lt;/span> ];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">&amp;#34;Reversed...&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Array.Reverse(pallets);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">foreach&lt;/span> (&lt;span style="color:#66d9ef">var&lt;/span> pallet &lt;span style="color:#66d9ef">in&lt;/span> pallets)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;-- {pallet}&amp;#34;&lt;/span>); &lt;span style="color:#75715e">// B14, B12, A13, A11&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Clear an array -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Clear&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span>[] pallets = [ &lt;span style="color:#e6db74">&amp;#34;B14&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;A11&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;B12&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;A13&amp;#34;&lt;/span> ];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">&amp;#34;&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Array.Clear(pallets, &lt;span style="color:#ae81ff">0&lt;/span>, &lt;span style="color:#ae81ff">2&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Clearing 2 ... count: {pallets.Length}&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">foreach&lt;/span> (&lt;span style="color:#66d9ef">var&lt;/span> pallet &lt;span style="color:#66d9ef">in&lt;/span> pallets)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;-- {pallet}&amp;#34;&lt;/span>); &lt;span style="color:#75715e">// null, null, B12, A13&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Resize an array -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Resize&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span>[] pallets = [&lt;span style="color:#e6db74">&amp;#34;B14&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;A11&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;B12&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;A13&amp;#34;&lt;/span> ];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">&amp;#34;&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Array.Resize(&lt;span style="color:#66d9ef">ref&lt;/span> pallets, &lt;span style="color:#ae81ff">6&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Resizing 6 ... count: {pallets.Length}&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pallets[&lt;span style="color:#ae81ff">4&lt;/span>] = &lt;span style="color:#e6db74">&amp;#34;C01&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>pallets[&lt;span style="color:#ae81ff">5&lt;/span>] = &lt;span style="color:#e6db74">&amp;#34;C02&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">foreach&lt;/span> (&lt;span style="color:#66d9ef">var&lt;/span> pallet &lt;span style="color:#66d9ef">in&lt;/span> pallets)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;-- {pallet}&amp;#34;&lt;/span>); &lt;span style="color:#75715e">// B14, A11, B12, A13, C01, C02&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Join an array -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Join&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">char&lt;/span>[] valueArray = [&lt;span style="color:#e6db74">&amp;#39;a&amp;#39;&lt;/span>, &lt;span style="color:#e6db74">&amp;#39;b&amp;#39;&lt;/span>, &lt;span style="color:#e6db74">&amp;#39;c&amp;#39;&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Array.Reverse(valueArray);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// string result = new string(valueArray);&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span> result = String.Join(&lt;span style="color:#e6db74">&amp;#34;|&amp;#34;&lt;/span>, valueArray); &lt;span style="color:#75715e">// a|b|c&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(result);
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Split an array -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Split&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span> result = &lt;span style="color:#e6db74">&amp;#34;123|456|789&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span>[] items = result.Split(&lt;span style="color:#e6db74">&amp;#39;|&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">foreach&lt;/span> (&lt;span style="color:#66d9ef">string&lt;/span> item &lt;span style="color:#66d9ef">in&lt;/span> items)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(item); &lt;span style="color:#75715e">// 123, 456, 789&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>Data Formatting</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-07-data-formatting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-07-data-formatting/</guid><description>&lt;!-- Composite Formatting -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Composite Formatting&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span> first = &lt;span style="color:#e6db74">&amp;#34;Hello&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span> second = &lt;span style="color:#e6db74">&amp;#34;World&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span> result = &lt;span style="color:#66d9ef">string&lt;/span>.Format(&lt;span style="color:#e6db74">&amp;#34;{0} {1}!&amp;#34;&lt;/span>, first, second);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(result); &lt;span style="color:#75715e">// Hello World!&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Formatting Currency -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Formatting Currency&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">decimal&lt;/span> price = &lt;span style="color:#ae81ff">123.45&lt;/span>m;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> discount = &lt;span style="color:#ae81ff">50&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Price: {price:C} (Save {discount:C})&amp;#34;&lt;/span>); &lt;span style="color:#75715e">// Price: $123.45 (Save $50.00)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Formatting Numbers -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Formatting Numbers&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">decimal&lt;/span> measurement = &lt;span style="color:#ae81ff">123456.78912&lt;/span>m;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Measurement: {measurement:N} units&amp;#34;&lt;/span>); &lt;span style="color:#75715e">// Measurement: 123,456.79 units&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Measurement: {measurement:N4} units&amp;#34;&lt;/span>); &lt;span style="color:#75715e">// Measurement: 123,456.7891 units&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Formatting Percentage -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Formatting Percentage&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">decimal&lt;/span> tax = .&lt;span style="color:#ae81ff">36785&lt;/span>m;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Tax rate: {tax:P2}&amp;#34;&lt;/span>); &lt;span style="color:#75715e">// Tax rate: 36.79%&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Padding -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Padding&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span> input = &lt;span style="color:#e6db74">&amp;#34;Pad this&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(input.PadLeft(&lt;span style="color:#ae81ff">12&lt;/span>)); &lt;span style="color:#75715e">// &amp;#34; Pad this&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(input.PadLeft(&lt;span style="color:#ae81ff">12&lt;/span>, &lt;span style="color:#e6db74">&amp;#39;*&amp;#39;&lt;/span>)); &lt;span style="color:#75715e">// &amp;#34;****Pad this&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(input.PadRight(&lt;span style="color:#ae81ff">12&lt;/span>, &lt;span style="color:#e6db74">&amp;#39;*&amp;#39;&lt;/span>)); &lt;span style="color:#75715e">// &amp;#34;Pad this****&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>String Methods</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-08-string-methods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-08-string-methods/</guid><description>&lt;!-- Length -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Length&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span> message = &lt;span style="color:#e6db74">&amp;#34;Find what is (inside the parentheses)&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(message.Length ); &lt;span style="color:#75715e">// 37&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- IndexOf -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>IndexOf&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span> message = &lt;span style="color:#e6db74">&amp;#34;Find what is (inside the parentheses)&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> openingPosition = message.IndexOf(&lt;span style="color:#e6db74">&amp;#39;(&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> closingPosition = message.IndexOf(&lt;span style="color:#e6db74">&amp;#39;)&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(openingPosition); &lt;span style="color:#75715e">// 13&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(closingPosition); &lt;span style="color:#75715e">// 36&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Substring -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Substring&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span> message = &lt;span style="color:#e6db74">&amp;#34;What is the value &amp;lt;span&amp;gt;between the tags&amp;lt;/span&amp;gt;?&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#66d9ef">string&lt;/span> openSpan = &lt;span style="color:#e6db74">&amp;#34;&amp;lt;span&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">const&lt;/span> &lt;span style="color:#66d9ef">string&lt;/span> closeSpan = &lt;span style="color:#e6db74">&amp;#34;&amp;lt;/span&amp;gt;&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> openingPosition = message.IndexOf(openSpan);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> closingPosition = message.IndexOf(closeSpan);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>openingPosition += openSpan.Length;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> length = closingPosition - openingPosition;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(message.Substring(openingPosition, length)); &lt;span style="color:#75715e">// between the tags&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- LastIndexOf -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>LastIndexOf&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span> message = &lt;span style="color:#e6db74">&amp;#34;hello there!&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> first_h = message.IndexOf(&lt;span style="color:#e6db74">&amp;#39;h&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> last_h = message.LastIndexOf(&lt;span style="color:#e6db74">&amp;#39;h&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;For the message: &amp;#39;{message}&amp;#39;, the first &amp;#39;h&amp;#39; is at position {first_h} and the last &amp;#39;h&amp;#39; is at position {last_h}.&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// For the message: &amp;#39;hello there!&amp;#39;, the first &amp;#39;h&amp;#39; is at position 0 and the last &amp;#39;h&amp;#39; is at position 7.&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- IndexOfAny -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>IndexOfAny&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span> message = &lt;span style="color:#e6db74">&amp;#34;Hello, world!&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">char&lt;/span>[] charsToFind = { &lt;span style="color:#e6db74">&amp;#39;a&amp;#39;&lt;/span>, &lt;span style="color:#e6db74">&amp;#39;e&amp;#39;&lt;/span>, &lt;span style="color:#e6db74">&amp;#39;i&amp;#39;&lt;/span> };
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> index = message.IndexOfAny(charsToFind);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Found &amp;#39;{message[index]}&amp;#39; in &amp;#39;{message}&amp;#39; at index: {index}.&amp;#34;&lt;/span>); &lt;span style="color:#75715e">// Found &amp;#39;e&amp;#39; in &amp;#39;Hello, world!&amp;#39; at index: 1.&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Remove -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Remove&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span> data = &lt;span style="color:#e6db74">&amp;#34;12345John Smith 5000 3 &amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span> updatedData = data.Remove(&lt;span style="color:#ae81ff">5&lt;/span>, &lt;span style="color:#ae81ff">20&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(updatedData); &lt;span style="color:#75715e">// 123455000 3 &lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Replace -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Replace&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span> message = &lt;span style="color:#e6db74">&amp;#34;This--is--ex-amp-le--da-ta&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>message = message.Replace(&lt;span style="color:#e6db74">&amp;#34;--&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34; &amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>message = message.Replace(&lt;span style="color:#e6db74">&amp;#34;-&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(message); &lt;span style="color:#75715e">// This is example data&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Trim -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Trim&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span> greeting = &lt;span style="color:#e6db74">&amp;#34; Hello World! &amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;[{greeting}]&amp;#34;&lt;/span>); &lt;span style="color:#75715e">// &amp;#34; Hello World! &amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span> trimmedGreeting = greeting.TrimStart();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;[{trimmedGreeting}]&amp;#34;&lt;/span>); &lt;span style="color:#75715e">// &amp;#34;Hello World! &amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>trimmedGreeting = greeting.TrimEnd();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;[{trimmedGreeting}]&amp;#34;&lt;/span>); &lt;span style="color:#75715e">// &amp;#34; Hello World!&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>trimmedGreeting = greeting.Trim();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;[{trimmedGreeting}]&amp;#34;&lt;/span>); &lt;span style="color:#75715e">// &amp;#34;Hello World!&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Case -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Case&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span> songLyrics = &lt;span style="color:#e6db74">&amp;#34;You say goodbye, and I say hello&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(songLyrics.ToUpper()); &lt;span style="color:#75715e">// YOU SAY GOODBYE, AND I SAY HELLO&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(songLyrics.ToLower()); &lt;span style="color:#75715e">// you say goodbay, and i say hello&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Searching -->
+&lt;!-- Contains -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Contains&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span> songLyrics = &lt;span style="color:#e6db74">&amp;#34;You say goodbye, and I say hello&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(songLyrics.Contains(&lt;span style="color:#e6db74">&amp;#34;goodbye&amp;#34;&lt;/span>)); &lt;span style="color:#75715e">// True&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(songLyrics.Contains(&lt;span style="color:#e6db74">&amp;#34;greetings&amp;#34;&lt;/span>)); &lt;span style="color:#75715e">// False&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- StartsWith and EndsWith -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>StartsWith and EndsWith&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span> message = &lt;span style="color:#e6db74">&amp;#34;You say goodbye, and I say hello&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(message.StartsWith(&lt;span style="color:#e6db74">&amp;#34;You&amp;#34;&lt;/span>)); &lt;span style="color:#75715e">// true&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(message.EndsWith(&lt;span style="color:#e6db74">&amp;#34;hello&amp;#34;&lt;/span>)); &lt;span style="color:#75715e">// true&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>Classes</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-09-classes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-09-classes/</guid><description>&lt;!-- Declaring Classes -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Declaring Classes&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// A type that is defined as a class is a reference type.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">//[access modifier] - [class] - [identifier]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">Customer&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Fields, properties, methods and events go here...&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Creating Objects -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Creating Objects&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>Customer object1 = &lt;span style="color:#66d9ef">new&lt;/span> Customer(); &lt;span style="color:#75715e">// object1 is a reference to an allocated space that will know where the object exists.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Customer object2; &lt;span style="color:#75715e">// Reference to null&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Customer object3 = &lt;span style="color:#66d9ef">new&lt;/span> Customer();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Customer object4 = object3; &lt;span style="color:#75715e">// object4 has the same reference as object3. If any of both instances changes, the other one does as well. Not recommended to do that.&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Constructors and initialization -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Constructors and initialization&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>&lt;strong>Accept default values&lt;/strong>&lt;/p></description></item><item><title>Abstract Classes</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-10-abstract/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-10-abstract/</guid><description>&lt;!-- Example 1 -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Example 1&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">abstract&lt;/span> &lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">Shape&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">abstract&lt;/span> &lt;span style="color:#66d9ef">int&lt;/span> GetArea();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">Square&lt;/span> : Shape
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">private&lt;/span> &lt;span style="color:#66d9ef">int&lt;/span> _side;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> Square(&lt;span style="color:#66d9ef">int&lt;/span> n) =&amp;gt; _side = n;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// GetArea method is required to avoid a compile-time error.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">override&lt;/span> &lt;span style="color:#66d9ef">int&lt;/span> GetArea() =&amp;gt; _side * _side;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">static&lt;/span> &lt;span style="color:#66d9ef">void&lt;/span> Main()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">var&lt;/span> sq = &lt;span style="color:#66d9ef">new&lt;/span> Square(&lt;span style="color:#ae81ff">12&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Area of the square = {sq.GetArea()}&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Output: Area of the square = 144&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Example 2 -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Example 2&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Abstract class&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">abstract&lt;/span> &lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">BaseClass&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">protected&lt;/span> &lt;span style="color:#66d9ef">int&lt;/span> _x = &lt;span style="color:#ae81ff">100&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">protected&lt;/span> &lt;span style="color:#66d9ef">int&lt;/span> _y = &lt;span style="color:#ae81ff">150&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Abstract method&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">abstract&lt;/span> &lt;span style="color:#66d9ef">void&lt;/span> AbstractMethod();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Abstract properties&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">abstract&lt;/span> &lt;span style="color:#66d9ef">int&lt;/span> X { &lt;span style="color:#66d9ef">get&lt;/span>; }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">abstract&lt;/span> &lt;span style="color:#66d9ef">int&lt;/span> Y { &lt;span style="color:#66d9ef">get&lt;/span>; }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">DerivedClass&lt;/span> : BaseClass
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">override&lt;/span> &lt;span style="color:#66d9ef">void&lt;/span> AbstractMethod()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> _x++;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> _y++;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">override&lt;/span> &lt;span style="color:#66d9ef">int&lt;/span> X &lt;span style="color:#75715e">// overriding property&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">get&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> _x + &lt;span style="color:#ae81ff">10&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">override&lt;/span> &lt;span style="color:#66d9ef">int&lt;/span> Y &lt;span style="color:#75715e">// overriding property&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">get&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> _y + &lt;span style="color:#ae81ff">10&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">static&lt;/span> &lt;span style="color:#66d9ef">void&lt;/span> Main()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">var&lt;/span> o = &lt;span style="color:#66d9ef">new&lt;/span> DerivedClass();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> o.AbstractMethod();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;x = {o.X}, y = {o.Y}&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Output: x = 111, y = 161&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Example 3 -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Example 3&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">abstract&lt;/span> &lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">Shape&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">string&lt;/span> Color { &lt;span style="color:#66d9ef">get&lt;/span>; &lt;span style="color:#66d9ef">set&lt;/span>; }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Constructor of the abstract class&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">protected&lt;/span> Shape(&lt;span style="color:#66d9ef">string&lt;/span> color)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Color = color;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Created a shape with color {color}.&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Abstract method that must be implemented by derived classes&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">abstract&lt;/span> &lt;span style="color:#66d9ef">double&lt;/span> CalculateArea();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">Square&lt;/span> : Shape
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">double&lt;/span> Side { &lt;span style="color:#66d9ef">get&lt;/span>; &lt;span style="color:#66d9ef">set&lt;/span>; }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Constructor of the derived class calling the base class constructor&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> Square(&lt;span style="color:#66d9ef">string&lt;/span> color, &lt;span style="color:#66d9ef">double&lt;/span> side) : &lt;span style="color:#66d9ef">base&lt;/span>(color)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Side = side;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">override&lt;/span> &lt;span style="color:#66d9ef">double&lt;/span> CalculateArea()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> Side * Side;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">Program&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">static&lt;/span> &lt;span style="color:#66d9ef">void&lt;/span> Main(&lt;span style="color:#66d9ef">string&lt;/span>[] args)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Square square = &lt;span style="color:#66d9ef">new&lt;/span> Square(&lt;span style="color:#e6db74">&amp;#34;red&amp;#34;&lt;/span>, &lt;span style="color:#ae81ff">5&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Area of the square: {square.CalculateArea()}&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;!-- Resources -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Resources&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;ul>
+&lt;li>&lt;a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/abstract" target="_blank" rel="noopener">Abstract keyword&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>Records</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-11-records/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-11-records/</guid><description>&lt;!-- Definition -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Definition&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>A record in C# is a class or struct that provides special syntax and behavior for working with data models. The record modifier instructs the compiler to synthesize members that are useful for types whose primary role is storing data. These members include an overload of ToString() and members that support value equality.&lt;/p>
+&lt;h3 id="when-to-use">When to use&lt;/h3>
+&lt;p>Consider using a record in place of a class or struct in the following scenarios:&lt;/p></description></item><item><title>Interfaces</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-12-interfaces/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-12-interfaces/</guid><description>&lt;!-- Declaration -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Declaration&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">interface&lt;/span> &lt;span style="color:#a6e22e">IEquatable&lt;/span>&amp;lt;T&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">bool&lt;/span> Equals(T obj);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">Car&lt;/span> : IEquatable&amp;lt;Car&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">string?&lt;/span> Make { &lt;span style="color:#66d9ef">get&lt;/span>; &lt;span style="color:#66d9ef">set&lt;/span>; }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">string?&lt;/span> Model { &lt;span style="color:#66d9ef">get&lt;/span>; &lt;span style="color:#66d9ef">set&lt;/span>; }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">string?&lt;/span> Year { &lt;span style="color:#66d9ef">get&lt;/span>; &lt;span style="color:#66d9ef">set&lt;/span>; }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Implementation of IEquatable&amp;lt;T&amp;gt; interface&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">bool&lt;/span> Equals(Car? car)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> (&lt;span style="color:#66d9ef">this&lt;/span>.Make, &lt;span style="color:#66d9ef">this&lt;/span>.Model, &lt;span style="color:#66d9ef">this&lt;/span>.Year) ==
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> (car?.Make, car?.Model, car?.Year);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>Generics</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-13-generics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-13-generics/</guid><description>&lt;!-- Declaration -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Declaration&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Declare the generic class.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">GenericList&lt;/span>&amp;lt;T&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">void&lt;/span> Add(T item) { }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">ExampleClass&lt;/span> { }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">class&lt;/span> &lt;span style="color:#a6e22e">TestGenericList&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">static&lt;/span> &lt;span style="color:#66d9ef">void&lt;/span> Main()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Create a list of type int.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> GenericList&amp;lt;&lt;span style="color:#66d9ef">int&lt;/span>&amp;gt; list1 = &lt;span style="color:#66d9ef">new&lt;/span>();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> list1.Add(&lt;span style="color:#ae81ff">1&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Create a list of type string.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> GenericList&amp;lt;&lt;span style="color:#66d9ef">string&lt;/span>&amp;gt; list2 = &lt;span style="color:#66d9ef">new&lt;/span>();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> list2.Add(&lt;span style="color:#e6db74">&amp;#34;&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Create a list of type ExampleClass.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> GenericList&amp;lt;ExampleClass&amp;gt; list3 = &lt;span style="color:#66d9ef">new&lt;/span>();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> list3.Add(&lt;span style="color:#66d9ef">new&lt;/span> ExampleClass());
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>Anonymous Types</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-14-anonymous-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-14-anonymous-types/</guid><description>&lt;!-- Declaration -->
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Declaration&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> v = &lt;span style="color:#66d9ef">new&lt;/span> { Amount = &lt;span style="color:#ae81ff">108&lt;/span>, Message = &lt;span style="color:#e6db74">&amp;#34;Hello&amp;#34;&lt;/span> };
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Rest the mouse pointer over v.Amount and v.Message in the following&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// statement to verify that their inferred types are int and string.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(v.Amount + v.Message);
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>List Collections</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-01-list-collections/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-01-list-collections/</guid><description>&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Using a List&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>List&amp;lt;&lt;span style="color:#66d9ef">string&lt;/span>&amp;gt; names1 = [&lt;span style="color:#e6db74">&amp;#34;Fernando&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Ana&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Felipe&amp;#34;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Or &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> names2 = &lt;span style="color:#66d9ef">new&lt;/span> List&amp;lt;&lt;span style="color:#66d9ef">string&lt;/span>&amp;gt; {&lt;span style="color:#e6db74">&amp;#34;Fernando&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Ana&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Felipe&amp;#34;&lt;/span>};
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">foreach&lt;/span> (&lt;span style="color:#66d9ef">var&lt;/span> name &lt;span style="color:#66d9ef">in&lt;/span> names1)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Prints three items in the list&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Hello {name.ToUpper()}!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> i = &lt;span style="color:#ae81ff">0&lt;/span>; i &amp;lt; names2.Count; i++)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Prints three items in the list&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Hello {names2[0].ToUpper()}!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Modifying list contents&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>List&amp;lt;&lt;span style="color:#66d9ef">string&lt;/span>&amp;gt; names = [&lt;span style="color:#e6db74">&amp;#34;Fernando&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Ana&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Felipe&amp;#34;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>names.Add(&lt;span style="color:#e6db74">&amp;#34;Maria&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>names.Add(&lt;span style="color:#e6db74">&amp;#34;Bill&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>names.Remove(&lt;span style="color:#e6db74">&amp;#34;Ana&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">foreach&lt;/span> (&lt;span style="color:#66d9ef">var&lt;/span> name &lt;span style="color:#66d9ef">in&lt;/span> names)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Prints four items in the list, adding the new two ones and removing one of them.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Hello {name.ToUpper()}!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Ranges in Lists&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>List&amp;lt;&lt;span style="color:#66d9ef">string&lt;/span>&amp;gt; names = [&lt;span style="color:#e6db74">&amp;#34;Fernando&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Ana&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Felipe&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Maria&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Bill&amp;#34;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Prints names from the index 2 to index 3 (the right side of the range is not inclusive)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">foreach&lt;/span> (&lt;span style="color:#66d9ef">var&lt;/span> name &lt;span style="color:#66d9ef">in&lt;/span> names[&lt;span style="color:#ae81ff">2.&lt;/span>.&lt;span style="color:#ae81ff">4&lt;/span>])
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Prints four items in the list, adding the new two ones and removing one of them.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Hello {name.ToUpper()}!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Get&amp;#39;s the first one in the list.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Hello {names[0].ToUpper()}!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Get&amp;#39;s the first one in the list from the back.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Hello {names[^1].ToUpper()}!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Sorting Lists&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>List&amp;lt;&lt;span style="color:#66d9ef">string&lt;/span>&amp;gt; names = [&lt;span style="color:#e6db74">&amp;#34;Fernando&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Ana&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Felipe&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Maria&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Bill&amp;#34;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>names.Sort();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">foreach&lt;/span> (&lt;span style="color:#66d9ef">var&lt;/span> name &lt;span style="color:#66d9ef">in&lt;/span> names)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Prints five items sorted in the list.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Hello {name.ToUpper()}!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Searching in List&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>List&amp;lt;&lt;span style="color:#66d9ef">string&lt;/span>&amp;gt; names = [&lt;span style="color:#e6db74">&amp;#34;Fernando&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Ana&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Felipe&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Maria&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Bill&amp;#34;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Prints the index of the searching name.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;I found Fernando at index {names.IndexOf(&amp;#34;&lt;/span>Fernando&lt;span style="color:#e6db74">&amp;#34;)}&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Resources&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=M3UsM9l1m6c&amp;amp;list=PLdo4fOcmZ0oULFjxrOagaERVAMbmG20Xe&amp;amp;index=13" target="_blank" rel="noopener">List T and Collections of Data [Pt 12] | C# for Beginners - YouTube&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=2sp4gWCq3o4&amp;amp;list=PLdo4fOcmZ0oULFjxrOagaERVAMbmG20Xe&amp;amp;index=15" target="_blank" rel="noopener">Sorting and Searching Lists [Pt 14] | C# for Beginners - YouTube&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/list-collection" target="_blank" rel="noopener">Data collections - Introductory interactive tutorial - A tour of C# | Microsoft Learn&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>Arrays</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-02-arrays/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-02-arrays/</guid><description>&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Using an Array&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Arrays have fixed size.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span>[] names1 = [&lt;span style="color:#e6db74">&amp;#34;Fernando&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Ana&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Felipe&amp;#34;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Or &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> names2 = &lt;span style="color:#66d9ef">new&lt;/span> &lt;span style="color:#66d9ef">string&lt;/span>[] {&lt;span style="color:#e6db74">&amp;#34;Fernando&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Ana&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Felipe&amp;#34;&lt;/span>};
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">foreach&lt;/span> (&lt;span style="color:#66d9ef">var&lt;/span> name &lt;span style="color:#66d9ef">in&lt;/span> names1)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Prints three items in the list&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Hello {name.ToUpper()}!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> i = &lt;span style="color:#ae81ff">0&lt;/span>; i &amp;lt; names2.Length; i++)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Prints three items in the list&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Hello {names2[i].ToUpper()}!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Adding items to array&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span>[] names = [&lt;span style="color:#e6db74">&amp;#34;Fernando&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Ana&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Felipe&amp;#34;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Adding new elements.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>names = [..names, &lt;span style="color:#e6db74">&amp;#34;Maria&amp;#34;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">foreach&lt;/span> (&lt;span style="color:#66d9ef">var&lt;/span> name &lt;span style="color:#66d9ef">in&lt;/span> names)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Prints four items in the list, adding the new two ones and removing one of them.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Hello {name.ToUpper()}!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Ranges in Lists&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span>[] names = [&lt;span style="color:#e6db74">&amp;#34;Fernando&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Ana&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Felipe&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Maria&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Bill&amp;#34;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Prints names from the index 2 to index 3 (the right side of the range is not inclusive)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">foreach&lt;/span> (&lt;span style="color:#66d9ef">var&lt;/span> name &lt;span style="color:#66d9ef">in&lt;/span> names[&lt;span style="color:#ae81ff">2.&lt;/span>.&lt;span style="color:#ae81ff">4&lt;/span>])
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// Prints four items in the list, adding the new two ones and removing one of them.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Hello {name.ToUpper()}!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Get&amp;#39;s the first one in the list.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Hello {names[0].ToUpper()}!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Get&amp;#39;s the first one in the list from the back.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Console.WriteLine(&lt;span style="color:#e6db74">$&amp;#34;Hello {names[^1].ToUpper()}!&amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Resources&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=7PDNqmBdtrE&amp;amp;list=PLdo4fOcmZ0oULFjxrOagaERVAMbmG20Xe&amp;amp;index=14" target="_blank" rel="noopener">Arrays, Lists, Indexing, and Foreach [Pt 13] | C# for Beginners - YouTube&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>Language Integrated Query (LINQ)</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-03-linq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-03-linq/</guid><description>&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Using LINQ&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Specify the data source.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>List&amp;lt;&lt;span style="color:#66d9ef">int&lt;/span>&amp;gt; scores = [&lt;span style="color:#ae81ff">97&lt;/span>, &lt;span style="color:#ae81ff">92&lt;/span>, &lt;span style="color:#ae81ff">81&lt;/span>, &lt;span style="color:#ae81ff">60&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Or&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// int[] scores = [97, 92, 81, 60];&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Define the QUERY SYNTAX expression.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>IEnumerable&amp;lt;&lt;span style="color:#66d9ef">int&lt;/span>&amp;gt; scoreQuery1 =
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">from&lt;/span> score &lt;span style="color:#66d9ef">in&lt;/span> scores &lt;span style="color:#75715e">// required&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">where&lt;/span> score &amp;gt; &lt;span style="color:#ae81ff">80&lt;/span> &lt;span style="color:#75715e">// optional&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">orderby&lt;/span> score &lt;span style="color:#66d9ef">descending&lt;/span> &lt;span style="color:#75715e">// optional&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">select&lt;/span> score; &lt;span style="color:#75715e">// must end with select or group&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Or METHOD SYNTAX&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>IEnumerable&amp;lt;&lt;span style="color:#66d9ef">int&lt;/span>&amp;gt; scoreQuery2 = scores
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> .Where(s =&amp;gt; s &amp;gt; &lt;span style="color:#ae81ff">80&lt;/span>) &lt;span style="color:#75715e">// lambda expression&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> .OrderByDescending(s =&amp;gt; s); &lt;span style="color:#75715e">// lambda expression&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Note: Query and method syntaxes can be used together.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> scoreQuery2 = (
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">from&lt;/span> score &lt;span style="color:#66d9ef">in&lt;/span> scores
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">where&lt;/span> score &amp;gt; &lt;span style="color:#ae81ff">80&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">orderby&lt;/span> score &lt;span style="color:#66d9ef">descending&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">select&lt;/span> score
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>).Count();
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Execute the query.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">foreach&lt;/span> (&lt;span style="color:#66d9ef">var&lt;/span> i &lt;span style="color:#66d9ef">in&lt;/span> scoreQuery)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.Write(i + &lt;span style="color:#e6db74">&amp;#34; &amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Output: 97 92 81&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>In-memory vs Remote data&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>List&amp;lt;&lt;span style="color:#66d9ef">int&lt;/span>&amp;gt; scores = [&lt;span style="color:#ae81ff">97&lt;/span>, &lt;span style="color:#ae81ff">92&lt;/span>, &lt;span style="color:#ae81ff">81&lt;/span>, &lt;span style="color:#ae81ff">60&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// In-memory&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>IEnumerable&amp;lt;&lt;span style="color:#66d9ef">int&lt;/span>&amp;gt; scoreQuery1 =
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">from&lt;/span> score &lt;span style="color:#66d9ef">in&lt;/span> scores
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">where&lt;/span> score &amp;gt; &lt;span style="color:#ae81ff">80&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">orderby&lt;/span> score &lt;span style="color:#66d9ef">descending&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">select&lt;/span> score;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Remote - It can be integrated with libraries like Entity Framework.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// You first create an object-relational mapping between C# classes and your database schema.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Then you write your queries against the objects&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// At run-time EntityFramework handles the communication with the database.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// It will even be able to build the SQL query and execute it in the database side.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>IQueryable&amp;lt;&lt;span style="color:#66d9ef">int&lt;/span>&amp;gt; scoreQuery1 =
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">from&lt;/span> score &lt;span style="color:#66d9ef">in&lt;/span> scores
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">where&lt;/span> score &amp;gt; &lt;span style="color:#ae81ff">80&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">orderby&lt;/span> score &lt;span style="color:#66d9ef">descending&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">select&lt;/span> score;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Parts of Query Operation&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// The Three Parts of a LINQ Query:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// 1. Data source.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span>[] numbers = [ &lt;span style="color:#ae81ff">0&lt;/span>, &lt;span style="color:#ae81ff">1&lt;/span>, &lt;span style="color:#ae81ff">2&lt;/span>, &lt;span style="color:#ae81ff">3&lt;/span>, &lt;span style="color:#ae81ff">4&lt;/span>, &lt;span style="color:#ae81ff">5&lt;/span>, &lt;span style="color:#ae81ff">6&lt;/span> ];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// 2. Query creation.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// numQuery is an IEnumerable&amp;lt;int&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> numQuery = &lt;span style="color:#66d9ef">from&lt;/span> num &lt;span style="color:#66d9ef">in&lt;/span> numbers
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">where&lt;/span> (num % &lt;span style="color:#ae81ff">2&lt;/span>) == &lt;span style="color:#ae81ff">0&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">select&lt;/span> num;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// 3. Query execution.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">foreach&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> num &lt;span style="color:#66d9ef">in&lt;/span> numQuery)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.Write(&lt;span style="color:#e6db74">&amp;#34;{0,1} &amp;#34;&lt;/span>, num);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Ending a query expression&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// GROUP CLAUSE&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Use the group clause to produce a sequence of groups organized by a key that you specify.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> queryCountryGroups =
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">from&lt;/span> country &lt;span style="color:#66d9ef">in&lt;/span> countries
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">group&lt;/span> country &lt;span style="color:#66d9ef">by&lt;/span> country.Name[&lt;span style="color:#ae81ff">0&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// SELECT CLAUSE&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Use the select clause to produce all other types of sequences.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>IEnumerable&amp;lt;Country&amp;gt; sortedQuery =
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">from&lt;/span> country &lt;span style="color:#66d9ef">in&lt;/span> countries
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">orderby&lt;/span> country.Area
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">select&lt;/span> country;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// The select clause can be used to transform source data into sequences of new types. &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> queryNameAndPop =
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">from&lt;/span> country &lt;span style="color:#66d9ef">in&lt;/span> countries
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">select&lt;/span> &lt;span style="color:#66d9ef">new&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Name = country.Name,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Pop = country.Population
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> };
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// CONTINUATIONS WITH INTO&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// You can use the into keyword in a select or group clause to create a temporary identifier that stores a query. &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// percentileQuery is an IEnumerable&amp;lt;IGrouping&amp;lt;int, Country&amp;gt;&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> percentileQuery =
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">from&lt;/span> country &lt;span style="color:#66d9ef">in&lt;/span> countries
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">let&lt;/span> percentile = (&lt;span style="color:#66d9ef">int&lt;/span>)country.Population / &lt;span style="color:#ae81ff">1_000&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">group&lt;/span> country &lt;span style="color:#66d9ef">by&lt;/span> percentile &lt;span style="color:#66d9ef">into&lt;/span> countryGroup
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">where&lt;/span> countryGroup.Key &amp;gt;= &lt;span style="color:#ae81ff">20&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">orderby&lt;/span> countryGroup.Key
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">select&lt;/span> countryGroup;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// grouping is an IGrouping&amp;lt;int, Country&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">foreach&lt;/span> (&lt;span style="color:#66d9ef">var&lt;/span> grouping &lt;span style="color:#66d9ef">in&lt;/span> percentileQuery)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(grouping.Key);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">foreach&lt;/span> (&lt;span style="color:#66d9ef">var&lt;/span> country &lt;span style="color:#66d9ef">in&lt;/span> grouping)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.WriteLine(country.Name + &lt;span style="color:#e6db74">&amp;#34;:&amp;#34;&lt;/span> + country.Population);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Filtering, ordering, and joining&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// WHERE CLAUSE&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Use the where clause to filter out elements from the source data based on one or more predicate expressions. &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>IEnumerable&amp;lt;City&amp;gt; queryCityPop =
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">from&lt;/span> city &lt;span style="color:#66d9ef">in&lt;/span> cities
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">where&lt;/span> city.Population &lt;span style="color:#66d9ef">is&lt;/span> &amp;lt; &lt;span style="color:#ae81ff">15_000_000&lt;/span> and &amp;gt; &lt;span style="color:#ae81ff">10_000_000&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">select&lt;/span> city;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// ORDERBY CLAUSE &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Use the orderby clause to sort the results in either ascending or descending order. &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>IEnumerable&amp;lt;Country&amp;gt; querySortedCountries =
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">from&lt;/span> country &lt;span style="color:#66d9ef">in&lt;/span> countries
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">orderby&lt;/span> country.Area, country.Population &lt;span style="color:#66d9ef">descending&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">select&lt;/span> country;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// JOIN CLAUSE&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Use the join clause to associate and/or combine elements from one data source with elements from another data source based on an equality comparison between specified keys in each element. &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> categoryQuery =
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">from&lt;/span> cat &lt;span style="color:#66d9ef">in&lt;/span> categories
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">join&lt;/span> prod &lt;span style="color:#66d9ef">in&lt;/span> products &lt;span style="color:#66d9ef">on&lt;/span> cat &lt;span style="color:#66d9ef">equals&lt;/span> prod.Category
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">select&lt;/span> &lt;span style="color:#66d9ef">new&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Category = cat,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Name = prod.Name
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> };
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// LET CLAUSE&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Use the let clause to store the result of an expression, such as a method call, in a new range variable.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">string&lt;/span>[] names = [&lt;span style="color:#e6db74">&amp;#34;Svetlana Omelchenko&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Claire O&amp;#39;Donnell&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Sven Mortensen&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;Cesar Garcia&amp;#34;&lt;/span>];
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>IEnumerable&amp;lt;&lt;span style="color:#66d9ef">string&lt;/span>&amp;gt; queryFirstNames =
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">from&lt;/span> name &lt;span style="color:#66d9ef">in&lt;/span> names
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">let&lt;/span> firstName = name.Split(&lt;span style="color:#e6db74">&amp;#39; &amp;#39;&lt;/span>)[&lt;span style="color:#ae81ff">0&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">select&lt;/span> firstName;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">foreach&lt;/span> (&lt;span style="color:#66d9ef">var&lt;/span> s &lt;span style="color:#66d9ef">in&lt;/span> queryFirstNames)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Console.Write(s + &lt;span style="color:#e6db74">&amp;#34; &amp;#34;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">//Output: Svetlana Claire Sven Cesar&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// SUBQUERIES IN A QUERY EXPRESSION&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// A query clause might itself contain a query expression, which is sometimes referred to as a subquery.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">var&lt;/span> queryGroupMax =
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">from&lt;/span> student &lt;span style="color:#66d9ef">in&lt;/span> students
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">group&lt;/span> student &lt;span style="color:#66d9ef">by&lt;/span> student.Year &lt;span style="color:#66d9ef">into&lt;/span> studentGroup
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">select&lt;/span> &lt;span style="color:#66d9ef">new&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Level = studentGroup.Key,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> HighestScore = (
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">from&lt;/span> student2 &lt;span style="color:#66d9ef">in&lt;/span> studentGroup
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">select&lt;/span> student2.ExamScores.Average()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ).Max()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> };
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Resources&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;ul>
+&lt;li>&lt;a href="https://learn.microsoft.com/en-us/dotnet/csharp/linq/" target="_blank" rel="noopener">Language Integrated Query (LINQ) - C# | Microsoft Learn&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1?view=net-9.0" target="_blank" rel="noopener">IEnumerable&lt;T> Interface (System.Collections.Generic) | Microsoft Learn&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://learn.microsoft.com/en-us/dotnet/api/system.linq.iqueryable-1?view=net-9.0" target="_blank" rel="noopener">IQueryable&lt;T> Interface (System.Linq) | Microsoft Learn&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=4ro5UCqU0P4&amp;amp;list=PLdo4fOcmZ0oULFjxrOagaERVAMbmG20Xe&amp;amp;index=15" target="_blank" rel="noopener">Language Integrated Query (LINQ) and IEnumerable [Pt 15] | C# for Beginners - YouTube&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div></description></item><item><title>Delegates and events</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-04-delegates-and-events/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-04-delegates-and-events/</guid><description>&lt;div class="note-card ">
+&lt;div class="item">
+&lt;h5 class="note-title">&lt;span>Delegates&lt;/span>&lt;/h5>
+&lt;div class="card">
+&lt;div class="card-body">&lt;p>Delegates provide a late binding mechanism in .NET. Late Binding means that you create an algorithm where the caller also supplies at least one method that implements part of the algorithm.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-csharp" data-lang="csharp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">using&lt;/span> System.Delegate;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// From the .NET Core library&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Define the delegate type:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">public&lt;/span> &lt;span style="color:#66d9ef">delegate&lt;/span> &lt;span style="color:#66d9ef">int&lt;/span> Comparison&amp;lt;&lt;span style="color:#66d9ef">in&lt;/span> T&amp;gt;(T left, T right);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// inside a class definition:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Declare an instance of that type:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">public&lt;/span> Comparison&amp;lt;T&amp;gt; comparator;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">// Invoke the delegate:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> result = comparator(left, right);
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;br/>
+&lt;p>The compiler also generates add and remove handlers for this new type so that clients of this class can add and remove methods from an instance&amp;rsquo;s invocation list. The compiler will enforce that the signature of the method being added or removed matches the signature used when declaring the method.&lt;/p></description></item></channel></rss>
