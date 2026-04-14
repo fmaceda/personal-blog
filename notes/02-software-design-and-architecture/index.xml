@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software Design and Architecture on Fernando's Blog</title><link>https://hugo-toha.github.io/notes/02-software-design-and-architecture/</link><description>Recent content in Software Design and Architecture on Fernando's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://hugo-toha.github.io/notes/02-software-design-and-architecture/index.xml" rel="self" type="application/rss+xml"/><item><title>OOP Principles</title><link>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-03-oop/x-01-principles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-03-oop/x-01-principles/</guid><description>&lt;!-- Four Principles --&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software Design and Architecture on Fernando's Blog</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/</link><description>Recent content in Software Design and Architecture on Fernando's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/index.xml" rel="self" type="application/rss+xml"/><item><title>OOP Principles</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-03-oop/x-01-principles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-03-oop/x-01-principles/</guid><description>&lt;!-- Four Principles --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Principles&lt;/span&gt;&lt;/h5&gt;
@@ -19,7 +19,7 @@
 &lt;h5 class="note-title"&gt;&lt;span&gt;Encapsulation&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
 &lt;div class="card-body"&gt;&lt;h3 id="definition"&gt;Definition&lt;/h3&gt;
-&lt;p&gt;Encapsulation is sometimes referred to as the first pillar or principle of object-oriented programming. A class or struct can specify how accessible each of its members is to code outside of the class or struct. Members not intended for consumers outside of the class or assembly are hidden to limit the potential for coding errors or malicious exploits.&lt;/p&gt;</description></item><item><title>Structured Programming</title><link>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-02-programming-paradigms/x-01-structured-programming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-02-programming-paradigms/x-01-structured-programming/</guid><description>&lt;div class="note-card "&gt;
+&lt;p&gt;Encapsulation is sometimes referred to as the first pillar or principle of object-oriented programming. A class or struct can specify how accessible each of its members is to code outside of the class or struct. Members not intended for consumers outside of the class or assembly are hidden to limit the potential for coding errors or malicious exploits.&lt;/p&gt;</description></item><item><title>Structured Programming</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-02-programming-paradigms/x-01-structured-programming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-02-programming-paradigms/x-01-structured-programming/</guid><description>&lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Content&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
@@ -35,7 +35,7 @@
 &lt;h5 class="note-title"&gt;&lt;span&gt;Overview&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
 &lt;div class="card-body"&gt;&lt;p&gt;The first paradigm to be adopted (but not the first to be invented) was structured programming, which was discovered by &lt;strong&gt;Edsger Wybe Dijkstra&lt;/strong&gt; in 1968. Dijkstra showed that the use of unrestrained jumps (goto statements) is harmful to program structure. As we&amp;rsquo;ll see in the chapters that follow, he replaced those jumps with the more familiar if/then/else and do/while/until constructs.&lt;/p&gt;
-&lt;p&gt;We can summarize the structured programming paradigm as follows:&lt;/p&gt;</description></item><item><title>Object-oriented Programming</title><link>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-02-programming-paradigms/x-02-object-oriented-programming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-02-programming-paradigms/x-02-object-oriented-programming/</guid><description>&lt;div class="note-card "&gt;
+&lt;p&gt;We can summarize the structured programming paradigm as follows:&lt;/p&gt;</description></item><item><title>Object-oriented Programming</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-02-programming-paradigms/x-02-object-oriented-programming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-02-programming-paradigms/x-02-object-oriented-programming/</guid><description>&lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Content&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
@@ -50,7 +50,7 @@
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Overview&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
-&lt;div class="card-body"&gt;&lt;p&gt;The second paradigm to be adopted was actually discovered two years earlier, in 1966, by &lt;strong&gt;Ole Johan Dahl&lt;/strong&gt; and &lt;strong&gt;Kristen Nygaard&lt;/strong&gt;. These two programmers noticed that the function call stack frame in the ALGOL language could be moved to a heap, thereby allowing local variables declared by a function to exist long after the function returned. The function became a constructor for a class, the local variables became instance variables, and the nested functions became methods. This led inevitably to the discovery of polymorphism through the disciplined use of function pointers.&lt;/p&gt;</description></item><item><title>SOLID Principles</title><link>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-03-oop/x-02-solid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-03-oop/x-02-solid/</guid><description>&lt;!-- SOLID definition --&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;The second paradigm to be adopted was actually discovered two years earlier, in 1966, by &lt;strong&gt;Ole Johan Dahl&lt;/strong&gt; and &lt;strong&gt;Kristen Nygaard&lt;/strong&gt;. These two programmers noticed that the function call stack frame in the ALGOL language could be moved to a heap, thereby allowing local variables declared by a function to exist long after the function returned. The function became a constructor for a class, the local variables became instance variables, and the nested functions became methods. This led inevitably to the discovery of polymorphism through the disciplined use of function pointers.&lt;/p&gt;</description></item><item><title>SOLID Principles</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-03-oop/x-02-solid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-03-oop/x-02-solid/</guid><description>&lt;!-- SOLID definition --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;SOLID&lt;/span&gt;&lt;/h5&gt;
@@ -65,7 +65,7 @@
 &lt;li&gt;&lt;strong&gt;I&lt;/strong&gt;nterface Segregation Principle (ISP)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;D&lt;/strong&gt;ependency Inversion Principle (DIP)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;I&amp;rsquo;ll be using the same example from &lt;a href="https://dev.to/moh_moh701/c-clean-code-solid-principles-51ed" target="_blank" rel="noopener"&gt;C# Clean Code: SOLID Principles – Dev.to&lt;/a&gt;, so as the initial code we have the following:&lt;/p&gt;</description></item><item><title>Functional Programming</title><link>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-02-programming-paradigms/x-03-functional-programming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-02-programming-paradigms/x-03-functional-programming/</guid><description>&lt;div class="note-card "&gt;
+&lt;p&gt;I&amp;rsquo;ll be using the same example from &lt;a href="https://dev.to/moh_moh701/c-clean-code-solid-principles-51ed" target="_blank" rel="noopener"&gt;C# Clean Code: SOLID Principles – Dev.to&lt;/a&gt;, so as the initial code we have the following:&lt;/p&gt;</description></item><item><title>Functional Programming</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-02-programming-paradigms/x-03-functional-programming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-02-programming-paradigms/x-03-functional-programming/</guid><description>&lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Content&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
@@ -81,7 +81,7 @@
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Overview&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
-&lt;div class="card-body"&gt;&lt;p&gt;The third paradigm, which has only recently begun to be adopted, was the first to be invented. Indeed, its invention predates computer programming itself. Functional programming is the direct result of the work of &lt;strong&gt;Alonzo Church&lt;/strong&gt;, who in 1936 invented l-calculus while pursuing the same mathematical problem that was motivating Alan Turing at the same time. His l-calculus is the foundation of the LISP language, invented in 1958 by John McCarthy. A foundational notion of l-calculus is immutability—that is, the notion that the values of symbols do not change. This effectively means that a functional language has no assignment statement. Most functional languages do, in fact, have some means to alter the value of a variable, but only under very strict discipline.&lt;/p&gt;</description></item><item><title>Error Handling</title><link>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-03-oop/99-error-handling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-03-oop/99-error-handling/</guid><description>&lt;!-- Error Handling --&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;The third paradigm, which has only recently begun to be adopted, was the first to be invented. Indeed, its invention predates computer programming itself. Functional programming is the direct result of the work of &lt;strong&gt;Alonzo Church&lt;/strong&gt;, who in 1936 invented l-calculus while pursuing the same mathematical problem that was motivating Alan Turing at the same time. His l-calculus is the foundation of the LISP language, invented in 1958 by John McCarthy. A foundational notion of l-calculus is immutability—that is, the notion that the values of symbols do not change. This effectively means that a functional language has no assignment statement. Most functional languages do, in fact, have some means to alter the value of a variable, but only under very strict discipline.&lt;/p&gt;</description></item><item><title>Error Handling</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-03-oop/99-error-handling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-03-oop/99-error-handling/</guid><description>&lt;!-- Error Handling --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Error Handling&lt;/span&gt;&lt;/h5&gt;
@@ -111,7 +111,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Roadmap</title><link>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-00-roadmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-00-roadmap/</guid><description>&lt;!-- CSharp Fundamentals --&gt;
+&lt;/div&gt;</description></item><item><title>Roadmap</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-00-roadmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-00-roadmap/</guid><description>&lt;!-- CSharp Fundamentals --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Software Design and Architecture Roadmap&lt;/span&gt;&lt;/h5&gt;
@@ -132,7 +132,7 @@
 &lt;/ul&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Meaningful Names</title><link>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-01-clean-code/x-01-meaningful-names/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-01-clean-code/x-01-meaningful-names/</guid><description>&lt;div class="note-card "&gt;
+&lt;/div&gt;</description></item><item><title>Meaningful Names</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-01-meaningful-names/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-01-meaningful-names/</guid><description>&lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Content&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
@@ -162,7 +162,7 @@
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Use Intention-Revealing Names&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
-&lt;div class="card-body"&gt;&lt;p&gt;The name of a variable, function, or class, should answer all the big questions. It should tell you why it exists, what it does, and how it is used. If a name requires a comment, then the name does not reveal its intent.&lt;/p&gt;</description></item><item><title>Functions</title><link>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-01-clean-code/x-02-functions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-01-clean-code/x-02-functions/</guid><description>&lt;div class="note-card "&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;The name of a variable, function, or class, should answer all the big questions. It should tell you why it exists, what it does, and how it is used. If a name requires a comment, then the name does not reveal its intent.&lt;/p&gt;</description></item><item><title>Functions</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-02-functions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-02-functions/</guid><description>&lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Content&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
@@ -313,7 +313,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Comments</title><link>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-01-clean-code/x-03-comments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-01-clean-code/x-03-comments/</guid><description>&lt;div class="note-card "&gt;
+&lt;/div&gt;</description></item><item><title>Comments</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-03-comments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-03-comments/</guid><description>&lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Content&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
@@ -333,7 +333,7 @@
 &lt;div class="card"&gt;
 &lt;div class="card-body"&gt;&lt;p&gt;Truth can only be found in one place: the code. Only the code can truly tell you what it does. It is the only source of truly accurate information. Therefore, though comments are sometimes necessary, we will expend significant energy to minimize them.&lt;/p&gt;
 &lt;p&gt;One of the more common motivations for writing comments is bad code.&lt;/p&gt;
-&lt;p&gt;Clear and expressive code with few comments is far superior to cluttered and complex code with lots of comments.&lt;/p&gt;</description></item><item><title>Formatting</title><link>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-01-clean-code/x-04-formatting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-01-clean-code/x-04-formatting/</guid><description>&lt;div class="note-card "&gt;
+&lt;p&gt;Clear and expressive code with few comments is far superior to cluttered and complex code with lots of comments.&lt;/p&gt;</description></item><item><title>Formatting</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-04-formatting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-04-formatting/</guid><description>&lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Content&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
@@ -361,7 +361,7 @@
 &lt;h5 class="note-title"&gt;&lt;span&gt;Vertical Formatting&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
 &lt;div class="card-body"&gt;&lt;p&gt;According to Robert C. Martin example, files long preferred to be 200 lines with an upper limit of 500 lines long.&lt;/p&gt;
-&lt;p&gt;Although this should not be a hard and fast rule, it should be considered very desirable. Small files are usually easier to understand than large files are.&lt;/p&gt;</description></item><item><title>Objects and Data Structure</title><link>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-01-clean-code/x-05-objects-and-data-structure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-01-clean-code/x-05-objects-and-data-structure/</guid><description>&lt;div class="note-card "&gt;
+&lt;p&gt;Although this should not be a hard and fast rule, it should be considered very desirable. Small files are usually easier to understand than large files are.&lt;/p&gt;</description></item><item><title>Objects and Data Structure</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-05-objects-and-data-structure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-05-objects-and-data-structure/</guid><description>&lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Content&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;

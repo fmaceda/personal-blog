@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Clean Code on Fernando's Blog</title><link>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-01-clean-code/</link><description>Recent content in Clean Code on Fernando's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-01-clean-code/index.xml" rel="self" type="application/rss+xml"/><item><title>Meaningful Names</title><link>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-01-clean-code/x-01-meaningful-names/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-01-clean-code/x-01-meaningful-names/</guid><description>&lt;div class="note-card "&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Clean Code on Fernando's Blog</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/</link><description>Recent content in Clean Code on Fernando's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/index.xml" rel="self" type="application/rss+xml"/><item><title>Meaningful Names</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-01-meaningful-names/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-01-meaningful-names/</guid><description>&lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Content&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
@@ -28,7 +28,7 @@
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Use Intention-Revealing Names&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
-&lt;div class="card-body"&gt;&lt;p&gt;The name of a variable, function, or class, should answer all the big questions. It should tell you why it exists, what it does, and how it is used. If a name requires a comment, then the name does not reveal its intent.&lt;/p&gt;</description></item><item><title>Functions</title><link>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-01-clean-code/x-02-functions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-01-clean-code/x-02-functions/</guid><description>&lt;div class="note-card "&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;The name of a variable, function, or class, should answer all the big questions. It should tell you why it exists, what it does, and how it is used. If a name requires a comment, then the name does not reveal its intent.&lt;/p&gt;</description></item><item><title>Functions</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-02-functions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-02-functions/</guid><description>&lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Content&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
@@ -179,7 +179,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Comments</title><link>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-01-clean-code/x-03-comments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-01-clean-code/x-03-comments/</guid><description>&lt;div class="note-card "&gt;
+&lt;/div&gt;</description></item><item><title>Comments</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-03-comments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-03-comments/</guid><description>&lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Content&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
@@ -199,7 +199,7 @@
 &lt;div class="card"&gt;
 &lt;div class="card-body"&gt;&lt;p&gt;Truth can only be found in one place: the code. Only the code can truly tell you what it does. It is the only source of truly accurate information. Therefore, though comments are sometimes necessary, we will expend significant energy to minimize them.&lt;/p&gt;
 &lt;p&gt;One of the more common motivations for writing comments is bad code.&lt;/p&gt;
-&lt;p&gt;Clear and expressive code with few comments is far superior to cluttered and complex code with lots of comments.&lt;/p&gt;</description></item><item><title>Formatting</title><link>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-01-clean-code/x-04-formatting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-01-clean-code/x-04-formatting/</guid><description>&lt;div class="note-card "&gt;
+&lt;p&gt;Clear and expressive code with few comments is far superior to cluttered and complex code with lots of comments.&lt;/p&gt;</description></item><item><title>Formatting</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-04-formatting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-04-formatting/</guid><description>&lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Content&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
@@ -227,7 +227,7 @@
 &lt;h5 class="note-title"&gt;&lt;span&gt;Vertical Formatting&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
 &lt;div class="card-body"&gt;&lt;p&gt;According to Robert C. Martin example, files long preferred to be 200 lines with an upper limit of 500 lines long.&lt;/p&gt;
-&lt;p&gt;Although this should not be a hard and fast rule, it should be considered very desirable. Small files are usually easier to understand than large files are.&lt;/p&gt;</description></item><item><title>Objects and Data Structure</title><link>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-01-clean-code/x-05-objects-and-data-structure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/02-software-design-and-architecture/x-01-clean-code/x-05-objects-and-data-structure/</guid><description>&lt;div class="note-card "&gt;
+&lt;p&gt;Although this should not be a hard and fast rule, it should be considered very desirable. Small files are usually easier to understand than large files are.&lt;/p&gt;</description></item><item><title>Objects and Data Structure</title><link>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-05-objects-and-data-structure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/02-software-design-and-architecture/x-01-clean-code/x-05-objects-and-data-structure/</guid><description>&lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Content&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;

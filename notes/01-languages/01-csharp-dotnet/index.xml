@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CSharp and .NET Notes on Fernando's Blog</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/</link><description>Recent content in CSharp and .NET Notes on Fernando's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/index.xml" rel="self" type="application/rss+xml"/><item><title>Roadmap</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/00-roadmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/00-roadmap/</guid><description>&lt;div class="note-card "&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CSharp and .NET Notes on Fernando's Blog</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/</link><description>Recent content in CSharp and .NET Notes on Fernando's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/index.xml" rel="self" type="application/rss+xml"/><item><title>Roadmap</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/00-roadmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/00-roadmap/</guid><description>&lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;(1) CSharp Fundamentals&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
@@ -77,7 +77,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-01-introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-01-introduction/</guid><description>&lt;!-- Getting Started --&gt;
+Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-01-introduction/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-01-introduction/</guid><description>&lt;!-- Getting Started --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Getting Started&lt;/span&gt;&lt;/h5&gt;
@@ -85,7 +85,7 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;What&amp;rsquo;s CSharp?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;C# is a high-level, general-purpose programming language developed by Microsoft as part of the .NET framework. It&amp;rsquo;s an object-oriented language, meaning it uses objects to structure code and data, and is used to build a variety of applications. C# is known for its ease of learning, strong community support, and ability to produce highly performant code.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;.NET SDK Instalation&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The easiest way to have the .NET SDK installed in your personal computer is to download &lt;a href="https://visualstudio.microsoft.com/" target="_blank" rel="noopener"&gt;Visual Studio&lt;/a&gt;. You can also use other IDE, but you will need to install the &lt;a href="https://dotnet.microsoft.com/en-us/download/visual-studio-sdks" target="_blank" rel="noopener"&gt;SDK&lt;/a&gt; manually.&lt;/p&gt;</description></item><item><title>Data Types</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-02-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-02-types/</guid><description>&lt;!-- Data types --&gt;
+&lt;p&gt;The easiest way to have the .NET SDK installed in your personal computer is to download &lt;a href="https://visualstudio.microsoft.com/" target="_blank" rel="noopener"&gt;Visual Studio&lt;/a&gt;. You can also use other IDE, but you will need to install the &lt;a href="https://dotnet.microsoft.com/en-us/download/visual-studio-sdks" target="_blank" rel="noopener"&gt;SDK&lt;/a&gt; manually.&lt;/p&gt;</description></item><item><title>Data Types</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-02-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-02-types/</guid><description>&lt;!-- Data types --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Data Types&lt;/span&gt;&lt;/h5&gt;
@@ -123,7 +123,7 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.WriteLine(&lt;span style="color:#e6db74"&gt;&amp;#34;Product: &amp;#34;&lt;/span&gt; + product); &lt;span style="color:#75715e"&gt;// Product: 35&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.WriteLine(&lt;span style="color:#e6db74"&gt;&amp;#34;Quotient: &amp;#34;&lt;/span&gt; + quotient); &lt;span style="color:#75715e"&gt;// Quotient: 1&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.WriteLine(&lt;span style="color:#e6db74"&gt;$&amp;#34;Modulus: {7 % 5}&amp;#34;&lt;/span&gt;); &lt;span style="color:#75715e"&gt;// Modulus: 2&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Order of operations&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Methods</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-03-methods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-03-methods/</guid><description>&lt;!-- Methods --&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Order of operations&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Methods</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-03-methods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-03-methods/</guid><description>&lt;!-- Methods --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Methods&lt;/span&gt;&lt;/h5&gt;
@@ -159,7 +159,7 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="card"&gt;
-&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Optional parameters:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Flow Control</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-04-flow-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-04-flow-control/</guid><description>&lt;!-- Condition --&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Optional parameters:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Flow Control</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-04-flow-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-04-flow-control/</guid><description>&lt;!-- Condition --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Condition&lt;/span&gt;&lt;/h5&gt;
@@ -231,7 +231,7 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Loop&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
-&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Foreach&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Data Type Conversion</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-05-convert-data-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-05-convert-data-types/</guid><description>&lt;!-- Casting type to convert --&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Foreach&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Data Type Conversion</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-05-convert-data-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-05-convert-data-types/</guid><description>&lt;!-- Casting type to convert --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Casting&lt;/span&gt;&lt;/h5&gt;
@@ -296,7 +296,7 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Convert&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
-&lt;div class="card-body"&gt;&lt;p&gt;Convert rounds the value.&lt;/p&gt;</description></item><item><title>Methods on Arrays</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-06-methods-on-arrays/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-06-methods-on-arrays/</guid><description>&lt;!-- Sorting an array --&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;Convert rounds the value.&lt;/p&gt;</description></item><item><title>Methods on Arrays</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-06-methods-on-arrays/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-06-methods-on-arrays/</guid><description>&lt;!-- Sorting an array --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Sort&lt;/span&gt;&lt;/h5&gt;
@@ -398,7 +398,7 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Data Formatting</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-07-data-formatting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-07-data-formatting/</guid><description>&lt;!-- Composite Formatting --&gt;
+&lt;/div&gt;</description></item><item><title>Data Formatting</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-07-data-formatting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-07-data-formatting/</guid><description>&lt;!-- Composite Formatting --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Composite Formatting&lt;/span&gt;&lt;/h5&gt;
@@ -458,7 +458,7 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>String Methods</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-08-string-methods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-08-string-methods/</guid><description>&lt;!-- Length --&gt;
+&lt;/div&gt;</description></item><item><title>String Methods</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-08-string-methods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-08-string-methods/</guid><description>&lt;!-- Length --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Length&lt;/span&gt;&lt;/h5&gt;
@@ -617,7 +617,7 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Classes</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-09-classes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-09-classes/</guid><description>&lt;!-- Declaring Classes --&gt;
+&lt;/div&gt;</description></item><item><title>Classes</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-09-classes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-09-classes/</guid><description>&lt;!-- Declaring Classes --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Declaring Classes&lt;/span&gt;&lt;/h5&gt;
@@ -652,7 +652,7 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Constructors and initialization&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
-&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Accept default values&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Abstract Classes</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-10-abstract/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-10-abstract/</guid><description>&lt;!-- Example 1 --&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;&lt;strong&gt;Accept default values&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Abstract Classes</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-10-abstract/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-10-abstract/</guid><description>&lt;!-- Example 1 --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Example 1&lt;/span&gt;&lt;/h5&gt;
@@ -796,14 +796,14 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Records</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-11-records/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-11-records/</guid><description>&lt;!-- Definition --&gt;
+&lt;/div&gt;</description></item><item><title>Records</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-11-records/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-11-records/</guid><description>&lt;!-- Definition --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Definition&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
 &lt;div class="card-body"&gt;&lt;p&gt;A record in C# is a class or struct that provides special syntax and behavior for working with data models. The record modifier instructs the compiler to synthesize members that are useful for types whose primary role is storing data. These members include an overload of ToString() and members that support value equality.&lt;/p&gt;
 &lt;h3 id="when-to-use"&gt;When to use&lt;/h3&gt;
-&lt;p&gt;Consider using a record in place of a class or struct in the following scenarios:&lt;/p&gt;</description></item><item><title>Interfaces</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-12-interfaces/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-12-interfaces/</guid><description>&lt;!-- Declaration --&gt;
+&lt;p&gt;Consider using a record in place of a class or struct in the following scenarios:&lt;/p&gt;</description></item><item><title>Interfaces</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-12-interfaces/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-12-interfaces/</guid><description>&lt;!-- Declaration --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Declaration&lt;/span&gt;&lt;/h5&gt;
@@ -829,7 +829,7 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Generics</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-13-generics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-13-generics/</guid><description>&lt;!-- Declaration --&gt;
+&lt;/div&gt;</description></item><item><title>Generics</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-13-generics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-13-generics/</guid><description>&lt;!-- Declaration --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Declaration&lt;/span&gt;&lt;/h5&gt;
@@ -862,7 +862,7 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Anonymous Types</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-14-anonymous-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-14-anonymous-types/</guid><description>&lt;!-- Declaration --&gt;
+&lt;/div&gt;</description></item><item><title>Anonymous Types</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-14-anonymous-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-01-fundamentals/x-14-anonymous-types/</guid><description>&lt;!-- Declaration --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Declaration&lt;/span&gt;&lt;/h5&gt;
@@ -875,7 +875,7 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>List Collections</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-01-list-collections/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-01-list-collections/</guid><description>&lt;div class="note-card "&gt;
+&lt;/div&gt;</description></item><item><title>List Collections</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-01-list-collections/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-01-list-collections/</guid><description>&lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Using a List&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
@@ -980,7 +980,7 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Arrays</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-02-arrays/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-02-arrays/</guid><description>&lt;div class="note-card "&gt;
+&lt;/div&gt;</description></item><item><title>Arrays</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-02-arrays/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-02-arrays/</guid><description>&lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Using an Array&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
@@ -1054,7 +1054,7 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Language Integrated Query (LINQ)</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-03-linq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-03-linq/</guid><description>&lt;div class="note-card "&gt;
+&lt;/div&gt;</description></item><item><title>Language Integrated Query (LINQ)</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-03-linq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-03-linq/</guid><description>&lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Using LINQ&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
@@ -1267,7 +1267,7 @@ Core &amp;ndash;&amp;gt;&lt;/p&gt;</description></item><item><title>Introduction
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Delegates and events</title><link>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-04-delegates-and-events/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-04-delegates-and-events/</guid><description>&lt;div class="note-card "&gt;
+&lt;/div&gt;</description></item><item><title>Delegates and events</title><link>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-04-delegates-and-events/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fmaceda.github.io/blog/notes/01-languages/01-csharp-dotnet/x-02-advanced/x-04-delegates-and-events/</guid><description>&lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Delegates&lt;/span&gt;&lt;/h5&gt;
 &lt;div class="card"&gt;
