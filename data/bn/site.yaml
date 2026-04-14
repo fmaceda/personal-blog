@@ -13,7 +13,7 @@ description: জন ডো এর বাক্তিগত পোর্টফো
 # they will be separated by a divider from the main menus.
 customMenus:
 - name: ডকুমেন্টেশন
-  url: https://toha-guides.netlify.app/posts/
+  url: https://toha-docs.netlify.app/posts/
 
 # Specify OpenGraph Headers
 openGraph:
