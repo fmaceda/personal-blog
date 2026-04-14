@@ -1,4 +1,3 @@
-# section information
 section:
   name: About
   id: about
@@ -7,19 +6,12 @@ section:
   showOnNavbar: true
   template: sections/about.html
 
-# your designation
-designation: Software Engineer
-# your company information
+designation: Software Development Engineer
 company:
-  name: Jalasoft
-  url: "https://www.jalasoft.com/"
+  name: DMSi Software
+  url: "https://www.dmsi.com/about/"
 
-# your resume. this file path should be relative to you "static" directory
-# Dreprecated. Use resourceLinks instead.
-# resume: "files/resume.pdf"
-
-# a summary about you
-summary: 'Passionate software engineer with 3+ years of experience working developing and maintaining various projects. Good experience working with JavaScript as main language for developing apps. Also, nice skills working with cloud services, good knowledge managing apps by using AWS CloudFormation service. Currently working on developing and maintaining services used by a CRM platform, also scripts to customize the behavior of built-in web pages, all developed by using JavaScript.'
+summary: 'Software Engineer with 7+ years of experience building scalable web applications, cloud-based solutions, and AI-powered products that turn smart ideas into real-world impact. Strong background in full stack development using C#, .NET, and React, with hands-on experience in microservices environments and cloud platforms such as Azure and AWS. I thrive at the intersection of traditional engineering and modern AI — integrating large language models and intelligent automation into production systems. Proven track record of improving system reliability, optimizing performance, and driving development best practices including CI/CD, code reviews, and automated workflows. Experienced in supporting production systems, mentoring developers, and contributing to technical decisions that enhance team productivity and software quality.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -30,7 +22,7 @@ socialLinks:
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/fmacedas"
+  url: "https://www.github.com/fmaceda"
 
 - name: Stackoverflow
   icon: "fab fa-stack-overflow"
@@ -53,8 +45,6 @@ socialLinks:
   url: "https://mastodon.social/@fmacedas"
   rel: "me noopener"
 
-# You can put custom buttons to link your relevant resources.
-# For example, you can put link for your resume.
 resourceLinks:
 - title: "My Resume"
   url: "files/resume.pdf"
@@ -84,19 +74,19 @@ badges:
   color: blue
 
 - type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
-  color: yellow
-
-- type: soft-skill-indicator
   name: Problem Solving
   percentage: 80
   color: orange
 
 - type: soft-skill-indicator
-  name: Critical Thinking
+  name: Adaptability
   percentage: 95
   color: green
+
+- type: soft-skill-indicator
+  name: Creative & Innovative
+  percentage: 90
+  color: yellow
 
 - type: soft-skill-indicator
   name: Emotional Intelligence

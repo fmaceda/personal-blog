@@ -78,6 +78,38 @@ degrees:
 #     - name: Supervisor
 #       content: Fusce eu augue ut odio porttitor pulvinar.
 
+- name: MSc. in Computer Science with Artificial Intelligence
+  icon: fa-university
+  timeframe: 2026-2028
+  institution:
+    name: University of York
+    url: "https://www.york.ac.uk/"
+    logo: /images/sections/education/york.png
+    # Can optionally show a different logo for dark theme
+    # darklogo: /images/sections/education/york-dark.png
+  # grade: #(optional)
+    # scale: Percentage
+    # achieved: -
+    # outOf: 100
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    collapseAfter: 3
+    courses:
+    - name: Algorithms and Data Structures
+      achieved: 87
+      outOf: 100
+    - name: Advanced Programming
+    - name: Software Engineering
+    - name: Computer Architecture and Operating Systems
+    - name: Computer and Mobile Networks
+    - name: Big Data Analytics 
+    - name: Artificial Intelligence and Machine Learning
+    - name: Applied Artificial Intelligence
+    - name: Research Methods
+    - name: Research Proposal
+    - name: Independent Research Project 
+  
 - name: Diploma in Teacher Training for Higher Education
   icon: fa-graduation-cap
   timeframe: 2022
@@ -118,7 +150,7 @@ degrees:
       achieved: 4.5
       outOf: 5
 
-- name: Bachelor in Systems Engineering 
+- name: B.Sc. in Systems Engineering 
   icon: fa-university
   timeframe: 2013-2017
   institution:
@@ -139,17 +171,3 @@ degrees:
   - ACM ICPC - South America/South Regional 2016 | Cerficate of Achievement | Honorable Mention
   - ACM ICPC - South America/South Regional 2017 | Cerficate of Achievement | Honorable Mention
   - IEEE - Preliminar Contest IEEExtreme 2017 | Cerficate of Achievement | Gold Medal
-
-- name: Primary and Secondary School Certificate
-  icon: fa-school
-  timeframe: 2001-2012
-  institution:
-    name: Don Bosco
-    url: "https://www.dbp.edu.bo/"
-    logo: /images/sections/education/don-bosco.jpg
-  grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 7
-  extracurricularActivities: #(optional)
-  - Higher Technician in Electronics

@@ -11,44 +11,132 @@ section:
 
 # Your accomplishments
 accomplishments:
-# - name: Linux Foundation System Administrator
-#   timeline: "March 2018 - March 2019"
-#   organization:
-#     name: Linux Foundation
-#     url: https://www.linuxfoundation.org
-#   courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
-#   certificateURL: "https://example.com"
+- name: "Building Generative AI-Powered Applications with Python"
+  timeline: "Apr 2026"
+  organization:
+    name: Coursera
+    url: https://www.coursera.org
+  courseOverview: "Built generative AI applications and chatbots using LLMs, RAG, IBM watsonX, and Hugging Face. Developed voice-enabled and web-based AI interfaces with Flask, Gradio, and speech technologies (STT/TTS)."
+  certificateURL: "https://www.coursera.org/account/accomplishments/certificate/D7QUJ5AV04IQ"
 
-# - name: Machine Learning
-#   timeline: "Jun 2020 - Jan 2021"
-#   organization:
-#     name: Coursera
-#     url: https://www.coursera.org
-#   courseOverview: "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
-#   certificateURL: "https://example.com"
+- name: "Developing AI Applications with Python and Flask"
+  timeline: "Mar 2026"
+  organization:
+    name: Coursera
+    url: https://www.coursera.org
+  courseOverview: "Covered the full Python application development lifecycle, including modules, unit testing, and PEP8 best practices. Built and deployed AI-powered web applications using Flask and IBM Watson AI Libraries."
+  certificateURL: "https://www.coursera.org/account/accomplishments/certificate/L2QN1AKZWLZQ"
 
-# - name: Grokking the System Design Interview
-#   timeline: "Jan 2018 - Sept 2018"
-#   organization:
-#     name: educative
-#     url: https://www.educative.io
-#   courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who've been working at Google, Facebook, Microsoft, and Amazon. We've carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
-#   certificateURL: "https://example.com"
+- name: "Python for Data Science, AI & Development"
+  timeline: "Mar 2026"
+  organization:
+    name: Coursera
+    url: https://www.coursera.org
+  courseOverview: "Established Python fundamentals covering data structures, OOP, and exception handling. Applied Pandas and NumPy for data analysis and used REST APIs and BeautifulSoup for web data extraction."
+  certificateURL: "https://www.coursera.org/account/accomplishments/certificate/QV9BAGMMVYR6"
 
-# - name: Mastering Multithreading Programming with Go (Golang)
-#   timeline: "Nov 2017 - Mar 2018"
-#   organization:
-#     name: Udemy
-#     url: https://www.udemy.com
-#   courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, mulithreading topics.
-#   certificateURL: "https://example.com"
- 
+- name: "Probability & Statistics for Machine Learning & Data Science"
+  timeline: "Mar 2026"
+  organization:
+    name: Coursera
+    url: https://www.coursera.org
+  courseOverview: "Applied probability distributions, MLE, and MAP estimation to machine learning problems. Assessed model performance using confidence intervals and statistical margin of error."
+  certificateURL: "https://www.coursera.org/account/accomplishments/certificate/PMMQJCL3JK6A"
+
+- name: "Calculus for Machine Learning and Data Science"
+  timeline: "Feb 2026"
+  organization:
+    name: Coursera
+    url: https://www.coursera.org
+  courseOverview: "Applied derivatives and gradients to analytically and numerically optimize machine learning functions. Implemented gradient descent across neural network architectures with various activation and cost functions."
+  certificateURL: "https://www.coursera.org/account/accomplishments/certificate/U1R0LXBUX2GJ"
+
+- name: "Linear Algebra for Machine Learning and Data Science"
+  timeline: "Jan 2026"
+  organization:
+    name: Coursera
+    url: https://www.coursera.org
+  courseOverview: "Worked with vectors, matrices, and operations including dot product, inverse, and determinants. Applied eigenvalues, eigenvectors, and linear transformations to machine learning problems."
+  certificateURL: "https://www.coursera.org/account/accomplishments/certificate/Y170RL88Q13M"
+
+- name: "Machine Learning with Python"
+  timeline: "Dec 2025"
+  organization:
+    name: Coursera
+    url: https://www.coursera.org
+  courseOverview: "Applied supervised and unsupervised ML algorithms — regression, classification, clustering, and dimensionality reduction — using Python and scikit-learn. Built and evaluated end-to-end ML solutions on real-world datasets."
+  certificateURL: "https://www.coursera.org/account/accomplishments/certificate/BUR40801XBC0"
+
+- name: "Machine Learning with Python - Level 1"
+  timeline: "Dec 2025"
+  organization:
+    name: IBM SkillsBuild
+    url: https://skillsbuild.org/
+  courseOverview: "Demonstrated proficiency in building and evaluating machine learning models using Python and scikit-learn."
+  certificateURL: "https://www.credly.com/badges/3df4921b-4d60-43b3-803c-9dd63c63cbb8/linked_in?t=t7juz6"
+    
+- name: "Data Visualization Using Python"
+  timeline: "Dec 2025"
+  organization:
+    name: IBM SkillsBuild
+    url: https://skillsbuild.org/
+  courseOverview: "Used Matplotlib, Seaborn, and Folium to create and customize visualizations for small and large-scale datasets."
+  certificateURL: "https://www.credly.com/badges/4f9fc4cf-2768-4d88-b46a-21cfe72a8f70/linked_in?t=t7fk05"
+
+- name: "Data Analysis Using Python"
+  timeline: "Dec 2025"
+  organization:
+    name: IBM SkillsBuild
+    url: https://skillsbuild.org/
+  courseOverview: "Analyzed data using NumPy, Pandas, and SciPy, and applied machine learning techniques with scikit-learn in a Jupyter-based environment."
+  certificateURL: "https://www.credly.com/badges/53565aa9-6f1b-4b9b-8c8a-3198a1c7bff8/linked_in?t=t6r6i1"
+
+- name: "Generative AI: Introduction and Applications"
+  timeline: "Nov 2025"
+  organization:
+    name: Coursera
+    url: https://www.coursera.org
+  courseOverview: "Explored generative AI capabilities and real-world use cases across industries, covering models and tools for text, code, image, audio, and video generation."
+  certificateURL: "https://www.coursera.org/account/accomplishments/certificate/MBZ9FZ66Q4PY"
+
+- name: "Introduction to Artificial Intelligence (AI)"
+  timeline: "Nov 2025"
+  organization:
+    name: Coursera
+    url: https://www.coursera.org
+  courseOverview: "Examined AI fundamentals including machine learning, deep learning, and neural networks applied to real-world scenarios. Analyzed generative AI's role in business innovation and designed AI solutions with embedded ethical considerations."
+  certificateURL: "https://www.coursera.org/account/accomplishments/certificate/MZ9P460TCU8Z"
+  
+- name: "Python for Data Science"
+  timeline: "Oct 2025"
+  organization:
+    name: IBM SkillsBuild
+    url: https://skillsbuild.org/
+  courseOverview: "Demonstrated the ability to write Python scripts and perform hands-on data analysis using IBM's Jupyter-based lab environment."
+  certificateURL: "https://www.credly.com/badges/730105d2-0030-4998-8007-98f3ab7d3736/linked_in?t=t4t12h"
+
+- name: "Data Fundamentals"
+  timeline: "Oct 2025"
+  organization:
+    name: IBM SkillsBuild
+    url: https://skillsbuild.org/
+  courseOverview: "Gained a solid understanding of data analytics concepts, data science methodologies, and the tools used in the data ecosystem, including hands-on practice with IBM Watson Studio."
+  certificateURL: "https://www.credly.com/badges/728c69b6-6211-480b-9d75-f5788949a4dd/linked_in?t=t4k0up"
+
+- name: "Artificial Intelligence Fundamentals"
+  timeline: "Oct 2025"
+  organization:
+    name: IBM SkillsBuild
+    url: https://skillsbuild.org/
+  courseOverview: "Built foundational knowledge in AI concepts including NLP, computer vision, machine learning, deep learning, and AI ethics, with hands-on model execution in IBM Watson Studio."
+  certificateURL: "https://www.credly.com/badges/41c4eefe-6fee-4dbf-9a48-e2c2d2588505/linked_in?t=t3u6e4"
+
 - name: "Front-End JavaScript Frameworks: Angular"
   timeline: "Nov 2021"
   organization:
     name: Coursera
     url: https://www.coursera.org
-  courseOverview: "This course concentrates mainly on Javascript based front-end frameworks, and in particular the Angular framework (Currently Ver. 6.x). This course will use Typescript for developing Angular application. Typescript features will be introduced in the context of Angular as part of the exercises. You will also get an introduction to the use of Angular Material and Angular Flex-Layout for responsive UI design, and various aspects of Angular including components, directives and services. You will learn about data binding, Angular router and its use for developing single-page applications,  designing both template-driven forms and reactive forms. A quick introduction to Observables, reactive programming and RxJS in the context of Angular is included. You will then learn about Angular support for client-server communication through the HTTP client and the use of REST API on the server side."
+  courseOverview: "Built Angular applications using TypeScript, covering components, directives, services, data binding, routing, and reactive forms. Implemented client-server communication via HTTP and REST APIs, with an introduction to RxJS and reactive programming."
   certificateURL: "https://www.coursera.org/account/accomplishments/certificate/Q4S7DA7J77T7"
 
 - name: "Front-End Web Development with React"
@@ -56,7 +144,7 @@ accomplishments:
   organization:
     name: Coursera
     url: https://www.coursera.org
-  courseOverview: "This course explores Javascript based front-end application development, and in particular the React library (Currently Ver. 16.3). This course will use JavaScript ES6 for developing React application. You will also get an introduction to the use of Reactstrap for Bootstrap 4-based responsive UI design. You will be introduced to various aspects of React components. You will learn about React router and its use in developing single-page applications. You will also learn about designing controlled forms. You will be introduced to the Flux architecture and Redux. You will explore various aspects of Redux and use it to develop React-Redux powered applications. You will then learn to use Fetch for client-server communication and the use of REST API on the server side."
+  courseOverview: "Developed React applications using JavaScript ES6, covering components, React Router, Redux state management, and controlled forms. Integrated REST APIs via Fetch for client-server communication."
   certificateURL: "https://www.coursera.org/account/accomplishments/certificate/S8B8U8J6DYLL"  
 
 - name: "Foundations of User Experience (UX) Design"
@@ -64,7 +152,7 @@ accomplishments:
   organization: 
     name: Coursera
     url: https://www.coursera.org
-  courseOverview: "Foundations of User Experience (UX) Design is the first of a series of seven courses that will equip you with the skills needed to apply to entry-level jobs in user experience design. UX designers focus on the interactions that people have with products like websites, mobile apps, and physical objects. UX designers make those everyday interactions usable, enjoyable, and accessible. The role of an entry-level UX designer might include empathizing with users, defining their pain points, coming up with ideas for design solutions, creating wireframes, prototypes, and mockups, and testing designs to get feedback."
+  courseOverview: "Covered the end-to-end UX design process — from user empathy and pain point analysis to wireframing, prototyping, and usability testing — for web and mobile products."
   certificateURL: "https://www.coursera.org/account/accomplishments/certificate/Z5M8KZ2A4WHN"
 
 - name: "Application Security for Developers and DevOps Professionals"
@@ -72,5 +160,5 @@ accomplishments:
   organization: 
     name: Coursera
     url: https://www.coursera.org
-  courseOverview: "How vulnerable are your applications to security risks and threats? This course will help you identify vulnerabilities and monitor the health of your applications and systems. You'll examine and implement secure code practices to prevent events like data breaches and leaks, and discover how practices like monitoring and observability can keep systems safe and secure."
+  courseOverview: "Identified and mitigated application security vulnerabilities using secure coding practices aligned with industry standards. Applied monitoring and observability techniques to protect systems against data breaches and leaks."
   certificateURL: "https://www.coursera.org/account/accomplishments/certificate/7B2R84FFNWU2"  

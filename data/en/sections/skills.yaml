@@ -66,3 +66,7 @@ skills:
 - name: C++
   logo: /images/sections/skills/c++.png
   summary: "Know intermediate C/C++ programming. Used for contest programming and problem solving."
+
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Intermediate knowledge in Python programming. Used for scripting, building AI-powered apps, and data analysis."
